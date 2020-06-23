@@ -3,9 +3,9 @@
     "MainSeq": {
         "seq": "Main"
     },
-    "OpenFlow": "[\n    {\n        \"seq\": \"Main\"\n    }\n]\n",
+    "OpenFlow": "[\n    {\n        \"seq\": \"Main\"\n    },\n    {\n        \"seq\": \"flow1\"\n    }\n]\n",
     "ProInfo": {
-        "ProChange": "2020/06/23 14:04:25",
+        "ProChange": "2020/06/23 14:25:53",
         "ProCreate": "2020/06/23 14:04:25",
         "ProDesc": "",
         "ProImports": "",
@@ -24,6 +24,14 @@
             "num": "1",
             "sdc": "",
             "seq": "Main",
+            "sop": "Close",
+            "spy": "Main"
+        },
+        {
+            "group": "",
+            "num": "1",
+            "sdc": "",
+            "seq": "flow1",
             "sop": "Close",
             "spy": "Main"
         }

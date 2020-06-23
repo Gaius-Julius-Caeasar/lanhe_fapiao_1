@@ -1,0 +1,839 @@
+{
+    "LineList": [
+        {
+            "LineColor": "255, 170, 170",
+            "LineEnd": {
+                "Pidx": "2314221967436_l_flow_0",
+                "Px": "6825",
+                "Py": "5024"
+            },
+            "LineSplit": {
+                "Px": "",
+                "Py": ""
+            },
+            "LineStart": {
+                "Pidx": "2314221025834_r_flow_0",
+                "Px": "6730",
+                "Py": "5024"
+            },
+            "LineTag": "2314221840135",
+            "LineType": "2"
+        },
+        {
+            "LineColor": "255, 170, 170",
+            "LineEnd": {
+                "Pidx": "2314221025834_l_flow_0",
+                "Px": "6545",
+                "Py": "5024"
+            },
+            "LineSplit": {
+                "Px": "",
+                "Py": ""
+            },
+            "LineStart": {
+                "Pidx": "2314205211432_r_flow_0",
+                "Px": "6490",
+                "Py": "5024"
+            },
+            "LineTag": "2314220667533",
+            "LineType": "2"
+        },
+        {
+            "LineColor": "255, 170, 170",
+            "LineEnd": {
+                "Pidx": "2314205211432_l_flow_0",
+                "Px": "6305",
+                "Py": "5024"
+            },
+            "LineSplit": {
+                "Px": "",
+                "Py": ""
+            },
+            "LineStart": {
+                "Pidx": "2314202733030_r_flow_0",
+                "Px": "6230",
+                "Py": "5024"
+            },
+            "LineTag": "2314204949931",
+            "LineType": "2"
+        },
+        {
+            "LineColor": "255, 170, 170",
+            "LineEnd": {
+                "Pidx": "2314202733030_l_flow_0",
+                "Px": "6045",
+                "Py": "5024"
+            },
+            "LineSplit": {
+                "Px": "",
+                "Py": ""
+            },
+            "LineStart": {
+                "Pidx": "2314191450626_r_flow_0",
+                "Px": "5990",
+                "Py": "5024"
+            },
+            "LineTag": "2314202583529",
+            "LineType": "2"
+        },
+        {
+            "LineColor": "255, 170, 170",
+            "LineEnd": {
+                "Pidx": "2314191450626_l_flow_0",
+                "Px": "5805",
+                "Py": "5024"
+            },
+            "LineSplit": {
+                "Px": "",
+                "Py": ""
+            },
+            "LineStart": {
+                "Pidx": "2314184991924_r_flow_0",
+                "Px": "5730",
+                "Py": "5024"
+            },
+            "LineTag": "2314191170525",
+            "LineType": "2"
+        },
+        {
+            "LineColor": "255, 170, 170",
+            "LineEnd": {
+                "Pidx": "2314184991924_l_flow_0",
+                "Px": "5545",
+                "Py": "5024"
+            },
+            "LineSplit": {
+                "Px": "",
+                "Py": ""
+            },
+            "LineStart": {
+                "Pidx": "2314172690122_r_flow_0",
+                "Px": "5470",
+                "Py": "5024"
+            },
+            "LineTag": "2314183616323",
+            "LineType": "2"
+        },
+        {
+            "LineColor": "255, 170, 170",
+            "LineEnd": {
+                "Pidx": "2314172690122_l_flow_0",
+                "Px": "5285",
+                "Py": "5024"
+            },
+            "LineSplit": {
+                "Px": "",
+                "Py": ""
+            },
+            "LineStart": {
+                "Pidx": "2314162044320_r_flow_0",
+                "Px": "5210",
+                "Py": "5024"
+            },
+            "LineTag": "2314171540121",
+            "LineType": "2"
+        },
+        {
+            "LineColor": "255, 170, 170",
+            "LineEnd": {
+                "Pidx": "2314162044320_l_flow_0",
+                "Px": "5025",
+                "Py": "5024"
+            },
+            "LineSplit": {
+                "Px": "",
+                "Py": ""
+            },
+            "LineStart": {
+                "Pidx": "2314134287815_r_flow_0",
+                "Px": "4970",
+                "Py": "5024"
+            },
+            "LineTag": "2314161745719",
+            "LineType": "2"
+        },
+        {
+            "LineColor": "255, 170, 170",
+            "LineEnd": {
+                "Pidx": "2314134287815_l_flow_0",
+                "Px": "4785",
+                "Py": "5024"
+            },
+            "LineSplit": {
+                "Px": "",
+                "Py": ""
+            },
+            "LineStart": {
+                "Pidx": "231405246083_r_flow_0",
+                "Px": "4730",
+                "Py": "5024"
+            },
+            "LineTag": "2314133312814",
+            "LineType": "2"
+        }
+    ],
+    "NodeList": [
+        {
+            "NodePanelData": {
+                "InputProperty": [
+                    {
+                        "text": "'937.34'"
+                    }
+                ],
+                "PubProperty": {
+                    "NodeRemark": "输入开具金额",
+                    "mouse_x_pos": "0",
+                    "mouse_y_pos": "0",
+                    "selcomment": "0",
+                    "seltype": "",
+                    "snapshot_preview": "/proconfig/bk_image.png"
+                }
+            },
+            "NodeProperty": {
+                "EP_EnumWidget_NAME": "EnumWidget_Key_Keyboard",
+                "EP_EnumWidget_VALUE": "801",
+                "EP_Gen": {
+                    "EP_Gen_AFTERDELAY": "",
+                    "EP_Gen_BEFOREDELAY": "500",
+                    "EP_Gen_NOTE": "",
+                    "EP_Gen_WAITFOR": "10000"
+                },
+                "EP_SNAP_SHOT": {
+                    "EP_SNAP_SHOT_PREVIEW": "",
+                    "mouse_x_pos": "0",
+                    "mouse_y_pos": "0"
+                },
+                "EP_WINDOW": {
+                    "EP_WINDOW_TITLE": "",
+                    "EP_WINDOW_TITLE_Check": "false"
+                }
+            },
+            "NodeUI": {
+                "FNodePx": "1599.43",
+                "FNodePy": "335.962",
+                "NodeIsBreak": "0",
+                "NodePort": [
+                    {
+                        "Pidx": "l_flow_0"
+                    },
+                    {
+                        "Pidx": "l_occ_0"
+                    },
+                    {
+                        "Pidx": "l_par_0"
+                    },
+                    {
+                        "Pidx": "r_flow_0"
+                    },
+                    {
+                        "Pidx": "r_occ_0"
+                    }
+                ],
+                "NodePx": "6818",
+                "NodePy": "4948",
+                "NodeSubType": "EnumWidget_Key_Keyboard",
+                "NodeTag": "2314221967436",
+                "NodeTitle": "模拟按键"
+            }
+        },
+        {
+            "NodePanelData": {
+                "InputProperty": [
+                    {
+                        "text": "'{TAB}'"
+                    }
+                ],
+                "PubProperty": {
+                    "NodeRemark": "",
+                    "mouse_x_pos": "0",
+                    "mouse_y_pos": "0",
+                    "selcomment": "0",
+                    "seltype": "",
+                    "snapshot_preview": "/proconfig/bk_image.png"
+                }
+            },
+            "NodeProperty": {
+                "EP_EnumWidget_NAME": "EnumWidget_Key_Keyboard",
+                "EP_EnumWidget_VALUE": "801",
+                "EP_Gen": {
+                    "EP_Gen_AFTERDELAY": "",
+                    "EP_Gen_BEFOREDELAY": "500",
+                    "EP_Gen_NOTE": "",
+                    "EP_Gen_WAITFOR": "10000"
+                },
+                "EP_SNAP_SHOT": {
+                    "EP_SNAP_SHOT_PREVIEW": "",
+                    "mouse_x_pos": "0",
+                    "mouse_y_pos": "0"
+                },
+                "EP_WINDOW": {
+                    "EP_WINDOW_TITLE": "",
+                    "EP_WINDOW_TITLE_Check": "false"
+                }
+            },
+            "NodeUI": {
+                "FNodePx": "1421.18",
+                "FNodePy": "335.962",
+                "NodeIsBreak": "0",
+                "NodePort": [
+                    {
+                        "Pidx": "l_flow_0"
+                    },
+                    {
+                        "Pidx": "l_occ_0"
+                    },
+                    {
+                        "Pidx": "l_par_0"
+                    },
+                    {
+                        "Pidx": "r_flow_0"
+                    },
+                    {
+                        "Pidx": "r_occ_0"
+                    }
+                ],
+                "NodePx": "6538",
+                "NodePy": "4948",
+                "NodeSubType": "EnumWidget_Key_Keyboard",
+                "NodeTag": "2314221025834",
+                "NodeTitle": "模拟按键"
+            }
+        },
+        {
+            "NodePanelData": {
+                "InputProperty": [
+                    {
+                        "text": "'20200611'"
+                    }
+                ],
+                "PubProperty": {
+                    "NodeRemark": "开票日期",
+                    "mouse_x_pos": "0",
+                    "mouse_y_pos": "0",
+                    "selcomment": "0",
+                    "seltype": "",
+                    "snapshot_preview": "/proconfig/bk_image.png"
+                }
+            },
+            "NodeProperty": {
+                "EP_EnumWidget_NAME": "EnumWidget_Key_Keyboard",
+                "EP_EnumWidget_VALUE": "801",
+                "EP_Gen": {
+                    "EP_Gen_AFTERDELAY": "",
+                    "EP_Gen_BEFOREDELAY": "500",
+                    "EP_Gen_NOTE": "",
+                    "EP_Gen_WAITFOR": "10000"
+                },
+                "EP_SNAP_SHOT": {
+                    "EP_SNAP_SHOT_PREVIEW": "",
+                    "mouse_x_pos": "0",
+                    "mouse_y_pos": "0"
+                },
+                "EP_WINDOW": {
+                    "EP_WINDOW_TITLE": "",
+                    "EP_WINDOW_TITLE_Check": "false"
+                }
+            },
+            "NodeUI": {
+                "FNodePx": "1268.39",
+                "FNodePy": "335.962",
+                "NodeIsBreak": "0",
+                "NodePort": [
+                    {
+                        "Pidx": "l_flow_0"
+                    },
+                    {
+                        "Pidx": "l_occ_0"
+                    },
+                    {
+                        "Pidx": "l_par_0"
+                    },
+                    {
+                        "Pidx": "r_flow_0"
+                    },
+                    {
+                        "Pidx": "r_occ_0"
+                    }
+                ],
+                "NodePx": "6298",
+                "NodePy": "4948",
+                "NodeSubType": "EnumWidget_Key_Keyboard",
+                "NodeTag": "2314205211432",
+                "NodeTitle": "模拟按键"
+            }
+        },
+        {
+            "NodePanelData": {
+                "InputProperty": [
+                    {
+                        "text": "'{TAB}'"
+                    }
+                ],
+                "PubProperty": {
+                    "NodeRemark": "",
+                    "mouse_x_pos": "0",
+                    "mouse_y_pos": "0",
+                    "selcomment": "0",
+                    "seltype": "",
+                    "snapshot_preview": "/proconfig/bk_image.png"
+                }
+            },
+            "NodeProperty": {
+                "EP_EnumWidget_NAME": "EnumWidget_Key_Keyboard",
+                "EP_EnumWidget_VALUE": "801",
+                "EP_Gen": {
+                    "EP_Gen_AFTERDELAY": "",
+                    "EP_Gen_BEFOREDELAY": "500",
+                    "EP_Gen_NOTE": "",
+                    "EP_Gen_WAITFOR": "10000"
+                },
+                "EP_SNAP_SHOT": {
+                    "EP_SNAP_SHOT_PREVIEW": "",
+                    "mouse_x_pos": "0",
+                    "mouse_y_pos": "0"
+                },
+                "EP_WINDOW": {
+                    "EP_WINDOW_TITLE": "",
+                    "EP_WINDOW_TITLE_Check": "false"
+                }
+            },
+            "NodeUI": {
+                "FNodePx": "1102.87",
+                "FNodePy": "335.962",
+                "NodeIsBreak": "0",
+                "NodePort": [
+                    {
+                        "Pidx": "l_flow_0"
+                    },
+                    {
+                        "Pidx": "l_occ_0"
+                    },
+                    {
+                        "Pidx": "l_par_0"
+                    },
+                    {
+                        "Pidx": "r_flow_0"
+                    },
+                    {
+                        "Pidx": "r_occ_0"
+                    }
+                ],
+                "NodePx": "6038",
+                "NodePy": "4948",
+                "NodeSubType": "EnumWidget_Key_Keyboard",
+                "NodeTag": "2314202733030",
+                "NodeTitle": "模拟按键"
+            }
+        },
+        {
+            "NodePanelData": {
+                "InputProperty": [
+                    {
+                        "text": "'23838102'"
+                    }
+                ],
+                "PubProperty": {
+                    "NodeRemark": "输入发票号码",
+                    "mouse_x_pos": "0",
+                    "mouse_y_pos": "0",
+                    "selcomment": "0",
+                    "seltype": "",
+                    "snapshot_preview": "/proconfig/bk_image.png"
+                }
+            },
+            "NodeProperty": {
+                "EP_EnumWidget_NAME": "EnumWidget_Key_Keyboard",
+                "EP_EnumWidget_VALUE": "801",
+                "EP_Gen": {
+                    "EP_Gen_AFTERDELAY": "",
+                    "EP_Gen_BEFOREDELAY": "500",
+                    "EP_Gen_NOTE": "",
+                    "EP_Gen_WAITFOR": "10000"
+                },
+                "EP_SNAP_SHOT": {
+                    "EP_SNAP_SHOT_PREVIEW": "",
+                    "mouse_x_pos": "0",
+                    "mouse_y_pos": "0"
+                },
+                "EP_WINDOW": {
+                    "EP_WINDOW_TITLE": "",
+                    "EP_WINDOW_TITLE_Check": "false"
+                }
+            },
+            "NodeUI": {
+                "FNodePx": "950.083",
+                "FNodePy": "335.962",
+                "NodeIsBreak": "0",
+                "NodePort": [
+                    {
+                        "Pidx": "l_flow_0"
+                    },
+                    {
+                        "Pidx": "l_occ_0"
+                    },
+                    {
+                        "Pidx": "l_par_0"
+                    },
+                    {
+                        "Pidx": "r_flow_0"
+                    },
+                    {
+                        "Pidx": "r_occ_0"
+                    }
+                ],
+                "NodePx": "5798",
+                "NodePy": "4948",
+                "NodeSubType": "EnumWidget_Key_Keyboard",
+                "NodeTag": "2314191450626",
+                "NodeTitle": "模拟按键"
+            }
+        },
+        {
+            "NodePanelData": {
+                "InputProperty": [
+                    {
+                        "text": "'{TAB}'"
+                    }
+                ],
+                "PubProperty": {
+                    "NodeRemark": "",
+                    "mouse_x_pos": "0",
+                    "mouse_y_pos": "0",
+                    "selcomment": "0",
+                    "seltype": "",
+                    "snapshot_preview": "/proconfig/bk_image.png"
+                }
+            },
+            "NodeProperty": {
+                "EP_EnumWidget_NAME": "EnumWidget_Key_Keyboard",
+                "EP_EnumWidget_VALUE": "801",
+                "EP_Gen": {
+                    "EP_Gen_AFTERDELAY": "",
+                    "EP_Gen_BEFOREDELAY": "500",
+                    "EP_Gen_NOTE": "",
+                    "EP_Gen_WAITFOR": "10000"
+                },
+                "EP_SNAP_SHOT": {
+                    "EP_SNAP_SHOT_PREVIEW": "",
+                    "mouse_x_pos": "0",
+                    "mouse_y_pos": "0"
+                },
+                "EP_WINDOW": {
+                    "EP_WINDOW_TITLE": "",
+                    "EP_WINDOW_TITLE_Check": "false"
+                }
+            },
+            "NodeUI": {
+                "FNodePx": "784.563",
+                "FNodePy": "335.962",
+                "NodeIsBreak": "0",
+                "NodePort": [
+                    {
+                        "Pidx": "l_flow_0"
+                    },
+                    {
+                        "Pidx": "l_occ_0"
+                    },
+                    {
+                        "Pidx": "l_par_0"
+                    },
+                    {
+                        "Pidx": "r_flow_0"
+                    },
+                    {
+                        "Pidx": "r_occ_0"
+                    }
+                ],
+                "NodePx": "5538",
+                "NodePy": "4948",
+                "NodeSubType": "EnumWidget_Key_Keyboard",
+                "NodeTag": "2314184991924",
+                "NodeTitle": "模拟按键"
+            }
+        },
+        {
+            "NodePanelData": {
+                "InputProperty": [
+                    {
+                        "text": "'04403190011'"
+                    }
+                ],
+                "PubProperty": {
+                    "NodeRemark": "输入发票代码",
+                    "mouse_x_pos": "0",
+                    "mouse_y_pos": "0",
+                    "selcomment": "0",
+                    "seltype": "",
+                    "snapshot_preview": "/proconfig/bk_image.png"
+                }
+            },
+            "NodeProperty": {
+                "EP_EnumWidget_NAME": "EnumWidget_Key_Keyboard",
+                "EP_EnumWidget_VALUE": "801",
+                "EP_Gen": {
+                    "EP_Gen_AFTERDELAY": "",
+                    "EP_Gen_BEFOREDELAY": "500",
+                    "EP_Gen_NOTE": "",
+                    "EP_Gen_WAITFOR": "10000"
+                },
+                "EP_SNAP_SHOT": {
+                    "EP_SNAP_SHOT_PREVIEW": "",
+                    "mouse_x_pos": "0",
+                    "mouse_y_pos": "0"
+                },
+                "EP_WINDOW": {
+                    "EP_WINDOW_TITLE": "",
+                    "EP_WINDOW_TITLE_Check": "false"
+                }
+            },
+            "NodeUI": {
+                "FNodePx": "619.044",
+                "FNodePy": "335.962",
+                "NodeIsBreak": "0",
+                "NodePort": [
+                    {
+                        "Pidx": "l_flow_0"
+                    },
+                    {
+                        "Pidx": "l_occ_0"
+                    },
+                    {
+                        "Pidx": "l_par_0"
+                    },
+                    {
+                        "Pidx": "r_flow_0"
+                    },
+                    {
+                        "Pidx": "r_occ_0"
+                    }
+                ],
+                "NodePx": "5278",
+                "NodePy": "4948",
+                "NodeSubType": "EnumWidget_Key_Keyboard",
+                "NodeTag": "2314172690122",
+                "NodeTitle": "模拟按键"
+            }
+        },
+        {
+            "NodePanelData": {
+                "InputProperty": [
+                ],
+                "PubProperty": {
+                    "NodeRemark": "",
+                    "mouse_x_pos": "107",
+                    "mouse_y_pos": "14",
+                    "selcomment": "0",
+                    "seltype": "Web",
+                    "snapshot_preview": "/screenshots/snapshot_20200623141710818.jpeg"
+                }
+            },
+            "NodeProperty": {
+                "EP_CONTROL": {
+                    "EP_CONTROL_FIND_PATH": "'#fpdm'",
+                    "EP_CONTROL_TAG_NAME": "'INPUT'",
+                    "EP_CONTROL_TITLE": "",
+                    "EP_CONTROL_URL": "'https://inv-veri.chinatax.gov.cn/index.html'",
+                    "EP_CONTROL_WINDOW_TITLE": "'国家税务总局全国增值税发票查验平台 - Internet Explorer'",
+                    "EP_CONTROL_WINDOW_TITLE_Check": "true"
+                },
+                "EP_EnumWidget_NAME": "EnumWidget_IE_MouseClick",
+                "EP_EnumWidget_VALUE": "301",
+                "EP_Gen": {
+                    "EP_Gen_AFTERDELAY": "",
+                    "EP_Gen_BEFOREDELAY": "",
+                    "EP_Gen_NOTE": "",
+                    "EP_Gen_RUN_MODE": "false",
+                    "EP_Gen_WAITFOR": "10000"
+                },
+                "EP_INPUT": {
+                    "EP_INPUT_COMBOX_CONTINUEONERROR": "'break'",
+                    "EP_INPUT_MOUSE_CLICK": "'left'",
+                    "EP_INPUT_MOUSE_CLICK_TIMES": "1",
+                    "EP_INPUT_POSITION": "'center'",
+                    "EP_INPUT_X_OFFSET": "",
+                    "EP_INPUT_Y_OFFSET": ""
+                },
+                "EP_SNAP_SHOT": {
+                    "EP_SNAP_SHOT_PREVIEW": "/screenshots/snapshot_20200623141710818.jpeg",
+                    "mouse_x_pos": "107",
+                    "mouse_y_pos": "14"
+                }
+            },
+            "NodeUI": {
+                "FNodePx": "453.525",
+                "FNodePy": "335.962",
+                "NodeIsBreak": "0",
+                "NodePort": [
+                    {
+                        "Pidx": "l_flow_0"
+                    },
+                    {
+                        "Pidx": "r_flow_0"
+                    }
+                ],
+                "NodePx": "5018",
+                "NodePy": "4948",
+                "NodeSubType": "EnumWidget_IE_MouseClick",
+                "NodeTag": "2314162044320",
+                "NodeTitle": "鼠标点击"
+            }
+        },
+        {
+            "NodePanelData": {
+                "InputProperty": [
+                    {
+                        "ie_path": "'C:/Program Files (x86)/Internet Explorer/iexplore.exe'"
+                    },
+                    {
+                        "url": "'https://inv-veri.chinatax.gov.cn/index.html'"
+                    }
+                ],
+                "PubProperty": {
+                    "NodeRemark": "",
+                    "mouse_x_pos": "0",
+                    "mouse_y_pos": "0",
+                    "selcomment": "0",
+                    "seltype": "",
+                    "snapshot_preview": ""
+                }
+            },
+            "NodeProperty": {
+                "EP_CONTROL": {
+                },
+                "EP_EnumWidget_NAME": "EnumWidget_Config_Begin",
+                "EP_EnumWidget_VALUE": "5000",
+                "EP_Gen": {
+                    "EP_Gen_AFTERDELAY": "3000",
+                    "EP_Gen_BEFOREDELAY": "",
+                    "EP_Gen_NOTE": ""
+                }
+            },
+            "NodeUI": {
+                "FNodePx": "300.737",
+                "FNodePy": "335.962",
+                "NodeIsBreak": "0",
+                "NodePort": [
+                    {
+                        "Pidx": "l_flow_0"
+                    },
+                    {
+                        "Pidx": "l_par_0"
+                    },
+                    {
+                        "Pidx": "l_par_1"
+                    },
+                    {
+                        "Pidx": "r_flow_0"
+                    }
+                ],
+                "NodePx": "4778",
+                "NodePy": "4948",
+                "NodeSubKeyNo": "open03",
+                "NodeSubType": "EnumWidget_Config_Begin",
+                "NodeTag": "2314134287815",
+                "NodeTitle": "网站"
+            }
+        },
+        {
+            "NodePanelData": {
+                "InputProperty": [
+                    {
+                        "image_path": ""
+                    }
+                ],
+                "PubProperty": {
+                    "NodeRemark": "",
+                    "mouse_x_pos": "0",
+                    "mouse_y_pos": "0",
+                    "selcomment": "0",
+                    "seltype": "",
+                    "snapshot_preview": ""
+                }
+            },
+            "NodeProperty": {
+                "EP_CONTROL": {
+                    "apiKey": "''",
+                    "secretKey": "''"
+                },
+                "EP_EnumWidget_NAME": "EnumWidget_Config_Begin",
+                "EP_EnumWidget_VALUE": "5000",
+                "EP_Gen": {
+                    "EP_Gen_AFTERDELAY": "",
+                    "EP_Gen_BEFOREDELAY": "",
+                    "EP_Gen_NOTE": ""
+                }
+            },
+            "NodeUI": {
+                "FNodePx": "249.808",
+                "FNodePy": "463.284",
+                "NodeIsBreak": "0",
+                "NodePort": [
+                    {
+                        "Pidx": "l_flow_0"
+                    },
+                    {
+                        "Pidx": "l_occ_0"
+                    },
+                    {
+                        "Pidx": "l_par_0"
+                    },
+                    {
+                        "Pidx": "r_flow_0"
+                    },
+                    {
+                        "Pidx": "r_ret_0"
+                    }
+                ],
+                "NodePx": "4698",
+                "NodePy": "5148",
+                "NodeSubKeyNo": "ocr05",
+                "NodeSubType": "EnumWidget_Config_Begin",
+                "NodeTag": "2314131980112",
+                "NodeTitle": "增值税发票OCR"
+            }
+        },
+        {
+            "NodePanelData": {
+                "InputProperty": [
+                ],
+                "PubProperty": {
+                    "NodeRemark": "",
+                    "mouse_x_pos": "0",
+                    "mouse_y_pos": "0",
+                    "selcomment": "0",
+                    "seltype": "",
+                    "snapshot_preview": ""
+                }
+            },
+            "NodeProperty": {
+                "EP_EnumWidget_NAME": "EnumWidget_Begin",
+                "EP_EnumWidget_VALUE": "10",
+                "EP_Gen": {
+                    "EP_Gen_AFTERDELAY": "",
+                    "EP_Gen_BEFOREDELAY": "",
+                    "EP_Gen_NOTE": ""
+                }
+            },
+            "NodeUI": {
+                "FNodePx": "147.95",
+                "FNodePy": "335.962",
+                "NodeIsBreak": "0",
+                "NodePort": [
+                    {
+                        "Pidx": "r_flow_0"
+                    }
+                ],
+                "NodePx": "4538",
+                "NodePy": "4948",
+                "NodeSubType": "EnumWidget_Begin",
+                "NodeTag": "231405246083",
+                "NodeTitle": "开始"
+            }
+        }
+    ],
+    "OpType": "0",
+    "SeqTag": "flow1_bp",
+    "ViewCenterPx": "5394.17",
+    "ViewCenterPy": "5023.46",
+    "ViewScaling": "0.636613"
+}
