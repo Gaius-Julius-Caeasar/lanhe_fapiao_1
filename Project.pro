@@ -20,7 +20,7 @@
     },
     "OpenFlow": "[\n    {\n        \"seq\": \"Main\"\n    },\n    {\n        \"seq\": \"flow1\"\n    }\n]\n",
     "ProInfo": {
-        "ProChange": "2020/06/23 17:19:17",
+        "ProChange": "2020/06/23 17:20:23",
         "ProCreate": "2020/06/23 14:04:25",
         "ProDesc": "",
         "ProImports": "",
@@ -49,20 +49,6 @@
             "seq": "flow1",
             "sop": "Close",
             "spv": [
-                {
-                    "inpar_Order": "",
-                    "inpar_filetype": "",
-                    "inpar_helpdesc": "",
-                    "inpar_init": "",
-                    "inpar_required": "0",
-                    "inputpar": "",
-                    "vardef": "['电子普通发票','深圳增值税电子普通发票','91440300MA5EGKDJ92', '2020年06月11日','044031900111','23838102', '17960524178417916383','875.29','62.05','937.34',\"[{'row': '1', 'word': '(详见销货清单'}]\"]",
-                    "vardesc": "",
-                    "varname": "t",
-                    "varpasstype": "1",
-                    "varrobot": "",
-                    "vartype": "1"
-                },
                 {
                     "inpar_Order": "",
                     "inpar_filetype": "",
