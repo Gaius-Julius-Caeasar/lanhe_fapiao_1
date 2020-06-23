@@ -1,16 +1,6 @@
 {
     "NodeList": [
         {
-            "NodePh": "133",
-            "NodePro": {
-            },
-            "NodePw": "214",
-            "NodePx": "360",
-            "NodePy": "100",
-            "NodeSubType": "EnumWidget_Program_subflow",
-            "NodeTag": "flow1"
-        },
-        {
             "NodePh": "103",
             "NodePro": {
                 "EP_EnumWidget_NAME": "EnumWidget_Begin",
