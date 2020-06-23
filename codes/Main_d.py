@@ -1,5 +1,5 @@
 # coding=utf-8
-# 编译日期：2020-06-23 15:48:44
+# 编译日期：2020-06-23 15:50:36
 # 版权所有：www.i-search.com.cn
 import time
 import pdb
@@ -111,11 +111,11 @@ class lanhe_fapiao:
         if tvar23153820544153:
             #单元格写入
             self.__logger.debug('Flow:flow1,StepNodeTag:23154036169161,Note:')
-            iexcel.write_cell(path='C:\Users\jky\Desktop\蓝禾\测试文件夹',cell='N2',text='否',file_type='excel')
+            iexcel.write_cell(path='C:/Users/jky/Desktop/fapiao_info.xlsx',cell='N2',text='否',file_type='excel')
         else:
             #单元格写入
             self.__logger.debug('Flow:flow1,StepNodeTag:23154300025164,Note:')
-            iexcel.write_cell(path='C:\Users\jky\Desktop\蓝禾\测试文件夹',cell='N2',text='是',file_type='excel')
+            iexcel.write_cell(path='C:/Users/jky/Desktop/fapiao_info.xlsx',cell='N2',text='是',file_type='excel')
         # 鼠标点击
         self.__logger.debug('Flow:flow1,StepNodeTag:23154506960166,Note:')
         iie.do_click_pos(win_title=r'国家税务总局全国增值税发票查验平台 - Internet Explorer',url=r'https://inv-veri.chinatax.gov.cn/index.html',selector=r'#closebt',button=r'left',curson=r'center',times=1,run_mode=r'unctrl',continue_on_error=r'break',waitfor=10)
