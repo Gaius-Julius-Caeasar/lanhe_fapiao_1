@@ -22,8 +22,77 @@
                 }
             },
             "NodePw": "214",
-            "NodePx": "2380",
-            "NodePy": "250",
+            "NodePx": "3000",
+            "NodePy": "224",
+            "NodeSubType": "EnumWidget_Key_Keyboard",
+            "NodeTag": "模拟按键"
+        },
+        {
+            "NodePh": "186",
+            "NodePro": {
+                "EP_CONTROL": {
+                    "EP_CONTROL_IMAGE": "'snapshot_20200623142820581.png'",
+                    "EP_CONTROL_IMAGE_CLOSE_FUZZY": "true",
+                    "EP_CONTROL_IMAGE_FUZZY_SIMILARITY": "0.85",
+                    "EP_CONTROL_IMAGE_PATH": "'/screenshots/snapshot_20200623142820581.png'",
+                    "EP_CONTROL_IMAGE_SIZE": "'69X24'",
+                    "EP_CONTROL_IMAGE_WINDOW_TITLE": "'国家税务总局全国增值税发票查验平台 - Internet Explorer'",
+                    "EP_CONTROL_IMAGE_WINDOW_TITLE_Check": "true"
+                },
+                "EP_EnumWidget_NAME": "EnumWidget_Img_Exists",
+                "EP_EnumWidget_VALUE": "804",
+                "EP_Gen": {
+                    "EP_Gen_AFTERDELAY": "",
+                    "EP_Gen_BEFOREDELAY": "",
+                    "EP_Gen_NOTE": "",
+                    "EP_Gen_WAITFOR": "30000"
+                },
+                "EP_SNAP_SHOT": {
+                    "EP_SNAP_SHOT_PREVIEW": "/screenshots/snapshot_20200623142820581.png",
+                    "mouse_x_pos": "0",
+                    "mouse_y_pos": "0"
+                }
+            },
+            "NodePw": "214",
+            "NodePx": "2340",
+            "NodePy": "304",
+            "NodeSubType": "EnumWidget_Img_Exists",
+            "NodeTag": "图片检测"
+        },
+        {
+            "NodePh": "163",
+            "NodePro": {
+            },
+            "NodePw": "230",
+            "NodePx": "2680",
+            "NodePy": "324",
+            "NodeSubType": "EnumWidget_Syntax_elif",
+            "NodeTag": "IF分支"
+        },
+        {
+            "NodePh": "226",
+            "NodePro": {
+                "EP_EnumWidget_NAME": "EnumWidget_Key_Keyboard",
+                "EP_EnumWidget_VALUE": "801",
+                "EP_Gen": {
+                    "EP_Gen_AFTERDELAY": "",
+                    "EP_Gen_BEFOREDELAY": "500",
+                    "EP_Gen_NOTE": "",
+                    "EP_Gen_WAITFOR": "10000"
+                },
+                "EP_SNAP_SHOT": {
+                    "EP_SNAP_SHOT_PREVIEW": "",
+                    "mouse_x_pos": "0",
+                    "mouse_y_pos": "0"
+                },
+                "EP_WINDOW": {
+                    "EP_WINDOW_TITLE": "",
+                    "EP_WINDOW_TITLE_Check": "false"
+                }
+            },
+            "NodePw": "214",
+            "NodePx": "3020",
+            "NodePy": "544",
             "NodeSubType": "EnumWidget_Key_Keyboard",
             "NodeTag": "模拟按键"
         },
@@ -50,7 +119,7 @@
             },
             "NodePw": "214",
             "NodePx": "2100",
-            "NodePy": "250",
+            "NodePy": "304",
             "NodeSubType": "EnumWidget_Key_Keyboard",
             "NodeTag": "模拟按键"
         },
@@ -77,7 +146,7 @@
             },
             "NodePw": "214",
             "NodePx": "1860",
-            "NodePy": "250",
+            "NodePy": "304",
             "NodeSubType": "EnumWidget_Key_Keyboard",
             "NodeTag": "模拟按键"
         },
@@ -104,7 +173,7 @@
             },
             "NodePw": "214",
             "NodePx": "1600",
-            "NodePy": "250",
+            "NodePy": "304",
             "NodeSubType": "EnumWidget_Key_Keyboard",
             "NodeTag": "模拟按键"
         },
@@ -131,7 +200,7 @@
             },
             "NodePw": "214",
             "NodePx": "1360",
-            "NodePy": "250",
+            "NodePy": "304",
             "NodeSubType": "EnumWidget_Key_Keyboard",
             "NodeTag": "模拟按键"
         },
@@ -158,7 +227,7 @@
             },
             "NodePw": "214",
             "NodePx": "1100",
-            "NodePy": "250",
+            "NodePy": "304",
             "NodeSubType": "EnumWidget_Key_Keyboard",
             "NodeTag": "模拟按键"
         },
@@ -185,7 +254,7 @@
             },
             "NodePw": "214",
             "NodePx": "840",
-            "NodePy": "250",
+            "NodePy": "304",
             "NodeSubType": "EnumWidget_Key_Keyboard",
             "NodeTag": "模拟按键"
         },
@@ -225,7 +294,7 @@
             },
             "NodePw": "214",
             "NodePx": "580",
-            "NodePy": "250",
+            "NodePy": "304",
             "NodeSubType": "EnumWidget_IE_MouseClick",
             "NodeTag": "鼠标点击"
         },
@@ -244,7 +313,7 @@
             },
             "NodePw": "214",
             "NodePx": "340",
-            "NodePy": "250",
+            "NodePy": "304",
             "NodeSubType": "EnumWidget_Config_Begin",
             "NodeTag": "网站"
         },
@@ -265,7 +334,7 @@
             },
             "NodePw": "258",
             "NodePx": "260",
-            "NodePy": "450",
+            "NodePy": "504",
             "NodeSubType": "EnumWidget_Config_Begin",
             "NodeTag": "增值税发票OCR"
         },
@@ -282,7 +351,7 @@
             },
             "NodePw": "214",
             "NodePx": "100",
-            "NodePy": "250",
+            "NodePy": "304",
             "NodeSubType": "EnumWidget_Begin",
             "NodeTag": "开始"
         }

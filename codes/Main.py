@@ -1,5 +1,5 @@
 # coding=utf-8
-# 编译日期：2020-06-23 14:25:53
+# 编译日期：2020-06-23 14:30:47
 # 版权所有：www.i-search.com.cn
 import time
 import pdb
@@ -9,6 +9,7 @@ import getopt
 from sys import argv
 import sys
 import ubpa.iie as iie
+import ubpa.iimg as iimg
 import ubpa.ikeyboard as ikeyboard
 
 class lanhe_fapiao:
@@ -31,14 +32,17 @@ class lanhe_fapiao:
             self.input_arg = self.input_arg.replace("\\","/")
       
     def flow1(self):
-        #RPACodeMarked.....2314162044320
+        #网站
+        self.__logger.debug('Flow:flow1,StepNodeTag:2314134287815,Note:')
+        iie.open_url(url='https://inv-veri.chinatax.gov.cn/index.html')
+        time.sleep(3)
         # 鼠标点击
         self.__logger.debug('Flow:flow1,StepNodeTag:2314162044320,Note:')
         iie.do_click_pos(win_title=r'国家税务总局全国增值税发票查验平台 - Internet Explorer',url=r'https://inv-veri.chinatax.gov.cn/index.html',selector=r'#fpdm',button=r'left',curson=r'center',times=1,run_mode=r'unctrl',continue_on_error=r'break',waitfor=10)
         # 键盘输入
         self.__logger.debug('Flow:flow1,StepNodeTag:2314172690122,Note:输入发票代码')
         time.sleep(0.5)
-        ikeyboard.key_send_cs(text='04403190011',waitfor=10)
+        ikeyboard.key_send_cs(text='044031900111',waitfor=10)
         # 键盘输入
         self.__logger.debug('Flow:flow1,StepNodeTag:2314184991924,Note:')
         time.sleep(0.5)
@@ -59,10 +63,21 @@ class lanhe_fapiao:
         self.__logger.debug('Flow:flow1,StepNodeTag:2314221025834,Note:')
         time.sleep(0.5)
         ikeyboard.key_send_cs(text='{TAB}',waitfor=10)
-        # 键盘输入
-        self.__logger.debug('Flow:flow1,StepNodeTag:2314221967436,Note:输入开具金额')
-        time.sleep(0.5)
-        ikeyboard.key_send_cs(text='937.34',waitfor=10)
+        # 图像检测
+        self.__logger.debug('Flow:flow1,StepNodeTag:2314280051638,Note:')
+        tvar2314280051638 = iimg.img_exists(win_title=r'国家税务总局全国增值税发票查验平台 - Internet Explorer',img_res_path=self.path,image=r'snapshot_20200623142820581.png',fuzzy=True,confidence=0.85,waitfor=30)
+        # IF-N分支
+        self.__logger.debug('Flow:flow1,StepNodeTag:2314270666737,Note:')
+        if tvar2314280051638:
+            # 键盘输入
+            self.__logger.debug('Flow:flow1,StepNodeTag:2314284845942,Note:输入校验码')
+            time.sleep(0.5)
+            ikeyboard.key_send_cs(text='916383',waitfor=10)
+        else:
+            # 键盘输入
+            self.__logger.debug('Flow:flow1,StepNodeTag:2314221967436,Note:输入开具金额')
+            time.sleep(0.5)
+            ikeyboard.key_send_cs(text='937.34',waitfor=10)
       
     def Main(self):
         pass
