@@ -20,7 +20,7 @@
     },
     "OpenFlow": "[\n    {\n        \"seq\": \"Main\"\n    },\n    {\n        \"seq\": \"flow1\"\n    },\n    {\n        \"spy\": \"GlobalFun\"\n    }\n]\n",
     "ProInfo": {
-        "ProChange": "2020/06/23 17:08:38",
+        "ProChange": "2020/06/23 17:09:43",
         "ProCreate": "2020/06/23 14:04:25",
         "ProDesc": "",
         "ProImports": "",
@@ -78,10 +78,17 @@
                     "vartype": "1"
                 },
                 {
+                    "inpar_Order": "",
+                    "inpar_filetype": "",
+                    "inpar_helpdesc": "",
+                    "inpar_init": "",
+                    "inpar_required": "0",
+                    "inputpar": "",
                     "vardef": "",
                     "vardesc": "",
                     "varname": "code",
                     "varpasstype": "1",
+                    "varrobot": "",
                     "vartype": "1"
                 },
                 {
