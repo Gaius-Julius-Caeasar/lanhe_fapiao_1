@@ -6,7 +6,7 @@
     },
     "OpenFlow": "[\n    {\n        \"seq\": \"Main\"\n    },\n    {\n        \"seq\": \"flow1\"\n    },\n    {\n        \"spy\": \"GlobalFun\"\n    }\n]\n",
     "ProInfo": {
-        "ProChange": "2020/06/23 16:37:20",
+        "ProChange": "2020/06/23 16:39:13",
         "ProCreate": "2020/06/23 14:04:25",
         "ProDesc": "",
         "ProImports": "",
@@ -49,7 +49,7 @@
                     "inpar_init": "",
                     "inpar_required": "0",
                     "inputpar": "",
-                    "vardef": "[dict_info['InvoiceType'],dict_info['InvoiceTypeOrg'],dict_info['PurchaserRegisterNum'],dict_info[ 'InvoiceDate'],dict_info[ 'InvoiceCode'],dict_info['InvoiceNum'],dict_info['CheckCode'],dict_info['TotalAmount'],dict_info['TotalTax'],dict_info[ 'AmountInFiguers'],dict_info[ 'CommodityName']]",
+                    "vardef": "[dict_info['InvoiceType'],dict_info['InvoiceTypeOrg'],dict_info['PurchaserRegisterNum'],dict_info['InvoiceDate'],dict_info[ 'InvoiceCode'],dict_info['InvoiceNum'],dict_info['CheckCode'],dict_info['TotalAmount'],dict_info['TotalTax'],dict_info[ 'AmountInFiguers'],dict_info['CommodityName']]",
                     "vardesc": "",
                     "varname": "lv_5",
                     "varpasstype": "1",
