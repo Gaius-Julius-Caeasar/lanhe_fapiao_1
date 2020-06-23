@@ -1,5 +1,5 @@
 # coding=utf-8
-# 编译日期：2020-06-23 17:41:08
+# 编译日期：2020-06-23 17:44:18
 # 版权所有：www.i-search.com.cn
 import time
 import pdb
@@ -157,7 +157,7 @@ class lanhe_fapiao:
                 break
         # 图像检测
         self.__logger.debug('Flow:flow2,StepNodeTag:2317224431639,Note:')
-        tvar2317224431639 = iimg.img_exists(win_title=r'国家税务总局全国增值税发票查验平台 - Internet Explorer',img_res_path=self.path,image=r'snapshot_20200623153842415.png',fuzzy=True,confidence=0.85,waitfor=30)
+        tvar2317224431639 = iimg.img_exists(win_title=r'国家税务总局全国增值税发票查验平台 - Internet Explorer',img_res_path=self.path,image=r'snapshot_20200623153842415.png',fuzzy=True,confidence=0.85,waitfor=5)
         # IF-N分支
         self.__logger.debug('Flow:flow2,StepNodeTag:2317224431638,Note:')
         if tvar2317224431639:
@@ -180,6 +180,9 @@ class lanhe_fapiao:
             #单元格写入
             self.__logger.debug('Flow:flow2,StepNodeTag:2317224431641,Note:')
             iexcel.write_cell(path='C:/Users/jky/Desktop/fapiao_info.xlsx',cell='A2',text=list_1,file_type='excel')
+            # 鼠标点击
+            self.__logger.debug('Flow:flow2,StepNodeTag:23174311384140,Note:')
+            iie.do_click_pos(win_title=r'国家税务总局全国增值税发票查验平台 - Internet Explorer',url=r'https://inv-veri.chinatax.gov.cn/index.html',selector=r'#closebt',button=r'left',curson=r'center',times=1,run_mode=r'unctrl',continue_on_error=r'break',waitfor=10)
             # 消息框
             self.__logger.debug('Flow:flow2,StepNodeTag:2317224431743,Note:')
             ibox.msgs_box('结束',timeout=3)
