@@ -75,8 +75,8 @@
                 }
             },
             "NodePw": "218",
-            "NodePx": "540",
-            "NodePy": "300",
+            "NodePx": "1020",
+            "NodePy": "211",
             "NodeSubType": "EnumWidget_Win_IPrint",
             "NodeTag": "输出"
         },
@@ -581,7 +581,7 @@
                 "inputpar": "",
                 "vardef": "",
                 "vardesc": "",
-                "varname": "code",
+                "varname": "c_ode",
                 "varpasstype": "1",
                 "varrobot": "",
                 "vartype": "1"
@@ -590,7 +590,7 @@
             "NodePx": "5380",
             "NodePy": "780",
             "NodeSubType": "EnumWidget_VarBVGet",
-            "NodeTag": "code"
+            "NodeTag": "c_ode"
         },
         {
             "NodePh": "226",
@@ -1148,7 +1148,7 @@
                 "inputpar": "",
                 "vardef": "",
                 "vardesc": "",
-                "varname": "code",
+                "varname": "c_ode",
                 "varpasstype": "1",
                 "varrobot": "",
                 "vartype": "1"
