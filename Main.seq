@@ -3,8 +3,8 @@
         {
             "LineColor": "255, 170, 170",
             "LineEnd": {
-                "Pidx": "231718079022_l_flow_0",
-                "Px": "4605",
+                "Pidx": "231721085496_l_flow_0",
+                "Px": "4485",
                 "Py": "4644"
             },
             "LineSplit": {
@@ -16,7 +16,7 @@
                 "Px": "4410",
                 "Py": "4644"
             },
-            "LineTag": "231718032371",
+            "LineTag": "231721055335",
             "LineType": "2"
         }
     ],
@@ -30,20 +30,6 @@
                     "seq": "flow1",
                     "sop": "Close",
                     "spv": [
-                        {
-                            "inpar_Order": "",
-                            "inpar_filetype": "",
-                            "inpar_helpdesc": "",
-                            "inpar_init": "",
-                            "inpar_required": "0",
-                            "inputpar": "",
-                            "vardef": "['电子普通发票','深圳增值税电子普通发票','91440300MA5EGKDJ92', '2020年06月11日','044031900111','23838102', '17960524178417916383','875.29','62.05','937.34',\"[{'row': '1', 'word': '(详见销货清单'}]\"]",
-                            "vardesc": "",
-                            "varname": "t",
-                            "varpasstype": "1",
-                            "varrobot": "",
-                            "vartype": "1"
-                        },
                         {
                             "inpar_Order": "",
                             "inpar_filetype": "",
@@ -75,8 +61,8 @@
             "NodeProperty": {
             },
             "NodeUI": {
-                "FNodePx": "585.591",
-                "FNodePy": "193",
+                "FNodePx": "688.343",
+                "FNodePy": "254.141",
                 "NodeIsBreak": "0",
                 "NodePort": [
                     {
@@ -89,10 +75,10 @@
                         "Pidx": "r_ret_0"
                     }
                 ],
-                "NodePx": "4598",
+                "NodePx": "4478",
                 "NodePy": "4568",
                 "NodeSubType": "EnumWidget_Program_subflow",
-                "NodeTag": "231718079022",
+                "NodeTag": "231721085496",
                 "NodeTitle": "flow1"
             }
         },
@@ -119,8 +105,8 @@
                 }
             },
             "NodeUI": {
-                "FNodePx": "248.765",
-                "FNodePy": "193",
+                "FNodePx": "350.927",
+                "FNodePy": "254.141",
                 "NodeIsBreak": "0",
                 "NodePort": [
                     {
@@ -137,7 +123,7 @@
     ],
     "OpType": "0",
     "SeqTag": "Main_bp",
-    "ViewCenterPx": "4719.18",
-    "ViewCenterPy": "4704.51",
-    "ViewScaling": "0.886383"
+    "ViewCenterPx": "4481.59",
+    "ViewCenterPy": "4614.13",
+    "ViewScaling": "1.29775"
 }

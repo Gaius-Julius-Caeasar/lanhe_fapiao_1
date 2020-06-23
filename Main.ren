@@ -5,7 +5,7 @@
             "NodePro": {
             },
             "NodePw": "214",
-            "NodePx": "480",
+            "NodePx": "360",
             "NodePy": "100",
             "NodeSubType": "EnumWidget_Program_subflow",
             "NodeTag": "flow1"

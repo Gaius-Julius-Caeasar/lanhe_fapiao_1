@@ -1,5 +1,5 @@
 # coding=utf-8
-# 编译日期：2020-06-23 17:20:23
+# 编译日期：2020-06-23 17:21:10
 # 版权所有：www.i-search.com.cn
 import time
 import pdb
@@ -182,7 +182,7 @@ class lanhe_fapiao:
       
     def Main(self):
         # 子流程:flow1
-        self.__logger.debug('Flow:Main,StepNodeTag:231718079022,Note:')
+        self.__logger.debug('Flow:Main,StepNodeTag:231721085496,Note:')
         (temptemp)=self.flow1()
  
 if __name__ == '__main__':
