@@ -549,7 +549,7 @@
                 "EP_EnumWidget_NAME": "EnumWidget_IE_MouseClick",
                 "EP_EnumWidget_VALUE": "301",
                 "EP_Gen": {
-                    "EP_Gen_AFTERDELAY": "1000",
+                    "EP_Gen_AFTERDELAY": "3000",
                     "EP_Gen_BEFOREDELAY": "",
                     "EP_Gen_NOTE": "",
                     "EP_Gen_RUN_MODE": "false",
@@ -570,8 +570,8 @@
                 }
             },
             "NodePw": "214",
-            "NodePx": "6147",
-            "NodePy": "502",
+            "NodePx": "6140",
+            "NodePy": "500",
             "NodeSubType": "EnumWidget_IE_MouseClick",
             "NodeTag": "鼠标点击"
         },
@@ -602,8 +602,8 @@
                 }
             },
             "NodePw": "214",
-            "NodePx": "6465",
-            "NodePy": "502",
+            "NodePx": "6440",
+            "NodePy": "500",
             "NodeSubType": "EnumWidget_Img_Exists",
             "NodeTag": "图片检测"
         },
