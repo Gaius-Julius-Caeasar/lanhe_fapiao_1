@@ -12,8 +12,8 @@
                 }
             },
             "NodePw": "214",
-            "NodePx": "284",
-            "NodePy": "343",
+            "NodePx": "100",
+            "NodePy": "100",
             "NodeSubType": "EnumWidget_Begin",
             "NodeTag": "开始"
         }

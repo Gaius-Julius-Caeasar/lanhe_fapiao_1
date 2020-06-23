@@ -4,9 +4,9 @@
     "MainSeq": {
         "seq": "Main"
     },
-    "OpenFlow": "[\n    {\n        \"seq\": \"Main\"\n    },\n    {\n        \"seq\": \"flow1\"\n    }\n]\n",
+    "OpenFlow": "[\n    {\n        \"seq\": \"Main\"\n    },\n    {\n        \"seq\": \"flow1\"\n    },\n    {\n        \"spy\": \"GlobalFun\"\n    }\n]\n",
     "ProInfo": {
-        "ProChange": "2020/06/23 14:52:17",
+        "ProChange": "2020/06/23 14:56:54",
         "ProCreate": "2020/06/23 14:04:25",
         "ProDesc": "",
         "ProImports": "",
@@ -38,14 +38,14 @@
                 {
                     "vardef": "",
                     "vardesc": "",
-                    "varname": "image_code",
+                    "varname": "b",
                     "varpasstype": "1",
                     "vartype": "1"
                 },
                 {
                     "vardef": "",
                     "vardesc": "",
-                    "varname": "image1",
+                    "varname": "a",
                     "varpasstype": "1",
                     "vartype": "1"
                 }

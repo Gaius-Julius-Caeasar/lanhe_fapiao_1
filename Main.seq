@@ -25,8 +25,8 @@
                 }
             },
             "NodeUI": {
-                "FNodePx": "184",
-                "FNodePy": "243",
+                "FNodePx": "179",
+                "FNodePy": "237",
                 "NodeIsBreak": "0",
                 "NodePort": [
                     {
@@ -43,7 +43,7 @@
     ],
     "OpType": "0",
     "SeqTag": "Main_bp",
-    "ViewCenterPx": "5127",
-    "ViewCenterPy": "5008",
+    "ViewCenterPx": "5132",
+    "ViewCenterPy": "5014",
     "ViewScaling": "1"
 }
