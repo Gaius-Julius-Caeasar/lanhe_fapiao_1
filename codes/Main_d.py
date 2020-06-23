@@ -1,5 +1,5 @@
 # coding=utf-8
-# 编译日期：2020-06-23 15:27:45
+# 编译日期：2020-06-23 15:30:42
 # 版权所有：www.i-search.com.cn
 import time
 import pdb
@@ -83,9 +83,10 @@ class lanhe_fapiao:
             # IF-N分支
             self.__logger.debug('Flow:flow1,StepNodeTag:23152627191132,Note:')
             if tvar23152545559128:
-                # Continue继续
-                self.__logger.debug('Flow:flow1,StepNodeTag:23152712119137,Note:')
-                continue
+                # 鼠标点击
+                self.__logger.debug('Flow:flow1,StepNodeTag:23152954518141,Note:')
+                iie.do_click_pos(win_title=r'国家税务总局全国增值税发票查验平台 - Internet Explorer',url=r'https://inv-veri.chinatax.gov.cn/index.html',selector=r'#popup_ok',button=r'left',curson=r'center',times=1,run_mode=r'unctrl',continue_on_error=r'break',waitfor=10)
+                time.sleep(0.8)
             else:
                 # Break中断
                 self.__logger.debug('Flow:flow1,StepNodeTag:23152722614139,Note:')
