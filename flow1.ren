@@ -1075,7 +1075,7 @@
             "NodePh": "103",
             "NodePro": {
                 "EP_CONTROL": {
-                    "EP_CONTROL_CODE": "code = None\nyzm_pic = None\ntishi = None",
+                    "EP_CONTROL_CODE": "code = ''\nyzm_pic = ''\ntishi = ''",
                     "EP_CONTROL_IMPORT": ""
                 },
                 "EP_EnumWidget_NAME": "EnumWidget_Code_Custom",

@@ -1,5 +1,5 @@
 # coding=utf-8
-# 编译日期：2020-06-23 17:16:27
+# 编译日期：2020-06-23 17:18:10
 # 版权所有：www.i-search.com.cn
 import time
 import pdb
@@ -42,9 +42,9 @@ class lanhe_fapiao:
         lv_6=[dict_info['InvoiceType'],dict_info['InvoiceTypeOrg'],dict_info['PurchaserRegisterNum'],dict_info[ 'InvoiceDate'],dict_info['InvoiceCode'],dict_info['InvoiceNum'],dict_info['CheckCode'],dict_info['TotalAmount'],dict_info['TotalTax'],dict_info['AmountInFiguers'],dict_info['CommodityName']
         # 代码块
         self.__logger.debug('Flow:flow1,StepNodeTag:23171228270244,Note:')
-        code = None
-        yzm_pic = None
-        tishi = None
+        code = ''
+        yzm_pic = ''
+        tishi = ''
         #网站
         self.__logger.debug('Flow:flow1,StepNodeTag:2314134287815,Note:')
         iie.open_url(url='https://inv-veri.chinatax.gov.cn/index.html')
@@ -187,7 +187,9 @@ class lanhe_fapiao:
             ibox.msgs_box('结束',timeout=3)
       
     def Main(self):
-        pass
+        # 子流程:flow1
+        self.__logger.debug('Flow:Main,StepNodeTag:231718079022,Note:')
+        (temptemp)=self.flow1()
  
 if __name__ == '__main__':
     robot_no = ''
