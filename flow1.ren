@@ -1,700 +1,360 @@
 {
     "NodeList": [
         {
-            "NodePh": "103",
-            "NodePro": {
-                "EP_CONTROL": {
-                    "EP_CONTROL_CODE": "code = None\nyzm_pic = None\ntishi = None",
-                    "EP_CONTROL_IMPORT": ""
-                },
-                "EP_EnumWidget_NAME": "EnumWidget_Code_Custom",
-                "EP_EnumWidget_VALUE": "818",
-                "EP_Gen": {
-                    "EP_Gen_AFTERDELAY": "",
-                    "EP_Gen_BEFOREDELAY": "",
-                    "EP_Gen_NOTE": ""
-                }
-            },
-            "NodePw": "214",
-            "NodePx": "360",
-            "NodePy": "566",
-            "NodeSubType": "EnumWidget_Code_Custom",
-            "NodeTag": "代码块"
-        },
-        {
             "NodePh": "173",
             "NodePro": {
                 "EP_CONTROL": {
-                    "EP_CONTROL_TIMEOUT": "0",
-                    "EP_CONTROL_TITLE": ""
-                },
-                "EP_EnumWidget_NAME": "EnumWidget_Win_MsgBox",
-                "EP_EnumWidget_VALUE": "815",
-                "EP_Gen": {
-                    "EP_Gen_AFTERDELAY": "",
-                    "EP_Gen_BEFOREDELAY": "",
-                    "EP_Gen_NOTE": ""
-                }
-            },
-            "NodePw": "254",
-            "NodePx": "5380",
-            "NodePy": "126",
-            "NodeSubType": "EnumWidget_Win_MsgBox",
-            "NodeTag": "消息框"
-        },
-        {
-            "NodePh": "103",
-            "NodePro": {
-                "EP_CONTROL": {
-                    "EP_CONTROL_CODE": "t.append('是')",
-                    "EP_CONTROL_IMPORT": ""
-                },
-                "EP_EnumWidget_NAME": "EnumWidget_Code_Custom",
-                "EP_EnumWidget_VALUE": "818",
-                "EP_Gen": {
-                    "EP_Gen_AFTERDELAY": "",
-                    "EP_Gen_BEFOREDELAY": "",
-                    "EP_Gen_NOTE": ""
-                }
-            },
-            "NodePw": "214",
-            "NodePx": "4520",
-            "NodePy": "366",
-            "NodeSubType": "EnumWidget_Code_Custom",
-            "NodeTag": "代码块"
-        },
-        {
-            "NodePh": "103",
-            "NodePro": {
-                "EP_CONTROL": {
-                    "EP_CONTROL_CODE": "t.append('否')",
-                    "EP_CONTROL_IMPORT": ""
-                },
-                "EP_EnumWidget_NAME": "EnumWidget_Code_Custom",
-                "EP_EnumWidget_VALUE": "818",
-                "EP_Gen": {
-                    "EP_Gen_AFTERDELAY": "",
-                    "EP_Gen_BEFOREDELAY": "",
-                    "EP_Gen_NOTE": ""
-                }
-            },
-            "NodePw": "214",
-            "NodePx": "4520",
-            "NodePy": "226",
-            "NodeSubType": "EnumWidget_Code_Custom",
-            "NodeTag": "代码块"
-        },
-        {
-            "NodePh": "143",
-            "NodePro": {
-                "EP_EnumWidget_NAME": "EnumWidget_Win_IPrint",
-                "EP_EnumWidget_VALUE": "816",
-                "EP_Gen": {
-                    "EP_Gen_AFTERDELAY": "",
-                    "EP_Gen_BEFOREDELAY": "",
-                    "EP_Gen_NOTE": ""
-                }
-            },
-            "NodePw": "218",
-            "NodePx": "1260",
-            "NodePy": "237",
-            "NodeSubType": "EnumWidget_Win_IPrint",
-            "NodeTag": "输出"
-        },
-        {
-            "NodePh": "173",
-            "NodePro": {
-                "EP_CONTROL": {
-                    "EP_CONTROL_TIMEOUT": "3",
-                    "EP_CONTROL_TITLE": ""
-                },
-                "EP_EnumWidget_NAME": "EnumWidget_Win_MsgBox",
-                "EP_EnumWidget_VALUE": "815",
-                "EP_Gen": {
-                    "EP_Gen_AFTERDELAY": "",
-                    "EP_Gen_BEFOREDELAY": "",
-                    "EP_Gen_NOTE": ""
-                }
-            },
-            "NodePw": "254",
-            "NodePx": "5100",
-            "NodePy": "337",
-            "NodeSubType": "EnumWidget_Win_MsgBox",
-            "NodeTag": "消息框"
-        },
-        {
-            "NodePh": "156",
-            "NodePro": {
-                "EP_CONTROL": {
-                    "EP_CONTROL_FIND_PATH": "'#closebt'",
-                    "EP_CONTROL_TAG_NAME": "'BUTTON'",
-                    "EP_CONTROL_TITLE": "",
-                    "EP_CONTROL_URL": "'https://inv-veri.chinatax.gov.cn/index.html'",
-                    "EP_CONTROL_WINDOW_TITLE": "'国家税务总局全国增值税发票查验平台 - Internet Explorer'",
-                    "EP_CONTROL_WINDOW_TITLE_Check": "true"
-                },
-                "EP_EnumWidget_NAME": "EnumWidget_IE_MouseClick",
-                "EP_EnumWidget_VALUE": "301",
-                "EP_Gen": {
-                    "EP_Gen_AFTERDELAY": "",
-                    "EP_Gen_BEFOREDELAY": "",
-                    "EP_Gen_NOTE": "",
-                    "EP_Gen_RUN_MODE": "false",
-                    "EP_Gen_WAITFOR": "10000"
-                },
-                "EP_INPUT": {
-                    "EP_INPUT_COMBOX_CONTINUEONERROR": "'break'",
-                    "EP_INPUT_MOUSE_CLICK": "'left'",
-                    "EP_INPUT_MOUSE_CLICK_TIMES": "1",
-                    "EP_INPUT_POSITION": "'center'",
-                    "EP_INPUT_X_OFFSET": "",
-                    "EP_INPUT_Y_OFFSET": ""
-                },
-                "EP_SNAP_SHOT": {
-                    "EP_SNAP_SHOT_PREVIEW": "/screenshots/snapshot_20200623154549614.jpeg",
-                    "mouse_x_pos": "57",
-                    "mouse_y_pos": "19"
-                }
-            },
-            "NodePw": "214",
-            "NodePx": "5120",
-            "NodePy": "146",
-            "NodeSubType": "EnumWidget_IE_MouseClick",
-            "NodeTag": "鼠标点击"
-        },
-        {
-            "NodePh": "183",
-            "NodePro": {
-                "EP_CONTROL": {
-                    "cell": "'A2'",
-                    "file_type": "'excel'",
-                    "sheet": "0"
-                },
-                "EP_EnumWidget_NAME": "EnumWidget_Config_Begin",
-                "EP_EnumWidget_VALUE": "5000",
-                "EP_Gen": {
-                    "EP_Gen_AFTERDELAY": "",
-                    "EP_Gen_BEFOREDELAY": "",
-                    "EP_Gen_NOTE": ""
-                }
-            },
-            "NodePw": "214",
-            "NodePx": "4800",
-            "NodePy": "326",
-            "NodeSubType": "EnumWidget_Config_Begin",
-            "NodeTag": "单元格写入"
-        },
-        {
-            "NodePh": "183",
-            "NodePro": {
-                "EP_CONTROL": {
-                    "cell": "'A2'",
-                    "file_type": "'excel'",
-                    "sheet": "0"
-                },
-                "EP_EnumWidget_NAME": "EnumWidget_Config_Begin",
-                "EP_EnumWidget_VALUE": "5000",
-                "EP_Gen": {
-                    "EP_Gen_AFTERDELAY": "",
-                    "EP_Gen_BEFOREDELAY": "",
-                    "EP_Gen_NOTE": ""
-                }
-            },
-            "NodePw": "214",
-            "NodePx": "4820",
-            "NodePy": "126",
-            "NodeSubType": "EnumWidget_Config_Begin",
-            "NodeTag": "单元格写入"
-        },
-        {
-            "NodePh": "186",
-            "NodePro": {
-                "EP_CONTROL": {
-                    "EP_CONTROL_IMAGE": "'snapshot_20200623153842415.png'",
-                    "EP_CONTROL_IMAGE_CLOSE_FUZZY": "true",
-                    "EP_CONTROL_IMAGE_FUZZY_SIMILARITY": "0.85",
-                    "EP_CONTROL_IMAGE_PATH": "'/screenshots/snapshot_20200623153842415.png'",
-                    "EP_CONTROL_IMAGE_SIZE": "'767X343'",
-                    "EP_CONTROL_IMAGE_WINDOW_TITLE": "'国家税务总局全国增值税发票查验平台 - Internet Explorer'",
-                    "EP_CONTROL_IMAGE_WINDOW_TITLE_Check": "true"
-                },
-                "EP_EnumWidget_NAME": "EnumWidget_Img_Exists",
-                "EP_EnumWidget_VALUE": "804",
-                "EP_Gen": {
-                    "EP_Gen_AFTERDELAY": "",
-                    "EP_Gen_BEFOREDELAY": "",
-                    "EP_Gen_NOTE": "",
-                    "EP_Gen_WAITFOR": "30000"
-                },
-                "EP_SNAP_SHOT": {
-                    "EP_SNAP_SHOT_PREVIEW": "/screenshots/snapshot_20200623153842415.png",
-                    "mouse_x_pos": "0",
-                    "mouse_y_pos": "0"
-                }
-            },
-            "NodePw": "214",
-            "NodePx": "3940",
-            "NodePy": "246",
-            "NodeSubType": "EnumWidget_Img_Exists",
-            "NodeTag": "图片检测"
-        },
-        {
-            "NodePh": "163",
-            "NodePro": {
-            },
-            "NodePw": "230",
-            "NodePx": "4240",
-            "NodePy": "246",
-            "NodeSubType": "EnumWidget_Syntax_elif",
-            "NodeTag": "IF分支"
-        },
-        {
-            "NodePh": "226",
-            "NodePro": {
-                "EP_EnumWidget_NAME": "EnumWidget_Key_Keyboard",
-                "EP_EnumWidget_VALUE": "801",
-                "EP_Gen": {
-                    "EP_Gen_AFTERDELAY": "",
-                    "EP_Gen_BEFOREDELAY": "500",
-                    "EP_Gen_NOTE": "",
-                    "EP_Gen_WAITFOR": "10000"
-                },
-                "EP_SNAP_SHOT": {
-                    "EP_SNAP_SHOT_PREVIEW": "",
-                    "mouse_x_pos": "0",
-                    "mouse_y_pos": "0"
-                },
-                "EP_WINDOW": {
-                    "EP_WINDOW_TITLE": "",
-                    "EP_WINDOW_TITLE_Check": "false"
-                }
-            },
-            "NodePw": "214",
-            "NodePx": "7900",
-            "NodePy": "486",
-            "NodeSubType": "EnumWidget_Key_Keyboard",
-            "NodeTag": "模拟按键"
-        },
-        {
-            "NodePh": "216",
-            "NodePro": {
-                "EP_EnumWidget_NAME": "EnumWidget_Key_HotKey",
-                "EP_EnumWidget_VALUE": "802",
-                "EP_Gen": {
-                    "EP_Gen_AFTERDELAY": "",
-                    "EP_Gen_BEFOREDELAY": "",
-                    "EP_Gen_NOTE": "",
-                    "EP_Gen_WAITFOR": "10000"
-                },
-                "EP_SNAP_SHOT": {
-                    "EP_SNAP_SHOT_PREVIEW": "",
-                    "mouse_x_pos": "0",
-                    "mouse_y_pos": "0"
-                },
-                "EP_WINDOW": {
-                    "EP_WINDOW_TITLE": "",
-                    "EP_WINDOW_TITLE_Check": "false"
-                }
-            },
-            "NodePw": "214",
-            "NodePx": "7640",
-            "NodePy": "486",
-            "NodeSubType": "EnumWidget_Key_HotKey",
-            "NodeTag": "热键输入"
-        },
-        {
-            "NodePh": "156",
-            "NodePro": {
-                "EP_CONTROL": {
-                    "EP_CONTROL_FIND_PATH": "'#yzm'",
-                    "EP_CONTROL_TAG_NAME": "'INPUT'",
-                    "EP_CONTROL_TITLE": "",
-                    "EP_CONTROL_URL": "'https://inv-veri.chinatax.gov.cn/index.html'",
-                    "EP_CONTROL_WINDOW_TITLE": "'国家税务总局全国增值税发票查验平台 - Internet Explorer'",
-                    "EP_CONTROL_WINDOW_TITLE_Check": "true"
-                },
-                "EP_EnumWidget_NAME": "EnumWidget_IE_MouseClick",
-                "EP_EnumWidget_VALUE": "301",
-                "EP_Gen": {
-                    "EP_Gen_AFTERDELAY": "800",
-                    "EP_Gen_BEFOREDELAY": "",
-                    "EP_Gen_NOTE": "",
-                    "EP_Gen_RUN_MODE": "false",
-                    "EP_Gen_WAITFOR": "10000"
-                },
-                "EP_INPUT": {
-                    "EP_INPUT_COMBOX_CONTINUEONERROR": "'break'",
-                    "EP_INPUT_MOUSE_CLICK": "'left'",
-                    "EP_INPUT_MOUSE_CLICK_TIMES": "1",
-                    "EP_INPUT_POSITION": "'center'",
-                    "EP_INPUT_X_OFFSET": "",
-                    "EP_INPUT_Y_OFFSET": ""
-                },
-                "EP_SNAP_SHOT": {
-                    "EP_SNAP_SHOT_PREVIEW": "/screenshots/snapshot_20200623153233448.jpeg",
-                    "mouse_x_pos": "126",
-                    "mouse_y_pos": "19"
-                }
-            },
-            "NodePw": "214",
-            "NodePx": "7380",
-            "NodePy": "486",
-            "NodeSubType": "EnumWidget_IE_MouseClick",
-            "NodeTag": "鼠标点击"
-        },
-        {
-            "NodePh": "156",
-            "NodePro": {
-                "EP_CONTROL": {
-                    "EP_CONTROL_FIND_PATH": "'#popup_ok'",
-                    "EP_CONTROL_TAG_NAME": "'INPUT'",
-                    "EP_CONTROL_TITLE": "",
-                    "EP_CONTROL_URL": "'https://inv-veri.chinatax.gov.cn/index.html'",
-                    "EP_CONTROL_WINDOW_TITLE": "'国家税务总局全国增值税发票查验平台 - Internet Explorer'",
-                    "EP_CONTROL_WINDOW_TITLE_Check": "true"
-                },
-                "EP_EnumWidget_NAME": "EnumWidget_IE_MouseClick",
-                "EP_EnumWidget_VALUE": "301",
-                "EP_Gen": {
-                    "EP_Gen_AFTERDELAY": "800",
-                    "EP_Gen_BEFOREDELAY": "",
-                    "EP_Gen_NOTE": "",
-                    "EP_Gen_RUN_MODE": "false",
-                    "EP_Gen_WAITFOR": "10000"
-                },
-                "EP_INPUT": {
-                    "EP_INPUT_COMBOX_CONTINUEONERROR": "'break'",
-                    "EP_INPUT_MOUSE_CLICK": "'left'",
-                    "EP_INPUT_MOUSE_CLICK_TIMES": "1",
-                    "EP_INPUT_POSITION": "'center'",
-                    "EP_INPUT_X_OFFSET": "",
-                    "EP_INPUT_Y_OFFSET": ""
-                },
-                "EP_SNAP_SHOT": {
-                    "EP_SNAP_SHOT_PREVIEW": "/screenshots/snapshot_20200623153018245.jpeg",
-                    "mouse_x_pos": "39",
-                    "mouse_y_pos": "16"
-                }
-            },
-            "NodePw": "214",
-            "NodePx": "7120",
-            "NodePy": "486",
-            "NodeSubType": "EnumWidget_IE_MouseClick",
-            "NodeTag": "鼠标点击"
-        },
-        {
-            "NodePh": "103",
-            "NodePro": {
-            },
-            "NodePw": "214",
-            "NodePx": "7120",
-            "NodePy": "646",
-            "NodeSubType": "EnumWidget_Syntax_break",
-            "NodeTag": "Break中断"
-        },
-        {
-            "NodePh": "163",
-            "NodePro": {
-            },
-            "NodePw": "230",
-            "NodePx": "6840",
-            "NodePy": "506",
-            "NodeSubType": "EnumWidget_Syntax_elif",
-            "NodeTag": "IF分支"
-        },
-        {
-            "NodePh": "156",
-            "NodePro": {
-                "EP_CONTROL": {
-                    "EP_CONTROL_FIND_PATH": "'#checkfp'",
-                    "EP_CONTROL_TAG_NAME": "'BUTTON'",
-                    "EP_CONTROL_TITLE": "",
-                    "EP_CONTROL_URL": "'https://inv-veri.chinatax.gov.cn/index.html'",
-                    "EP_CONTROL_WINDOW_TITLE": "'国家税务总局全国增值税发票查验平台 - Internet Explorer'",
-                    "EP_CONTROL_WINDOW_TITLE_Check": "true"
-                },
-                "EP_EnumWidget_NAME": "EnumWidget_IE_MouseClick",
-                "EP_EnumWidget_VALUE": "301",
-                "EP_Gen": {
-                    "EP_Gen_AFTERDELAY": "1000",
-                    "EP_Gen_BEFOREDELAY": "",
-                    "EP_Gen_NOTE": "",
-                    "EP_Gen_RUN_MODE": "false",
-                    "EP_Gen_WAITFOR": "10000"
-                },
-                "EP_INPUT": {
-                    "EP_INPUT_COMBOX_CONTINUEONERROR": "'break'",
-                    "EP_INPUT_MOUSE_CLICK": "'left'",
-                    "EP_INPUT_MOUSE_CLICK_TIMES": "1",
-                    "EP_INPUT_POSITION": "'center'",
-                    "EP_INPUT_X_OFFSET": "",
-                    "EP_INPUT_Y_OFFSET": ""
-                },
-                "EP_SNAP_SHOT": {
-                    "EP_SNAP_SHOT_PREVIEW": "/screenshots/snapshot_20200623152619900.jpeg",
-                    "mouse_x_pos": "57",
-                    "mouse_y_pos": "21"
-                }
-            },
-            "NodePw": "214",
-            "NodePx": "6240",
-            "NodePy": "506",
-            "NodeSubType": "EnumWidget_IE_MouseClick",
-            "NodeTag": "鼠标点击"
-        },
-        {
-            "NodePh": "186",
-            "NodePro": {
-                "EP_CONTROL": {
-                    "EP_CONTROL_IMAGE": "'snapshot_20200623152556855.png'",
-                    "EP_CONTROL_IMAGE_CLOSE_FUZZY": "true",
-                    "EP_CONTROL_IMAGE_FUZZY_SIMILARITY": "0.85",
-                    "EP_CONTROL_IMAGE_PATH": "'/screenshots/snapshot_20200623152556855.png'",
-                    "EP_CONTROL_IMAGE_SIZE": "'295X176'",
-                    "EP_CONTROL_IMAGE_WINDOW_TITLE": "'国家税务总局全国增值税发票查验平台 - Internet Explorer'",
-                    "EP_CONTROL_IMAGE_WINDOW_TITLE_Check": "true"
-                },
-                "EP_EnumWidget_NAME": "EnumWidget_Img_Exists",
-                "EP_EnumWidget_VALUE": "804",
-                "EP_Gen": {
-                    "EP_Gen_AFTERDELAY": "",
-                    "EP_Gen_BEFOREDELAY": "",
-                    "EP_Gen_NOTE": "",
-                    "EP_Gen_WAITFOR": "5000"
-                },
-                "EP_SNAP_SHOT": {
-                    "EP_SNAP_SHOT_PREVIEW": "/screenshots/snapshot_20200623152556855.png",
-                    "mouse_x_pos": "0",
-                    "mouse_y_pos": "0"
-                }
-            },
-            "NodePw": "214",
-            "NodePx": "6540",
-            "NodePy": "506",
-            "NodeSubType": "EnumWidget_Img_Exists",
-            "NodeTag": "图片检测"
-        },
-        {
-            "NodePh": "156",
-            "NodePro": {
-                "EP_CONTROL": {
-                    "EP_CONTROL_FIND_PATH": "'#yzm'",
-                    "EP_CONTROL_TAG_NAME": "'INPUT'",
-                    "EP_CONTROL_TITLE": "",
-                    "EP_CONTROL_URL": "'https://inv-veri.chinatax.gov.cn/index.html'",
-                    "EP_CONTROL_WINDOW_TITLE": "'国家税务总局全国增值税发票查验平台 - Internet Explorer'",
-                    "EP_CONTROL_WINDOW_TITLE_Check": "true"
-                },
-                "EP_EnumWidget_NAME": "EnumWidget_IE_MouseClick",
-                "EP_EnumWidget_VALUE": "301",
-                "EP_Gen": {
-                    "EP_Gen_AFTERDELAY": "",
-                    "EP_Gen_BEFOREDELAY": "",
-                    "EP_Gen_NOTE": "",
-                    "EP_Gen_RUN_MODE": "false",
-                    "EP_Gen_WAITFOR": "10000"
-                },
-                "EP_INPUT": {
-                    "EP_INPUT_COMBOX_CONTINUEONERROR": "'break'",
-                    "EP_INPUT_MOUSE_CLICK": "'left'",
-                    "EP_INPUT_MOUSE_CLICK_TIMES": "1",
-                    "EP_INPUT_POSITION": "'center'",
-                    "EP_INPUT_X_OFFSET": "",
-                    "EP_INPUT_Y_OFFSET": ""
-                },
-                "EP_SNAP_SHOT": {
-                    "EP_SNAP_SHOT_PREVIEW": "/screenshots/snapshot_20200623152452636.jpeg",
-                    "mouse_x_pos": "92",
-                    "mouse_y_pos": "17"
-                }
-            },
-            "NodePw": "214",
-            "NodePx": "5600",
-            "NodePy": "506",
-            "NodeSubType": "EnumWidget_IE_MouseClick",
-            "NodeTag": "鼠标点击"
-        },
-        {
-            "NodePh": "156",
-            "NodePro": {
-                "EP_CONTROL": {
-                    "EP_CONTROL_FIND_PATH": "'#content2 > TABLE:nth-of-type(1) > TBODY:nth-of-type(1) > TR:nth-of-type(6) > TD:nth-of-type(1)'",
-                    "EP_CONTROL_TAG_NAME": "'TD'",
-                    "EP_CONTROL_TITLE": "",
-                    "EP_CONTROL_URL": "'https://inv-veri.chinatax.gov.cn/index.html'",
-                    "EP_CONTROL_WINDOW_TITLE": "'国家税务总局全国增值税发票查验平台 - Internet Explorer'",
-                    "EP_CONTROL_WINDOW_TITLE_Check": "true"
-                },
-                "EP_EnumWidget_NAME": "EnumWidget_IE_MouseMove",
-                "EP_EnumWidget_VALUE": "303",
-                "EP_Gen": {
-                    "EP_Gen_AFTERDELAY": "5000",
-                    "EP_Gen_BEFOREDELAY": "",
-                    "EP_Gen_NOTE": "",
-                    "EP_Gen_WAITFOR": "10000"
-                },
-                "EP_INPUT": {
-                    "EP_INPUT_MOUSE_CLICK": "'left'",
-                    "EP_INPUT_POSITION": "'center'",
-                    "EP_INPUT_X_OFFSET": "",
-                    "EP_INPUT_Y_OFFSET": ""
-                },
-                "EP_SNAP_SHOT": {
-                    "EP_SNAP_SHOT_PREVIEW": "/screenshots/snapshot_20200623151511769.jpeg",
-                    "mouse_x_pos": "58",
-                    "mouse_y_pos": "37"
-                }
-            },
-            "NodePw": "214",
-            "NodePx": "4180",
-            "NodePy": "506",
-            "NodeSubType": "EnumWidget_IE_MouseMove",
-            "NodeTag": "鼠标移动"
-        },
-        {
-            "NodePh": "156",
-            "NodePro": {
-                "EP_CONTROL": {
-                    "EP_CONTROL_FIND_PATH": "'#yzm_img'",
-                    "EP_CONTROL_TAG_NAME": "'IMG'",
-                    "EP_CONTROL_TITLE": "",
-                    "EP_CONTROL_URL": "'https://inv-veri.chinatax.gov.cn/index.html'",
-                    "EP_CONTROL_WINDOW_TITLE": "'国家税务总局全国增值税发票查验平台 - Internet Explorer'",
-                    "EP_CONTROL_WINDOW_TITLE_Check": "true"
-                },
-                "EP_EnumWidget_NAME": "EnumWidget_IE_MouseClick",
-                "EP_EnumWidget_VALUE": "301",
-                "EP_Gen": {
-                    "EP_Gen_AFTERDELAY": "500",
-                    "EP_Gen_BEFOREDELAY": "500",
-                    "EP_Gen_NOTE": "",
-                    "EP_Gen_RUN_MODE": "false",
-                    "EP_Gen_WAITFOR": "10000"
-                },
-                "EP_INPUT": {
-                    "EP_INPUT_COMBOX_CONTINUEONERROR": "'break'",
-                    "EP_INPUT_MOUSE_CLICK": "'left'",
-                    "EP_INPUT_MOUSE_CLICK_TIMES": "1",
-                    "EP_INPUT_POSITION": "'center'",
-                    "EP_INPUT_X_OFFSET": "",
-                    "EP_INPUT_Y_OFFSET": ""
-                },
-                "EP_SNAP_SHOT": {
-                    "EP_SNAP_SHOT_PREVIEW": "/screenshots/snapshot_20200623151135335.jpeg",
-                    "mouse_x_pos": "61",
-                    "mouse_y_pos": "21"
-                }
-            },
-            "NodePw": "214",
-            "NodePx": "3940",
-            "NodePy": "506",
-            "NodeSubType": "EnumWidget_IE_MouseClick",
-            "NodeTag": "鼠标点击"
-        },
-        {
-            "NodePh": "226",
-            "NodePro": {
-                "EP_EnumWidget_NAME": "EnumWidget_Key_Keyboard",
-                "EP_EnumWidget_VALUE": "801",
-                "EP_Gen": {
-                    "EP_Gen_AFTERDELAY": "",
-                    "EP_Gen_BEFOREDELAY": "500",
-                    "EP_Gen_NOTE": "",
-                    "EP_Gen_WAITFOR": "10000"
-                },
-                "EP_SNAP_SHOT": {
-                    "EP_SNAP_SHOT_PREVIEW": "",
-                    "mouse_x_pos": "0",
-                    "mouse_y_pos": "0"
-                },
-                "EP_WINDOW": {
-                    "EP_WINDOW_TITLE": "",
-                    "EP_WINDOW_TITLE_Check": "false"
-                }
-            },
-            "NodePw": "214",
-            "NodePx": "5940",
-            "NodePy": "506",
-            "NodeSubType": "EnumWidget_Key_Keyboard",
-            "NodeTag": "模拟按键"
-        },
-        {
-            "NodePh": "133",
-            "NodePro": {
-                "EP_CONTROL": {
-                    "EP_CONTROL_FUNC_NAME": "code_color",
-                    "EP_CONTROL_FUNC_PARAM": "tishi,yzm_pic"
-                },
-                "EP_EnumWidget_NAME": "EnumWidget_Funs_Custom",
-                "EP_EnumWidget_VALUE": "817",
-                "EP_Gen": {
-                    "EP_Gen_AFTERDELAY": "",
-                    "EP_Gen_BEFOREDELAY": "",
-                    "EP_Gen_NOTE": ""
-                }
-            },
-            "NodePw": "214",
-            "NodePx": "5020",
-            "NodePy": "506",
-            "NodeSubType": "EnumWidget_Funs_Custom",
-            "NodeTag": "全局函数"
-        },
-        {
-            "NodePh": "103",
-            "NodePro": {
-                "EP_EnumWidget_NAME": "EnumWidget_Begin",
-                "EP_EnumWidget_VALUE": "10",
-                "EP_Gen": {
-                    "EP_Gen_AFTERDELAY": "",
-                    "EP_Gen_BEFOREDELAY": "",
-                    "EP_Gen_NOTE": ""
-                }
-            },
-            "NodePw": "214",
-            "NodePx": "100",
-            "NodePy": "566",
-            "NodeSubType": "EnumWidget_Begin",
-            "NodeTag": "开始"
-        },
-        {
-            "NodePh": "173",
-            "NodePro": {
-                "EP_CONTROL": {
-                    "apiKey": "'\t8159a500cc9d4a69a71e6ac14263f029'",
+                    "apiKey": "'8159a500cc9d4a69a71e6ac14263f029'",
+                    "code_type": "8001",
                     "secretKey": "'2d078aa8c13741239b3d00ced85832e3'"
                 },
                 "EP_EnumWidget_NAME": "EnumWidget_Config_Begin",
                 "EP_EnumWidget_VALUE": "5000",
                 "EP_Gen": {
-                    "EP_Gen_AFTERDELAY": "",
+                    "EP_Gen_AFTERDELAY": "1000",
                     "EP_Gen_BEFOREDELAY": "",
                     "EP_Gen_NOTE": ""
                 }
             },
             "NodePw": "258",
-            "NodePx": "620",
-            "NodePy": "566",
+            "NodePx": "5744",
+            "NodePy": "480",
             "NodeSubType": "EnumWidget_Config_Begin",
-            "NodeTag": "增值税发票OCR"
+            "NodeTag": "验证码"
         },
         {
-            "NodePh": "183",
+            "NodePh": "186",
             "NodePro": {
                 "EP_CONTROL": {
+                    "EP_CONTROL_IMAGE_HEIGHT": "64",
+                    "EP_CONTROL_IMAGE_LEFT": "992",
+                    "EP_CONTROL_IMAGE_OUTPUT_DIR": "",
+                    "EP_CONTROL_IMAGE_TOP": "620",
+                    "EP_CONTROL_IMAGE_WIDTH": "139",
+                    "EP_CONTROL_IMAGE_WINDOW_TEXT": "''",
+                    "EP_CONTROL_IMAGE_WINDOW_TITLE": "'国家税务总局全国增值税发票查验平台 - Internet Explorer'",
+                    "EP_CONTROL_IMAGE_WINDOW_TITLE_Check": "true"
                 },
-                "EP_EnumWidget_NAME": "EnumWidget_Config_Begin",
-                "EP_EnumWidget_VALUE": "5000",
+                "EP_EnumWidget_NAME": "EnumWidget_Img_Capture",
+                "EP_EnumWidget_VALUE": "805",
                 "EP_Gen": {
-                    "EP_Gen_AFTERDELAY": "3000",
+                    "EP_Gen_AFTERDELAY": "800",
                     "EP_Gen_BEFOREDELAY": "",
-                    "EP_Gen_NOTE": ""
+                    "EP_Gen_NOTE": "",
+                    "EP_Gen_WAITFOR": "30000"
+                },
+                "EP_SNAP_SHOT": {
+                    "EP_SNAP_SHOT_PREVIEW": "/screenshots/snapshot_20200623143626169.png",
+                    "mouse_x_pos": "0",
+                    "mouse_y_pos": "0"
                 }
             },
             "NodePw": "214",
-            "NodePx": "980",
-            "NodePy": "566",
-            "NodeSubType": "EnumWidget_Config_Begin",
-            "NodeTag": "网站"
+            "NodePx": "5204",
+            "NodePy": "480",
+            "NodeSubType": "EnumWidget_Img_Capture",
+            "NodeTag": "截图"
+        },
+        {
+            "NodePh": "186",
+            "NodePro": {
+                "EP_CONTROL": {
+                    "EP_CONTROL_IMAGE_HEIGHT": "36",
+                    "EP_CONTROL_IMAGE_LEFT": "1253",
+                    "EP_CONTROL_IMAGE_OUTPUT_DIR": "",
+                    "EP_CONTROL_IMAGE_TOP": "572",
+                    "EP_CONTROL_IMAGE_WIDTH": "210",
+                    "EP_CONTROL_IMAGE_WINDOW_TEXT": "''",
+                    "EP_CONTROL_IMAGE_WINDOW_TITLE": "'国家税务总局全国增值税发票查验平台 - Internet Explorer'",
+                    "EP_CONTROL_IMAGE_WINDOW_TITLE_Check": "true"
+                },
+                "EP_EnumWidget_NAME": "EnumWidget_Img_Capture",
+                "EP_EnumWidget_VALUE": "805",
+                "EP_Gen": {
+                    "EP_Gen_AFTERDELAY": "800",
+                    "EP_Gen_BEFOREDELAY": "",
+                    "EP_Gen_NOTE": "",
+                    "EP_Gen_WAITFOR": "30000"
+                },
+                "EP_SNAP_SHOT": {
+                    "EP_SNAP_SHOT_PREVIEW": "/screenshots/snapshot_20200623143559509.png",
+                    "mouse_x_pos": "0",
+                    "mouse_y_pos": "0"
+                }
+            },
+            "NodePw": "214",
+            "NodePx": "4944",
+            "NodePy": "479",
+            "NodeSubType": "EnumWidget_Img_Capture",
+            "NodeTag": "截图"
+        },
+        {
+            "NodePh": "163",
+            "NodePro": {
+            },
+            "NodePw": "242",
+            "NodePx": "4124",
+            "NodePy": "420",
+            "NodeSubType": "EnumWidget_Syntax_while",
+            "NodeTag": "While循环"
+        },
+        {
+            "NodePh": "226",
+            "NodePro": {
+                "EP_EnumWidget_NAME": "EnumWidget_Key_Keyboard",
+                "EP_EnumWidget_VALUE": "801",
+                "EP_Gen": {
+                    "EP_Gen_AFTERDELAY": "",
+                    "EP_Gen_BEFOREDELAY": "500",
+                    "EP_Gen_NOTE": "",
+                    "EP_Gen_WAITFOR": "10000"
+                },
+                "EP_SNAP_SHOT": {
+                    "EP_SNAP_SHOT_PREVIEW": "",
+                    "mouse_x_pos": "0",
+                    "mouse_y_pos": "0"
+                },
+                "EP_WINDOW": {
+                    "EP_WINDOW_TITLE": "",
+                    "EP_WINDOW_TITLE_Check": "false"
+                }
+            },
+            "NodePw": "214",
+            "NodePx": "4124",
+            "NodePy": "580",
+            "NodeSubType": "EnumWidget_Key_Keyboard",
+            "NodeTag": "模拟按键"
+        },
+        {
+            "NodePh": "186",
+            "NodePro": {
+                "EP_CONTROL": {
+                    "EP_CONTROL_IMAGE": "'snapshot_20200623142820581.png'",
+                    "EP_CONTROL_IMAGE_CLOSE_FUZZY": "true",
+                    "EP_CONTROL_IMAGE_FUZZY_SIMILARITY": "0.85",
+                    "EP_CONTROL_IMAGE_PATH": "'/screenshots/snapshot_20200623142820581.png'",
+                    "EP_CONTROL_IMAGE_SIZE": "'69X24'",
+                    "EP_CONTROL_IMAGE_WINDOW_TITLE": "'国家税务总局全国增值税发票查验平台 - Internet Explorer'",
+                    "EP_CONTROL_IMAGE_WINDOW_TITLE_Check": "true"
+                },
+                "EP_EnumWidget_NAME": "EnumWidget_Img_Exists",
+                "EP_EnumWidget_VALUE": "804",
+                "EP_Gen": {
+                    "EP_Gen_AFTERDELAY": "500",
+                    "EP_Gen_BEFOREDELAY": "",
+                    "EP_Gen_NOTE": "",
+                    "EP_Gen_WAITFOR": "30000"
+                },
+                "EP_SNAP_SHOT": {
+                    "EP_SNAP_SHOT_PREVIEW": "/screenshots/snapshot_20200623142820581.png",
+                    "mouse_x_pos": "0",
+                    "mouse_y_pos": "0"
+                }
+            },
+            "NodePw": "214",
+            "NodePx": "3444",
+            "NodePy": "540",
+            "NodeSubType": "EnumWidget_Img_Exists",
+            "NodeTag": "图片检测"
+        },
+        {
+            "NodePh": "163",
+            "NodePro": {
+            },
+            "NodePw": "230",
+            "NodePx": "3744",
+            "NodePy": "540",
+            "NodeSubType": "EnumWidget_Syntax_elif",
+            "NodeTag": "IF分支"
+        },
+        {
+            "NodePh": "226",
+            "NodePro": {
+                "EP_EnumWidget_NAME": "EnumWidget_Key_Keyboard",
+                "EP_EnumWidget_VALUE": "801",
+                "EP_Gen": {
+                    "EP_Gen_AFTERDELAY": "",
+                    "EP_Gen_BEFOREDELAY": "500",
+                    "EP_Gen_NOTE": "",
+                    "EP_Gen_WAITFOR": "10000"
+                },
+                "EP_SNAP_SHOT": {
+                    "EP_SNAP_SHOT_PREVIEW": "",
+                    "mouse_x_pos": "0",
+                    "mouse_y_pos": "0"
+                },
+                "EP_WINDOW": {
+                    "EP_WINDOW_TITLE": "",
+                    "EP_WINDOW_TITLE_Check": "false"
+                }
+            },
+            "NodePw": "214",
+            "NodePx": "4104",
+            "NodePy": "820",
+            "NodeSubType": "EnumWidget_Key_Keyboard",
+            "NodeTag": "模拟按键"
+        },
+        {
+            "NodePh": "226",
+            "NodePro": {
+                "EP_EnumWidget_NAME": "EnumWidget_Key_Keyboard",
+                "EP_EnumWidget_VALUE": "801",
+                "EP_Gen": {
+                    "EP_Gen_AFTERDELAY": "",
+                    "EP_Gen_BEFOREDELAY": "500",
+                    "EP_Gen_NOTE": "",
+                    "EP_Gen_WAITFOR": "10000"
+                },
+                "EP_SNAP_SHOT": {
+                    "EP_SNAP_SHOT_PREVIEW": "",
+                    "mouse_x_pos": "0",
+                    "mouse_y_pos": "0"
+                },
+                "EP_WINDOW": {
+                    "EP_WINDOW_TITLE": "",
+                    "EP_WINDOW_TITLE_Check": "false"
+                }
+            },
+            "NodePw": "214",
+            "NodePx": "3204",
+            "NodePy": "540",
+            "NodeSubType": "EnumWidget_Key_Keyboard",
+            "NodeTag": "模拟按键"
+        },
+        {
+            "NodePh": "226",
+            "NodePro": {
+                "EP_EnumWidget_NAME": "EnumWidget_Key_Keyboard",
+                "EP_EnumWidget_VALUE": "801",
+                "EP_Gen": {
+                    "EP_Gen_AFTERDELAY": "",
+                    "EP_Gen_BEFOREDELAY": "500",
+                    "EP_Gen_NOTE": "",
+                    "EP_Gen_WAITFOR": "10000"
+                },
+                "EP_SNAP_SHOT": {
+                    "EP_SNAP_SHOT_PREVIEW": "",
+                    "mouse_x_pos": "0",
+                    "mouse_y_pos": "0"
+                },
+                "EP_WINDOW": {
+                    "EP_WINDOW_TITLE": "",
+                    "EP_WINDOW_TITLE_Check": "false"
+                }
+            },
+            "NodePw": "214",
+            "NodePx": "2964",
+            "NodePy": "540",
+            "NodeSubType": "EnumWidget_Key_Keyboard",
+            "NodeTag": "模拟按键"
+        },
+        {
+            "NodePh": "226",
+            "NodePro": {
+                "EP_EnumWidget_NAME": "EnumWidget_Key_Keyboard",
+                "EP_EnumWidget_VALUE": "801",
+                "EP_Gen": {
+                    "EP_Gen_AFTERDELAY": "",
+                    "EP_Gen_BEFOREDELAY": "500",
+                    "EP_Gen_NOTE": "",
+                    "EP_Gen_WAITFOR": "10000"
+                },
+                "EP_SNAP_SHOT": {
+                    "EP_SNAP_SHOT_PREVIEW": "",
+                    "mouse_x_pos": "0",
+                    "mouse_y_pos": "0"
+                },
+                "EP_WINDOW": {
+                    "EP_WINDOW_TITLE": "",
+                    "EP_WINDOW_TITLE_Check": "false"
+                }
+            },
+            "NodePw": "214",
+            "NodePx": "2704",
+            "NodePy": "540",
+            "NodeSubType": "EnumWidget_Key_Keyboard",
+            "NodeTag": "模拟按键"
+        },
+        {
+            "NodePh": "226",
+            "NodePro": {
+                "EP_EnumWidget_NAME": "EnumWidget_Key_Keyboard",
+                "EP_EnumWidget_VALUE": "801",
+                "EP_Gen": {
+                    "EP_Gen_AFTERDELAY": "",
+                    "EP_Gen_BEFOREDELAY": "500",
+                    "EP_Gen_NOTE": "",
+                    "EP_Gen_WAITFOR": "10000"
+                },
+                "EP_SNAP_SHOT": {
+                    "EP_SNAP_SHOT_PREVIEW": "",
+                    "mouse_x_pos": "0",
+                    "mouse_y_pos": "0"
+                },
+                "EP_WINDOW": {
+                    "EP_WINDOW_TITLE": "",
+                    "EP_WINDOW_TITLE_Check": "false"
+                }
+            },
+            "NodePw": "214",
+            "NodePx": "2464",
+            "NodePy": "540",
+            "NodeSubType": "EnumWidget_Key_Keyboard",
+            "NodeTag": "模拟按键"
+        },
+        {
+            "NodePh": "226",
+            "NodePro": {
+                "EP_EnumWidget_NAME": "EnumWidget_Key_Keyboard",
+                "EP_EnumWidget_VALUE": "801",
+                "EP_Gen": {
+                    "EP_Gen_AFTERDELAY": "",
+                    "EP_Gen_BEFOREDELAY": "500",
+                    "EP_Gen_NOTE": "",
+                    "EP_Gen_WAITFOR": "10000"
+                },
+                "EP_SNAP_SHOT": {
+                    "EP_SNAP_SHOT_PREVIEW": "",
+                    "mouse_x_pos": "0",
+                    "mouse_y_pos": "0"
+                },
+                "EP_WINDOW": {
+                    "EP_WINDOW_TITLE": "",
+                    "EP_WINDOW_TITLE_Check": "false"
+                }
+            },
+            "NodePw": "214",
+            "NodePx": "2204",
+            "NodePy": "539",
+            "NodeSubType": "EnumWidget_Key_Keyboard",
+            "NodeTag": "模拟按键"
+        },
+        {
+            "NodePh": "226",
+            "NodePro": {
+                "EP_EnumWidget_NAME": "EnumWidget_Key_Keyboard",
+                "EP_EnumWidget_VALUE": "801",
+                "EP_Gen": {
+                    "EP_Gen_AFTERDELAY": "600",
+                    "EP_Gen_BEFOREDELAY": "500",
+                    "EP_Gen_NOTE": "",
+                    "EP_Gen_WAITFOR": "10000"
+                },
+                "EP_SNAP_SHOT": {
+                    "EP_SNAP_SHOT_PREVIEW": "",
+                    "mouse_x_pos": "0",
+                    "mouse_y_pos": "0"
+                },
+                "EP_WINDOW": {
+                    "EP_WINDOW_TITLE": "",
+                    "EP_WINDOW_TITLE_Check": "false"
+                }
+            },
+            "NodePw": "214",
+            "NodePx": "1944",
+            "NodePy": "540",
+            "NodeSubType": "EnumWidget_Key_Keyboard",
+            "NodeTag": "模拟按键"
         },
         {
             "NodePh": "156",
@@ -731,37 +391,88 @@
                 }
             },
             "NodePw": "214",
-            "NodePx": "1220",
-            "NodePy": "566",
+            "NodePx": "1684",
+            "NodePy": "540",
             "NodeSubType": "EnumWidget_IE_MouseClick",
             "NodeTag": "鼠标点击"
         },
         {
-            "NodePh": "226",
+            "NodePh": "183",
             "NodePro": {
-                "EP_EnumWidget_NAME": "EnumWidget_Key_Keyboard",
-                "EP_EnumWidget_VALUE": "801",
+                "EP_CONTROL": {
+                },
+                "EP_EnumWidget_NAME": "EnumWidget_Config_Begin",
+                "EP_EnumWidget_VALUE": "5000",
                 "EP_Gen": {
-                    "EP_Gen_AFTERDELAY": "600",
-                    "EP_Gen_BEFOREDELAY": "500",
-                    "EP_Gen_NOTE": "",
-                    "EP_Gen_WAITFOR": "10000"
-                },
-                "EP_SNAP_SHOT": {
-                    "EP_SNAP_SHOT_PREVIEW": "",
-                    "mouse_x_pos": "0",
-                    "mouse_y_pos": "0"
-                },
-                "EP_WINDOW": {
-                    "EP_WINDOW_TITLE": "",
-                    "EP_WINDOW_TITLE_Check": "false"
+                    "EP_Gen_AFTERDELAY": "3000",
+                    "EP_Gen_BEFOREDELAY": "",
+                    "EP_Gen_NOTE": ""
                 }
             },
             "NodePw": "214",
-            "NodePx": "1480",
-            "NodePy": "566",
-            "NodeSubType": "EnumWidget_Key_Keyboard",
-            "NodeTag": "模拟按键"
+            "NodePx": "1444",
+            "NodePy": "540",
+            "NodeSubType": "EnumWidget_Config_Begin",
+            "NodeTag": "网站"
+        },
+        {
+            "NodePh": "173",
+            "NodePro": {
+                "EP_CONTROL": {
+                    "apiKey": "'\t8159a500cc9d4a69a71e6ac14263f029'",
+                    "secretKey": "'2d078aa8c13741239b3d00ced85832e3'"
+                },
+                "EP_EnumWidget_NAME": "EnumWidget_Config_Begin",
+                "EP_EnumWidget_VALUE": "5000",
+                "EP_Gen": {
+                    "EP_Gen_AFTERDELAY": "",
+                    "EP_Gen_BEFOREDELAY": "",
+                    "EP_Gen_NOTE": ""
+                }
+            },
+            "NodePw": "258",
+            "NodePx": "1084",
+            "NodePy": "540",
+            "NodeSubType": "EnumWidget_Config_Begin",
+            "NodeTag": "增值税发票OCR"
+        },
+        {
+            "NodePh": "103",
+            "NodePro": {
+                "EP_EnumWidget_NAME": "EnumWidget_Begin",
+                "EP_EnumWidget_VALUE": "10",
+                "EP_Gen": {
+                    "EP_Gen_AFTERDELAY": "",
+                    "EP_Gen_BEFOREDELAY": "",
+                    "EP_Gen_NOTE": ""
+                }
+            },
+            "NodePw": "214",
+            "NodePx": "564",
+            "NodePy": "540",
+            "NodeSubType": "EnumWidget_Begin",
+            "NodeTag": "开始"
+        },
+        {
+            "NodePh": "133",
+            "NodePro": {
+                "EP_CONTROL": {
+                    "EP_CONTROL_FUNC_NAME": "code_color",
+                    "EP_CONTROL_FUNC_PARAM": "tishi,yzm_pic"
+                },
+                "EP_EnumWidget_NAME": "EnumWidget_Funs_Custom",
+                "EP_EnumWidget_VALUE": "817",
+                "EP_Gen": {
+                    "EP_Gen_AFTERDELAY": "",
+                    "EP_Gen_BEFOREDELAY": "",
+                    "EP_Gen_NOTE": ""
+                }
+            },
+            "NodePw": "214",
+            "NodePx": "5484",
+            "NodePy": "480",
+            "NodeSubType": "EnumWidget_Funs_Custom",
+            "NodeTag": "全局函数"
         },
         {
             "NodePh": "226",
@@ -785,10 +496,326 @@
                 }
             },
             "NodePw": "214",
-            "NodePx": "1740",
-            "NodePy": "565",
+            "NodePx": "6404",
+            "NodePy": "480",
             "NodeSubType": "EnumWidget_Key_Keyboard",
             "NodeTag": "模拟按键"
+        },
+        {
+            "NodePh": "156",
+            "NodePro": {
+                "EP_CONTROL": {
+                    "EP_CONTROL_FIND_PATH": "'#yzm_img'",
+                    "EP_CONTROL_TAG_NAME": "'IMG'",
+                    "EP_CONTROL_TITLE": "",
+                    "EP_CONTROL_URL": "'https://inv-veri.chinatax.gov.cn/index.html'",
+                    "EP_CONTROL_WINDOW_TITLE": "'国家税务总局全国增值税发票查验平台 - Internet Explorer'",
+                    "EP_CONTROL_WINDOW_TITLE_Check": "true"
+                },
+                "EP_EnumWidget_NAME": "EnumWidget_IE_MouseClick",
+                "EP_EnumWidget_VALUE": "301",
+                "EP_Gen": {
+                    "EP_Gen_AFTERDELAY": "500",
+                    "EP_Gen_BEFOREDELAY": "500",
+                    "EP_Gen_NOTE": "",
+                    "EP_Gen_RUN_MODE": "false",
+                    "EP_Gen_WAITFOR": "10000"
+                },
+                "EP_INPUT": {
+                    "EP_INPUT_COMBOX_CONTINUEONERROR": "'break'",
+                    "EP_INPUT_MOUSE_CLICK": "'left'",
+                    "EP_INPUT_MOUSE_CLICK_TIMES": "1",
+                    "EP_INPUT_POSITION": "'center'",
+                    "EP_INPUT_X_OFFSET": "",
+                    "EP_INPUT_Y_OFFSET": ""
+                },
+                "EP_SNAP_SHOT": {
+                    "EP_SNAP_SHOT_PREVIEW": "/screenshots/snapshot_20200623151135335.jpeg",
+                    "mouse_x_pos": "61",
+                    "mouse_y_pos": "21"
+                }
+            },
+            "NodePw": "214",
+            "NodePx": "4404",
+            "NodePy": "480",
+            "NodeSubType": "EnumWidget_IE_MouseClick",
+            "NodeTag": "鼠标点击"
+        },
+        {
+            "NodePh": "156",
+            "NodePro": {
+                "EP_CONTROL": {
+                    "EP_CONTROL_FIND_PATH": "'#content2 > TABLE:nth-of-type(1) > TBODY:nth-of-type(1) > TR:nth-of-type(6) > TD:nth-of-type(1)'",
+                    "EP_CONTROL_TAG_NAME": "'TD'",
+                    "EP_CONTROL_TITLE": "",
+                    "EP_CONTROL_URL": "'https://inv-veri.chinatax.gov.cn/index.html'",
+                    "EP_CONTROL_WINDOW_TITLE": "'国家税务总局全国增值税发票查验平台 - Internet Explorer'",
+                    "EP_CONTROL_WINDOW_TITLE_Check": "true"
+                },
+                "EP_EnumWidget_NAME": "EnumWidget_IE_MouseMove",
+                "EP_EnumWidget_VALUE": "303",
+                "EP_Gen": {
+                    "EP_Gen_AFTERDELAY": "5000",
+                    "EP_Gen_BEFOREDELAY": "",
+                    "EP_Gen_NOTE": "",
+                    "EP_Gen_WAITFOR": "10000"
+                },
+                "EP_INPUT": {
+                    "EP_INPUT_MOUSE_CLICK": "'left'",
+                    "EP_INPUT_POSITION": "'center'",
+                    "EP_INPUT_X_OFFSET": "",
+                    "EP_INPUT_Y_OFFSET": ""
+                },
+                "EP_SNAP_SHOT": {
+                    "EP_SNAP_SHOT_PREVIEW": "/screenshots/snapshot_20200623151511769.jpeg",
+                    "mouse_x_pos": "58",
+                    "mouse_y_pos": "37"
+                }
+            },
+            "NodePw": "214",
+            "NodePx": "4644",
+            "NodePy": "480",
+            "NodeSubType": "EnumWidget_IE_MouseMove",
+            "NodeTag": "鼠标移动"
+        },
+        {
+            "NodePh": "156",
+            "NodePro": {
+                "EP_CONTROL": {
+                    "EP_CONTROL_FIND_PATH": "'#yzm'",
+                    "EP_CONTROL_TAG_NAME": "'INPUT'",
+                    "EP_CONTROL_TITLE": "",
+                    "EP_CONTROL_URL": "'https://inv-veri.chinatax.gov.cn/index.html'",
+                    "EP_CONTROL_WINDOW_TITLE": "'国家税务总局全国增值税发票查验平台 - Internet Explorer'",
+                    "EP_CONTROL_WINDOW_TITLE_Check": "true"
+                },
+                "EP_EnumWidget_NAME": "EnumWidget_IE_MouseClick",
+                "EP_EnumWidget_VALUE": "301",
+                "EP_Gen": {
+                    "EP_Gen_AFTERDELAY": "",
+                    "EP_Gen_BEFOREDELAY": "",
+                    "EP_Gen_NOTE": "",
+                    "EP_Gen_RUN_MODE": "false",
+                    "EP_Gen_WAITFOR": "10000"
+                },
+                "EP_INPUT": {
+                    "EP_INPUT_COMBOX_CONTINUEONERROR": "'break'",
+                    "EP_INPUT_MOUSE_CLICK": "'left'",
+                    "EP_INPUT_MOUSE_CLICK_TIMES": "1",
+                    "EP_INPUT_POSITION": "'center'",
+                    "EP_INPUT_X_OFFSET": "",
+                    "EP_INPUT_Y_OFFSET": ""
+                },
+                "EP_SNAP_SHOT": {
+                    "EP_SNAP_SHOT_PREVIEW": "/screenshots/snapshot_20200623152452636.jpeg",
+                    "mouse_x_pos": "92",
+                    "mouse_y_pos": "17"
+                }
+            },
+            "NodePw": "214",
+            "NodePx": "6064",
+            "NodePy": "480",
+            "NodeSubType": "EnumWidget_IE_MouseClick",
+            "NodeTag": "鼠标点击"
+        },
+        {
+            "NodePh": "186",
+            "NodePro": {
+                "EP_CONTROL": {
+                    "EP_CONTROL_IMAGE": "'snapshot_20200623152556855.png'",
+                    "EP_CONTROL_IMAGE_CLOSE_FUZZY": "true",
+                    "EP_CONTROL_IMAGE_FUZZY_SIMILARITY": "0.85",
+                    "EP_CONTROL_IMAGE_PATH": "'/screenshots/snapshot_20200623152556855.png'",
+                    "EP_CONTROL_IMAGE_SIZE": "'295X176'",
+                    "EP_CONTROL_IMAGE_WINDOW_TITLE": "'国家税务总局全国增值税发票查验平台 - Internet Explorer'",
+                    "EP_CONTROL_IMAGE_WINDOW_TITLE_Check": "true"
+                },
+                "EP_EnumWidget_NAME": "EnumWidget_Img_Exists",
+                "EP_EnumWidget_VALUE": "804",
+                "EP_Gen": {
+                    "EP_Gen_AFTERDELAY": "",
+                    "EP_Gen_BEFOREDELAY": "",
+                    "EP_Gen_NOTE": "",
+                    "EP_Gen_WAITFOR": "5000"
+                },
+                "EP_SNAP_SHOT": {
+                    "EP_SNAP_SHOT_PREVIEW": "/screenshots/snapshot_20200623152556855.png",
+                    "mouse_x_pos": "0",
+                    "mouse_y_pos": "0"
+                }
+            },
+            "NodePw": "214",
+            "NodePx": "7004",
+            "NodePy": "480",
+            "NodeSubType": "EnumWidget_Img_Exists",
+            "NodeTag": "图片检测"
+        },
+        {
+            "NodePh": "156",
+            "NodePro": {
+                "EP_CONTROL": {
+                    "EP_CONTROL_FIND_PATH": "'#checkfp'",
+                    "EP_CONTROL_TAG_NAME": "'BUTTON'",
+                    "EP_CONTROL_TITLE": "",
+                    "EP_CONTROL_URL": "'https://inv-veri.chinatax.gov.cn/index.html'",
+                    "EP_CONTROL_WINDOW_TITLE": "'国家税务总局全国增值税发票查验平台 - Internet Explorer'",
+                    "EP_CONTROL_WINDOW_TITLE_Check": "true"
+                },
+                "EP_EnumWidget_NAME": "EnumWidget_IE_MouseClick",
+                "EP_EnumWidget_VALUE": "301",
+                "EP_Gen": {
+                    "EP_Gen_AFTERDELAY": "1000",
+                    "EP_Gen_BEFOREDELAY": "",
+                    "EP_Gen_NOTE": "",
+                    "EP_Gen_RUN_MODE": "false",
+                    "EP_Gen_WAITFOR": "10000"
+                },
+                "EP_INPUT": {
+                    "EP_INPUT_COMBOX_CONTINUEONERROR": "'break'",
+                    "EP_INPUT_MOUSE_CLICK": "'left'",
+                    "EP_INPUT_MOUSE_CLICK_TIMES": "1",
+                    "EP_INPUT_POSITION": "'center'",
+                    "EP_INPUT_X_OFFSET": "",
+                    "EP_INPUT_Y_OFFSET": ""
+                },
+                "EP_SNAP_SHOT": {
+                    "EP_SNAP_SHOT_PREVIEW": "/screenshots/snapshot_20200623152619900.jpeg",
+                    "mouse_x_pos": "57",
+                    "mouse_y_pos": "21"
+                }
+            },
+            "NodePw": "214",
+            "NodePx": "6704",
+            "NodePy": "480",
+            "NodeSubType": "EnumWidget_IE_MouseClick",
+            "NodeTag": "鼠标点击"
+        },
+        {
+            "NodePh": "163",
+            "NodePro": {
+            },
+            "NodePw": "230",
+            "NodePx": "7304",
+            "NodePy": "480",
+            "NodeSubType": "EnumWidget_Syntax_elif",
+            "NodeTag": "IF分支"
+        },
+        {
+            "NodePh": "103",
+            "NodePro": {
+            },
+            "NodePw": "214",
+            "NodePx": "7584",
+            "NodePy": "620",
+            "NodeSubType": "EnumWidget_Syntax_break",
+            "NodeTag": "Break中断"
+        },
+        {
+            "NodePh": "156",
+            "NodePro": {
+                "EP_CONTROL": {
+                    "EP_CONTROL_FIND_PATH": "'#popup_ok'",
+                    "EP_CONTROL_TAG_NAME": "'INPUT'",
+                    "EP_CONTROL_TITLE": "",
+                    "EP_CONTROL_URL": "'https://inv-veri.chinatax.gov.cn/index.html'",
+                    "EP_CONTROL_WINDOW_TITLE": "'国家税务总局全国增值税发票查验平台 - Internet Explorer'",
+                    "EP_CONTROL_WINDOW_TITLE_Check": "true"
+                },
+                "EP_EnumWidget_NAME": "EnumWidget_IE_MouseClick",
+                "EP_EnumWidget_VALUE": "301",
+                "EP_Gen": {
+                    "EP_Gen_AFTERDELAY": "800",
+                    "EP_Gen_BEFOREDELAY": "",
+                    "EP_Gen_NOTE": "",
+                    "EP_Gen_RUN_MODE": "false",
+                    "EP_Gen_WAITFOR": "10000"
+                },
+                "EP_INPUT": {
+                    "EP_INPUT_COMBOX_CONTINUEONERROR": "'break'",
+                    "EP_INPUT_MOUSE_CLICK": "'left'",
+                    "EP_INPUT_MOUSE_CLICK_TIMES": "1",
+                    "EP_INPUT_POSITION": "'center'",
+                    "EP_INPUT_X_OFFSET": "",
+                    "EP_INPUT_Y_OFFSET": ""
+                },
+                "EP_SNAP_SHOT": {
+                    "EP_SNAP_SHOT_PREVIEW": "/screenshots/snapshot_20200623153018245.jpeg",
+                    "mouse_x_pos": "39",
+                    "mouse_y_pos": "16"
+                }
+            },
+            "NodePw": "214",
+            "NodePx": "7584",
+            "NodePy": "460",
+            "NodeSubType": "EnumWidget_IE_MouseClick",
+            "NodeTag": "鼠标点击"
+        },
+        {
+            "NodePh": "156",
+            "NodePro": {
+                "EP_CONTROL": {
+                    "EP_CONTROL_FIND_PATH": "'#yzm'",
+                    "EP_CONTROL_TAG_NAME": "'INPUT'",
+                    "EP_CONTROL_TITLE": "",
+                    "EP_CONTROL_URL": "'https://inv-veri.chinatax.gov.cn/index.html'",
+                    "EP_CONTROL_WINDOW_TITLE": "'国家税务总局全国增值税发票查验平台 - Internet Explorer'",
+                    "EP_CONTROL_WINDOW_TITLE_Check": "true"
+                },
+                "EP_EnumWidget_NAME": "EnumWidget_IE_MouseClick",
+                "EP_EnumWidget_VALUE": "301",
+                "EP_Gen": {
+                    "EP_Gen_AFTERDELAY": "800",
+                    "EP_Gen_BEFOREDELAY": "",
+                    "EP_Gen_NOTE": "",
+                    "EP_Gen_RUN_MODE": "false",
+                    "EP_Gen_WAITFOR": "10000"
+                },
+                "EP_INPUT": {
+                    "EP_INPUT_COMBOX_CONTINUEONERROR": "'break'",
+                    "EP_INPUT_MOUSE_CLICK": "'left'",
+                    "EP_INPUT_MOUSE_CLICK_TIMES": "1",
+                    "EP_INPUT_POSITION": "'center'",
+                    "EP_INPUT_X_OFFSET": "",
+                    "EP_INPUT_Y_OFFSET": ""
+                },
+                "EP_SNAP_SHOT": {
+                    "EP_SNAP_SHOT_PREVIEW": "/screenshots/snapshot_20200623153233448.jpeg",
+                    "mouse_x_pos": "126",
+                    "mouse_y_pos": "19"
+                }
+            },
+            "NodePw": "214",
+            "NodePx": "7844",
+            "NodePy": "460",
+            "NodeSubType": "EnumWidget_IE_MouseClick",
+            "NodeTag": "鼠标点击"
+        },
+        {
+            "NodePh": "216",
+            "NodePro": {
+                "EP_EnumWidget_NAME": "EnumWidget_Key_HotKey",
+                "EP_EnumWidget_VALUE": "802",
+                "EP_Gen": {
+                    "EP_Gen_AFTERDELAY": "",
+                    "EP_Gen_BEFOREDELAY": "",
+                    "EP_Gen_NOTE": "",
+                    "EP_Gen_WAITFOR": "10000"
+                },
+                "EP_SNAP_SHOT": {
+                    "EP_SNAP_SHOT_PREVIEW": "",
+                    "mouse_x_pos": "0",
+                    "mouse_y_pos": "0"
+                },
+                "EP_WINDOW": {
+                    "EP_WINDOW_TITLE": "",
+                    "EP_WINDOW_TITLE_Check": "false"
+                }
+            },
+            "NodePw": "214",
+            "NodePx": "8104",
+            "NodePy": "460",
+            "NodeSubType": "EnumWidget_Key_HotKey",
+            "NodeTag": "热键输入"
         },
         {
             "NodePh": "226",
@@ -812,116 +839,8 @@
                 }
             },
             "NodePw": "214",
-            "NodePx": "2000",
-            "NodePy": "566",
-            "NodeSubType": "EnumWidget_Key_Keyboard",
-            "NodeTag": "模拟按键"
-        },
-        {
-            "NodePh": "226",
-            "NodePro": {
-                "EP_EnumWidget_NAME": "EnumWidget_Key_Keyboard",
-                "EP_EnumWidget_VALUE": "801",
-                "EP_Gen": {
-                    "EP_Gen_AFTERDELAY": "",
-                    "EP_Gen_BEFOREDELAY": "500",
-                    "EP_Gen_NOTE": "",
-                    "EP_Gen_WAITFOR": "10000"
-                },
-                "EP_SNAP_SHOT": {
-                    "EP_SNAP_SHOT_PREVIEW": "",
-                    "mouse_x_pos": "0",
-                    "mouse_y_pos": "0"
-                },
-                "EP_WINDOW": {
-                    "EP_WINDOW_TITLE": "",
-                    "EP_WINDOW_TITLE_Check": "false"
-                }
-            },
-            "NodePw": "214",
-            "NodePx": "2240",
-            "NodePy": "566",
-            "NodeSubType": "EnumWidget_Key_Keyboard",
-            "NodeTag": "模拟按键"
-        },
-        {
-            "NodePh": "226",
-            "NodePro": {
-                "EP_EnumWidget_NAME": "EnumWidget_Key_Keyboard",
-                "EP_EnumWidget_VALUE": "801",
-                "EP_Gen": {
-                    "EP_Gen_AFTERDELAY": "",
-                    "EP_Gen_BEFOREDELAY": "500",
-                    "EP_Gen_NOTE": "",
-                    "EP_Gen_WAITFOR": "10000"
-                },
-                "EP_SNAP_SHOT": {
-                    "EP_SNAP_SHOT_PREVIEW": "",
-                    "mouse_x_pos": "0",
-                    "mouse_y_pos": "0"
-                },
-                "EP_WINDOW": {
-                    "EP_WINDOW_TITLE": "",
-                    "EP_WINDOW_TITLE_Check": "false"
-                }
-            },
-            "NodePw": "214",
-            "NodePx": "2500",
-            "NodePy": "566",
-            "NodeSubType": "EnumWidget_Key_Keyboard",
-            "NodeTag": "模拟按键"
-        },
-        {
-            "NodePh": "226",
-            "NodePro": {
-                "EP_EnumWidget_NAME": "EnumWidget_Key_Keyboard",
-                "EP_EnumWidget_VALUE": "801",
-                "EP_Gen": {
-                    "EP_Gen_AFTERDELAY": "",
-                    "EP_Gen_BEFOREDELAY": "500",
-                    "EP_Gen_NOTE": "",
-                    "EP_Gen_WAITFOR": "10000"
-                },
-                "EP_SNAP_SHOT": {
-                    "EP_SNAP_SHOT_PREVIEW": "",
-                    "mouse_x_pos": "0",
-                    "mouse_y_pos": "0"
-                },
-                "EP_WINDOW": {
-                    "EP_WINDOW_TITLE": "",
-                    "EP_WINDOW_TITLE_Check": "false"
-                }
-            },
-            "NodePw": "214",
-            "NodePx": "2740",
-            "NodePy": "566",
-            "NodeSubType": "EnumWidget_Key_Keyboard",
-            "NodeTag": "模拟按键"
-        },
-        {
-            "NodePh": "226",
-            "NodePro": {
-                "EP_EnumWidget_NAME": "EnumWidget_Key_Keyboard",
-                "EP_EnumWidget_VALUE": "801",
-                "EP_Gen": {
-                    "EP_Gen_AFTERDELAY": "",
-                    "EP_Gen_BEFOREDELAY": "500",
-                    "EP_Gen_NOTE": "",
-                    "EP_Gen_WAITFOR": "10000"
-                },
-                "EP_SNAP_SHOT": {
-                    "EP_SNAP_SHOT_PREVIEW": "",
-                    "mouse_x_pos": "0",
-                    "mouse_y_pos": "0"
-                },
-                "EP_WINDOW": {
-                    "EP_WINDOW_TITLE": "",
-                    "EP_WINDOW_TITLE_Check": "false"
-                }
-            },
-            "NodePw": "214",
-            "NodePx": "3640",
-            "NodePy": "846",
+            "NodePx": "8364",
+            "NodePy": "460",
             "NodeSubType": "EnumWidget_Key_Keyboard",
             "NodeTag": "模拟按键"
         },
@@ -930,8 +849,8 @@
             "NodePro": {
             },
             "NodePw": "230",
-            "NodePx": "3280",
-            "NodePy": "566",
+            "NodePx": "4704",
+            "NodePy": "220",
             "NodeSubType": "EnumWidget_Syntax_elif",
             "NodeTag": "IF分支"
         },
@@ -939,158 +858,239 @@
             "NodePh": "186",
             "NodePro": {
                 "EP_CONTROL": {
-                    "EP_CONTROL_IMAGE": "'snapshot_20200623142820581.png'",
+                    "EP_CONTROL_IMAGE": "'snapshot_20200623153842415.png'",
                     "EP_CONTROL_IMAGE_CLOSE_FUZZY": "true",
                     "EP_CONTROL_IMAGE_FUZZY_SIMILARITY": "0.85",
-                    "EP_CONTROL_IMAGE_PATH": "'/screenshots/snapshot_20200623142820581.png'",
-                    "EP_CONTROL_IMAGE_SIZE": "'69X24'",
+                    "EP_CONTROL_IMAGE_PATH": "'/screenshots/snapshot_20200623153842415.png'",
+                    "EP_CONTROL_IMAGE_SIZE": "'767X343'",
                     "EP_CONTROL_IMAGE_WINDOW_TITLE": "'国家税务总局全国增值税发票查验平台 - Internet Explorer'",
                     "EP_CONTROL_IMAGE_WINDOW_TITLE_Check": "true"
                 },
                 "EP_EnumWidget_NAME": "EnumWidget_Img_Exists",
                 "EP_EnumWidget_VALUE": "804",
                 "EP_Gen": {
-                    "EP_Gen_AFTERDELAY": "500",
+                    "EP_Gen_AFTERDELAY": "",
                     "EP_Gen_BEFOREDELAY": "",
                     "EP_Gen_NOTE": "",
                     "EP_Gen_WAITFOR": "30000"
                 },
                 "EP_SNAP_SHOT": {
-                    "EP_SNAP_SHOT_PREVIEW": "/screenshots/snapshot_20200623142820581.png",
+                    "EP_SNAP_SHOT_PREVIEW": "/screenshots/snapshot_20200623153842415.png",
                     "mouse_x_pos": "0",
                     "mouse_y_pos": "0"
                 }
             },
             "NodePw": "214",
-            "NodePx": "2980",
-            "NodePy": "566",
+            "NodePx": "4404",
+            "NodePy": "220",
             "NodeSubType": "EnumWidget_Img_Exists",
             "NodeTag": "图片检测"
         },
         {
-            "NodePh": "226",
+            "NodePh": "183",
             "NodePro": {
-                "EP_EnumWidget_NAME": "EnumWidget_Key_Keyboard",
-                "EP_EnumWidget_VALUE": "801",
+                "EP_CONTROL": {
+                    "cell": "'A2'",
+                    "file_type": "'excel'",
+                    "sheet": "0"
+                },
+                "EP_EnumWidget_NAME": "EnumWidget_Config_Begin",
+                "EP_EnumWidget_VALUE": "5000",
                 "EP_Gen": {
                     "EP_Gen_AFTERDELAY": "",
-                    "EP_Gen_BEFOREDELAY": "500",
+                    "EP_Gen_BEFOREDELAY": "",
+                    "EP_Gen_NOTE": ""
+                }
+            },
+            "NodePw": "214",
+            "NodePx": "5284",
+            "NodePy": "100",
+            "NodeSubType": "EnumWidget_Config_Begin",
+            "NodeTag": "单元格写入"
+        },
+        {
+            "NodePh": "183",
+            "NodePro": {
+                "EP_CONTROL": {
+                    "cell": "'A2'",
+                    "file_type": "'excel'",
+                    "sheet": "0"
+                },
+                "EP_EnumWidget_NAME": "EnumWidget_Config_Begin",
+                "EP_EnumWidget_VALUE": "5000",
+                "EP_Gen": {
+                    "EP_Gen_AFTERDELAY": "",
+                    "EP_Gen_BEFOREDELAY": "",
+                    "EP_Gen_NOTE": ""
+                }
+            },
+            "NodePw": "214",
+            "NodePx": "5264",
+            "NodePy": "300",
+            "NodeSubType": "EnumWidget_Config_Begin",
+            "NodeTag": "单元格写入"
+        },
+        {
+            "NodePh": "156",
+            "NodePro": {
+                "EP_CONTROL": {
+                    "EP_CONTROL_FIND_PATH": "'#closebt'",
+                    "EP_CONTROL_TAG_NAME": "'BUTTON'",
+                    "EP_CONTROL_TITLE": "",
+                    "EP_CONTROL_URL": "'https://inv-veri.chinatax.gov.cn/index.html'",
+                    "EP_CONTROL_WINDOW_TITLE": "'国家税务总局全国增值税发票查验平台 - Internet Explorer'",
+                    "EP_CONTROL_WINDOW_TITLE_Check": "true"
+                },
+                "EP_EnumWidget_NAME": "EnumWidget_IE_MouseClick",
+                "EP_EnumWidget_VALUE": "301",
+                "EP_Gen": {
+                    "EP_Gen_AFTERDELAY": "",
+                    "EP_Gen_BEFOREDELAY": "",
                     "EP_Gen_NOTE": "",
+                    "EP_Gen_RUN_MODE": "false",
                     "EP_Gen_WAITFOR": "10000"
                 },
-                "EP_SNAP_SHOT": {
-                    "EP_SNAP_SHOT_PREVIEW": "",
-                    "mouse_x_pos": "0",
-                    "mouse_y_pos": "0"
+                "EP_INPUT": {
+                    "EP_INPUT_COMBOX_CONTINUEONERROR": "'break'",
+                    "EP_INPUT_MOUSE_CLICK": "'left'",
+                    "EP_INPUT_MOUSE_CLICK_TIMES": "1",
+                    "EP_INPUT_POSITION": "'center'",
+                    "EP_INPUT_X_OFFSET": "",
+                    "EP_INPUT_Y_OFFSET": ""
                 },
-                "EP_WINDOW": {
-                    "EP_WINDOW_TITLE": "",
-                    "EP_WINDOW_TITLE_Check": "false"
+                "EP_SNAP_SHOT": {
+                    "EP_SNAP_SHOT_PREVIEW": "/screenshots/snapshot_20200623154549614.jpeg",
+                    "mouse_x_pos": "57",
+                    "mouse_y_pos": "19"
                 }
             },
             "NodePw": "214",
-            "NodePx": "3660",
-            "NodePy": "606",
-            "NodeSubType": "EnumWidget_Key_Keyboard",
-            "NodeTag": "模拟按键"
-        },
-        {
-            "NodePh": "163",
-            "NodePro": {
-            },
-            "NodePw": "242",
-            "NodePx": "3660",
-            "NodePy": "446",
-            "NodeSubType": "EnumWidget_Syntax_while",
-            "NodeTag": "While循环"
-        },
-        {
-            "NodePh": "186",
-            "NodePro": {
-                "EP_CONTROL": {
-                    "EP_CONTROL_IMAGE_HEIGHT": "36",
-                    "EP_CONTROL_IMAGE_LEFT": "1253",
-                    "EP_CONTROL_IMAGE_OUTPUT_DIR": "",
-                    "EP_CONTROL_IMAGE_TOP": "572",
-                    "EP_CONTROL_IMAGE_WIDTH": "210",
-                    "EP_CONTROL_IMAGE_WINDOW_TEXT": "''",
-                    "EP_CONTROL_IMAGE_WINDOW_TITLE": "'国家税务总局全国增值税发票查验平台 - Internet Explorer'",
-                    "EP_CONTROL_IMAGE_WINDOW_TITLE_Check": "true"
-                },
-                "EP_EnumWidget_NAME": "EnumWidget_Img_Capture",
-                "EP_EnumWidget_VALUE": "805",
-                "EP_Gen": {
-                    "EP_Gen_AFTERDELAY": "800",
-                    "EP_Gen_BEFOREDELAY": "",
-                    "EP_Gen_NOTE": "",
-                    "EP_Gen_WAITFOR": "30000"
-                },
-                "EP_SNAP_SHOT": {
-                    "EP_SNAP_SHOT_PREVIEW": "/screenshots/snapshot_20200623143559509.png",
-                    "mouse_x_pos": "0",
-                    "mouse_y_pos": "0"
-                }
-            },
-            "NodePw": "214",
-            "NodePx": "4480",
-            "NodePy": "505",
-            "NodeSubType": "EnumWidget_Img_Capture",
-            "NodeTag": "截图"
-        },
-        {
-            "NodePh": "186",
-            "NodePro": {
-                "EP_CONTROL": {
-                    "EP_CONTROL_IMAGE_HEIGHT": "64",
-                    "EP_CONTROL_IMAGE_LEFT": "992",
-                    "EP_CONTROL_IMAGE_OUTPUT_DIR": "",
-                    "EP_CONTROL_IMAGE_TOP": "620",
-                    "EP_CONTROL_IMAGE_WIDTH": "139",
-                    "EP_CONTROL_IMAGE_WINDOW_TEXT": "''",
-                    "EP_CONTROL_IMAGE_WINDOW_TITLE": "'国家税务总局全国增值税发票查验平台 - Internet Explorer'",
-                    "EP_CONTROL_IMAGE_WINDOW_TITLE_Check": "true"
-                },
-                "EP_EnumWidget_NAME": "EnumWidget_Img_Capture",
-                "EP_EnumWidget_VALUE": "805",
-                "EP_Gen": {
-                    "EP_Gen_AFTERDELAY": "800",
-                    "EP_Gen_BEFOREDELAY": "",
-                    "EP_Gen_NOTE": "",
-                    "EP_Gen_WAITFOR": "30000"
-                },
-                "EP_SNAP_SHOT": {
-                    "EP_SNAP_SHOT_PREVIEW": "/screenshots/snapshot_20200623143626169.png",
-                    "mouse_x_pos": "0",
-                    "mouse_y_pos": "0"
-                }
-            },
-            "NodePw": "214",
-            "NodePx": "4740",
-            "NodePy": "506",
-            "NodeSubType": "EnumWidget_Img_Capture",
-            "NodeTag": "截图"
+            "NodePx": "5584",
+            "NodePy": "120",
+            "NodeSubType": "EnumWidget_IE_MouseClick",
+            "NodeTag": "鼠标点击"
         },
         {
             "NodePh": "173",
             "NodePro": {
                 "EP_CONTROL": {
-                    "apiKey": "'8159a500cc9d4a69a71e6ac14263f029'",
-                    "code_type": "8001",
-                    "secretKey": "'2d078aa8c13741239b3d00ced85832e3'"
+                    "EP_CONTROL_TIMEOUT": "3",
+                    "EP_CONTROL_TITLE": ""
                 },
-                "EP_EnumWidget_NAME": "EnumWidget_Config_Begin",
-                "EP_EnumWidget_VALUE": "5000",
+                "EP_EnumWidget_NAME": "EnumWidget_Win_MsgBox",
+                "EP_EnumWidget_VALUE": "815",
                 "EP_Gen": {
-                    "EP_Gen_AFTERDELAY": "1000",
+                    "EP_Gen_AFTERDELAY": "",
                     "EP_Gen_BEFOREDELAY": "",
                     "EP_Gen_NOTE": ""
                 }
             },
-            "NodePw": "258",
-            "NodePx": "5280",
-            "NodePy": "506",
-            "NodeSubType": "EnumWidget_Config_Begin",
-            "NodeTag": "验证码"
+            "NodePw": "254",
+            "NodePx": "5564",
+            "NodePy": "311",
+            "NodeSubType": "EnumWidget_Win_MsgBox",
+            "NodeTag": "消息框"
+        },
+        {
+            "NodePh": "143",
+            "NodePro": {
+                "EP_EnumWidget_NAME": "EnumWidget_Win_IPrint",
+                "EP_EnumWidget_VALUE": "816",
+                "EP_Gen": {
+                    "EP_Gen_AFTERDELAY": "",
+                    "EP_Gen_BEFOREDELAY": "",
+                    "EP_Gen_NOTE": ""
+                }
+            },
+            "NodePw": "218",
+            "NodePx": "1724",
+            "NodePy": "211",
+            "NodeSubType": "EnumWidget_Win_IPrint",
+            "NodeTag": "输出"
+        },
+        {
+            "NodePh": "103",
+            "NodePro": {
+                "EP_CONTROL": {
+                    "EP_CONTROL_CODE": "t.append('否')",
+                    "EP_CONTROL_IMPORT": ""
+                },
+                "EP_EnumWidget_NAME": "EnumWidget_Code_Custom",
+                "EP_EnumWidget_VALUE": "818",
+                "EP_Gen": {
+                    "EP_Gen_AFTERDELAY": "",
+                    "EP_Gen_BEFOREDELAY": "",
+                    "EP_Gen_NOTE": ""
+                }
+            },
+            "NodePw": "214",
+            "NodePx": "4984",
+            "NodePy": "200",
+            "NodeSubType": "EnumWidget_Code_Custom",
+            "NodeTag": "代码块"
+        },
+        {
+            "NodePh": "103",
+            "NodePro": {
+                "EP_CONTROL": {
+                    "EP_CONTROL_CODE": "t.append('是')",
+                    "EP_CONTROL_IMPORT": ""
+                },
+                "EP_EnumWidget_NAME": "EnumWidget_Code_Custom",
+                "EP_EnumWidget_VALUE": "818",
+                "EP_Gen": {
+                    "EP_Gen_AFTERDELAY": "",
+                    "EP_Gen_BEFOREDELAY": "",
+                    "EP_Gen_NOTE": ""
+                }
+            },
+            "NodePw": "214",
+            "NodePx": "4984",
+            "NodePy": "340",
+            "NodeSubType": "EnumWidget_Code_Custom",
+            "NodeTag": "代码块"
+        },
+        {
+            "NodePh": "173",
+            "NodePro": {
+                "EP_CONTROL": {
+                    "EP_CONTROL_TIMEOUT": "0",
+                    "EP_CONTROL_TITLE": ""
+                },
+                "EP_EnumWidget_NAME": "EnumWidget_Win_MsgBox",
+                "EP_EnumWidget_VALUE": "815",
+                "EP_Gen": {
+                    "EP_Gen_AFTERDELAY": "",
+                    "EP_Gen_BEFOREDELAY": "",
+                    "EP_Gen_NOTE": ""
+                }
+            },
+            "NodePw": "254",
+            "NodePx": "5844",
+            "NodePy": "100",
+            "NodeSubType": "EnumWidget_Win_MsgBox",
+            "NodeTag": "消息框"
+        },
+        {
+            "NodePh": "103",
+            "NodePro": {
+                "EP_CONTROL": {
+                    "EP_CONTROL_CODE": "code = None\nyzm_pic = None\ntishi = None",
+                    "EP_CONTROL_IMPORT": ""
+                },
+                "EP_EnumWidget_NAME": "EnumWidget_Code_Custom",
+                "EP_EnumWidget_VALUE": "818",
+                "EP_Gen": {
+                    "EP_Gen_AFTERDELAY": "",
+                    "EP_Gen_BEFOREDELAY": "",
+                    "EP_Gen_NOTE": ""
+                }
+            },
+            "NodePw": "214",
+            "NodePx": "824",
+            "NodePy": "540",
+            "NodeSubType": "EnumWidget_Code_Custom",
+            "NodeTag": "代码块"
         }
     ],
     "SeqTag": "flow1_bp"
