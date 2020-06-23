@@ -3,9 +3,123 @@
         {
             "LineColor": "255, 170, 170",
             "LineEnd": {
+                "Pidx": "2314421185369_l_flow_0",
+                "Px": "7765",
+                "Py": "4764"
+            },
+            "LineSplit": {
+                "Px": "",
+                "Py": ""
+            },
+            "LineStart": {
+                "Pidx": "2314350501348_r_flow_0",
+                "Px": "7678",
+                "Py": "4904"
+            },
+            "LineTag": "2314420350768",
+            "LineType": "2"
+        },
+        {
+            "LineColor": "255, 170, 170",
+            "LineEnd": {
+                "Pidx": "2314371623565_l_var_0",
+                "Px": "8285",
+                "Py": "5116"
+            },
+            "LineSplit": {
+                "Px": "",
+                "Py": ""
+            },
+            "LineStart": {
+                "Pidx": "2314360485954_r_ret_0",
+                "Px": "8210",
+                "Py": "4994"
+            },
+            "LineTag": "2314371622663",
+            "LineType": "2"
+        },
+        {
+            "LineColor": "255, 170, 170",
+            "LineEnd": {
+                "Pidx": "2314371086062_l_var_0",
+                "Px": "8025",
+                "Py": "5122"
+            },
+            "LineSplit": {
+                "Px": "",
+                "Py": ""
+            },
+            "LineStart": {
+                "Pidx": "2314353040452_r_ret_0",
+                "Px": "7950",
+                "Py": "4994"
+            },
+            "LineTag": "2314371085160",
+            "LineType": "2"
+        },
+        {
+            "LineColor": "255, 170, 170",
+            "LineEnd": {
+                "Pidx": "2314360485954_l_flow_0",
+                "Px": "8025",
+                "Py": "4964"
+            },
+            "LineSplit": {
+                "Px": "",
+                "Py": ""
+            },
+            "LineStart": {
+                "Pidx": "2314353040452_r_flow_0",
+                "Px": "7950",
+                "Py": "4964"
+            },
+            "LineTag": "2314360324353",
+            "LineType": "2"
+        },
+        {
+            "LineColor": "255, 170, 170",
+            "LineEnd": {
+                "Pidx": "2314353040452_l_flow_0",
+                "Px": "7765",
+                "Py": "4964"
+            },
+            "LineSplit": {
+                "Px": "",
+                "Py": ""
+            },
+            "LineStart": {
+                "Pidx": "2314350501348_r_sub_0",
+                "Px": "7678",
+                "Py": "4964"
+            },
+            "LineTag": "2314352589051",
+            "LineType": "2"
+        },
+        {
+            "LineColor": "255, 170, 170",
+            "LineEnd": {
+                "Pidx": "2314350501348_l_flow_0",
+                "Px": "7465",
+                "Py": "4904"
+            },
+            "LineSplit": {
+                "Px": "",
+                "Py": ""
+            },
+            "LineStart": {
+                "Pidx": "2314270666737_r_flow_0",
+                "Px": "7286",
+                "Py": "5024"
+            },
+            "LineTag": "2314350034547",
+            "LineType": "2"
+        },
+        {
+            "LineColor": "255, 170, 170",
+            "LineEnd": {
                 "Pidx": "2314284845942_l_flow_0",
-                "Px": "7445",
-                "Py": "4944"
+                "Px": "7465",
+                "Py": "5064"
             },
             "LineSplit": {
                 "Px": "",
@@ -13,8 +127,8 @@
             },
             "LineStart": {
                 "Pidx": "2314270666737_r_sub_0",
-                "Px": "7326",
-                "Py": "5074"
+                "Px": "7286",
+                "Py": "5054"
             },
             "LineTag": "2314284098741",
             "LineType": "2"
@@ -42,8 +156,8 @@
             "LineColor": "255, 170, 170",
             "LineEnd": {
                 "Pidx": "2314270666737_l_flow_0",
-                "Px": "7125",
-                "Py": "5044"
+                "Px": "7085",
+                "Py": "5024"
             },
             "LineSplit": {
                 "Px": "",
@@ -61,8 +175,8 @@
             "LineColor": "255, 170, 170",
             "LineEnd": {
                 "Pidx": "2314270666737_l_par_0",
-                "Px": "7125",
-                "Py": "5074"
+                "Px": "7085",
+                "Py": "5054"
             },
             "LineSplit": {
                 "Px": "",
@@ -80,8 +194,8 @@
             "LineColor": "255, 170, 170",
             "LineEnd": {
                 "Pidx": "2314221967436_l_flow_0",
-                "Px": "7465",
-                "Py": "5264"
+                "Px": "7445",
+                "Py": "5304"
             },
             "LineSplit": {
                 "Px": "",
@@ -89,8 +203,8 @@
             },
             "LineStart": {
                 "Pidx": "2314270666737_r_sub_1",
-                "Px": "7326",
-                "Py": "5104"
+                "Px": "7286",
+                "Py": "5084"
             },
             "LineTag": "2314290215543",
             "LineType": "2"
@@ -252,6 +366,342 @@
         {
             "NodePanelData": {
                 "InputProperty": [
+                ],
+                "PubProperty": {
+                    "NodeRemark": "",
+                    "mouse_x_pos": "55",
+                    "mouse_y_pos": "21",
+                    "selcomment": "0",
+                    "seltype": "Web",
+                    "snapshot_preview": "/screenshots/snapshot_20200623144251981.jpeg"
+                }
+            },
+            "NodeProperty": {
+                "EP_CONTROL": {
+                    "EP_CONTROL_FIND_PATH": "'#checkfp'",
+                    "EP_CONTROL_TAG_NAME": "'BUTTON'",
+                    "EP_CONTROL_TITLE": "",
+                    "EP_CONTROL_URL": "'https://inv-veri.chinatax.gov.cn/index.html'",
+                    "EP_CONTROL_WINDOW_TITLE": "'国家税务总局全国增值税发票查验平台 - Internet Explorer'",
+                    "EP_CONTROL_WINDOW_TITLE_Check": "true"
+                },
+                "EP_EnumWidget_NAME": "EnumWidget_IE_MouseClick",
+                "EP_EnumWidget_VALUE": "301",
+                "EP_Gen": {
+                    "EP_Gen_AFTERDELAY": "",
+                    "EP_Gen_BEFOREDELAY": "",
+                    "EP_Gen_NOTE": "",
+                    "EP_Gen_RUN_MODE": "false",
+                    "EP_Gen_WAITFOR": "10000"
+                },
+                "EP_INPUT": {
+                    "EP_INPUT_COMBOX_CONTINUEONERROR": "'break'",
+                    "EP_INPUT_MOUSE_CLICK": "'left'",
+                    "EP_INPUT_MOUSE_CLICK_TIMES": "1",
+                    "EP_INPUT_POSITION": "'center'",
+                    "EP_INPUT_X_OFFSET": "",
+                    "EP_INPUT_Y_OFFSET": ""
+                },
+                "EP_SNAP_SHOT": {
+                    "EP_SNAP_SHOT_PREVIEW": "/screenshots/snapshot_20200623144251981.jpeg",
+                    "mouse_x_pos": "55",
+                    "mouse_y_pos": "21"
+                }
+            },
+            "NodeUI": {
+                "FNodePx": "1683.01",
+                "FNodePy": "163.206",
+                "NodeIsBreak": "0",
+                "NodePort": [
+                    {
+                        "Pidx": "l_flow_0"
+                    },
+                    {
+                        "Pidx": "r_flow_0"
+                    }
+                ],
+                "NodePx": "7758",
+                "NodePy": "4688",
+                "NodeSubType": "EnumWidget_IE_MouseClick",
+                "NodeTag": "2314421185369",
+                "NodeTitle": "鼠标点击"
+            }
+        },
+        {
+            "NodePanelData": {
+                "InputProperty": [
+                    {
+                        "0": ""
+                    }
+                ],
+                "PubProperty": {
+                    "NodeRemark": "",
+                    "mouse_x_pos": "0",
+                    "mouse_y_pos": "0",
+                    "selcomment": "0",
+                    "seltype": "",
+                    "snapshot_preview": ""
+                },
+                "VarProperty": {
+                    "vardef": "",
+                    "vardesc": "",
+                    "varname": "image_code",
+                    "varpasstype": "1",
+                    "vartype": "1"
+                }
+            },
+            "NodeProperty": {
+                "inpar_Order": "",
+                "inpar_filetype": "",
+                "inpar_helpdesc": "",
+                "inpar_init": "",
+                "inpar_required": "0",
+                "inputpar": "",
+                "vardef": "",
+                "vardesc": "",
+                "varname": "image_code",
+                "varpasstype": "1",
+                "varrobot": "",
+                "vartype": "1"
+            },
+            "NodeUI": {
+                "FNodePx": "1902.32",
+                "FNodePy": "331.91",
+                "NodeIsBreak": "0",
+                "NodePort": [
+                    {
+                        "Pidx": "l_var_0"
+                    }
+                ],
+                "NodePx": "8278",
+                "NodePy": "5088",
+                "NodeSubType": "EnumWidget_VarBVSet",
+                "NodeTag": "2314371623565",
+                "NodeTitle": "image_code"
+            }
+        },
+        {
+            "NodePanelData": {
+                "InputProperty": [
+                    {
+                        "0": ""
+                    }
+                ],
+                "PubProperty": {
+                    "NodeRemark": "",
+                    "mouse_x_pos": "0",
+                    "mouse_y_pos": "0",
+                    "selcomment": "0",
+                    "seltype": "",
+                    "snapshot_preview": ""
+                },
+                "VarProperty": {
+                    "vardef": "",
+                    "vardesc": "",
+                    "varname": "image1",
+                    "varpasstype": "1",
+                    "vartype": "1"
+                }
+            },
+            "NodeProperty": {
+                "inpar_Order": "",
+                "inpar_filetype": "",
+                "inpar_helpdesc": "",
+                "inpar_init": "",
+                "inpar_required": "0",
+                "inputpar": "",
+                "vardef": "",
+                "vardesc": "",
+                "varname": "image1",
+                "varpasstype": "1",
+                "varrobot": "",
+                "vartype": "1"
+            },
+            "NodeUI": {
+                "FNodePx": "1792.66",
+                "FNodePy": "334.441",
+                "NodeIsBreak": "0",
+                "NodePort": [
+                    {
+                        "Pidx": "l_var_0"
+                    }
+                ],
+                "NodePx": "8018",
+                "NodePy": "5094",
+                "NodeSubType": "EnumWidget_VarBVSet",
+                "NodeTag": "2314371086062",
+                "NodeTitle": "image1"
+            }
+        },
+        {
+            "NodePanelData": {
+                "InputProperty": [
+                ],
+                "PubProperty": {
+                    "NodeRemark": "",
+                    "mouse_x_pos": "0",
+                    "mouse_y_pos": "0",
+                    "selcomment": "0",
+                    "seltype": "Image",
+                    "snapshot_preview": "/screenshots/snapshot_20200623143626169.png"
+                }
+            },
+            "NodeProperty": {
+                "EP_CONTROL": {
+                    "EP_CONTROL_IMAGE_HEIGHT": "64",
+                    "EP_CONTROL_IMAGE_LEFT": "992",
+                    "EP_CONTROL_IMAGE_OUTPUT_DIR": "'C:\\Users\\jky\\Desktop\\蓝禾\\测试文件夹\\img'",
+                    "EP_CONTROL_IMAGE_TOP": "620",
+                    "EP_CONTROL_IMAGE_WIDTH": "139",
+                    "EP_CONTROL_IMAGE_WINDOW_TEXT": "''",
+                    "EP_CONTROL_IMAGE_WINDOW_TITLE": "'国家税务总局全国增值税发票查验平台 - Internet Explorer'",
+                    "EP_CONTROL_IMAGE_WINDOW_TITLE_Check": "true"
+                },
+                "EP_EnumWidget_NAME": "EnumWidget_Img_Capture",
+                "EP_EnumWidget_VALUE": "805",
+                "EP_Gen": {
+                    "EP_Gen_AFTERDELAY": "",
+                    "EP_Gen_BEFOREDELAY": "",
+                    "EP_Gen_NOTE": "",
+                    "EP_Gen_WAITFOR": "30000"
+                },
+                "EP_SNAP_SHOT": {
+                    "EP_SNAP_SHOT_PREVIEW": "/screenshots/snapshot_20200623143626169.png",
+                    "mouse_x_pos": "0",
+                    "mouse_y_pos": "0"
+                }
+            },
+            "NodeUI": {
+                "FNodePx": "1792.66",
+                "FNodePy": "247.558",
+                "NodeIsBreak": "0",
+                "NodePort": [
+                    {
+                        "Pidx": "l_flow_0"
+                    },
+                    {
+                        "Pidx": "r_flow_0"
+                    },
+                    {
+                        "Pidx": "r_ret_0"
+                    }
+                ],
+                "NodePx": "8018",
+                "NodePy": "4888",
+                "NodeSubType": "EnumWidget_Img_Capture",
+                "NodeTag": "2314360485954",
+                "NodeTitle": "截图"
+            }
+        },
+        {
+            "NodePanelData": {
+                "InputProperty": [
+                ],
+                "PubProperty": {
+                    "NodeRemark": "",
+                    "mouse_x_pos": "0",
+                    "mouse_y_pos": "0",
+                    "selcomment": "0",
+                    "seltype": "Image",
+                    "snapshot_preview": "/screenshots/snapshot_20200623143559509.png"
+                }
+            },
+            "NodeProperty": {
+                "EP_CONTROL": {
+                    "EP_CONTROL_IMAGE_HEIGHT": "36",
+                    "EP_CONTROL_IMAGE_LEFT": "1253",
+                    "EP_CONTROL_IMAGE_OUTPUT_DIR": "'C:\\Users\\jky\\Desktop\\蓝禾\\测试文件夹\\img'",
+                    "EP_CONTROL_IMAGE_TOP": "572",
+                    "EP_CONTROL_IMAGE_WIDTH": "210",
+                    "EP_CONTROL_IMAGE_WINDOW_TEXT": "''",
+                    "EP_CONTROL_IMAGE_WINDOW_TITLE": "'国家税务总局全国增值税发票查验平台 - Internet Explorer'",
+                    "EP_CONTROL_IMAGE_WINDOW_TITLE_Check": "true"
+                },
+                "EP_EnumWidget_NAME": "EnumWidget_Img_Capture",
+                "EP_EnumWidget_VALUE": "805",
+                "EP_Gen": {
+                    "EP_Gen_AFTERDELAY": "",
+                    "EP_Gen_BEFOREDELAY": "",
+                    "EP_Gen_NOTE": "",
+                    "EP_Gen_WAITFOR": "30000"
+                },
+                "EP_SNAP_SHOT": {
+                    "EP_SNAP_SHOT_PREVIEW": "/screenshots/snapshot_20200623143559509.png",
+                    "mouse_x_pos": "0",
+                    "mouse_y_pos": "0"
+                }
+            },
+            "NodeUI": {
+                "FNodePx": "1683.01",
+                "FNodePy": "247.558",
+                "NodeIsBreak": "0",
+                "NodePort": [
+                    {
+                        "Pidx": "l_flow_0"
+                    },
+                    {
+                        "Pidx": "r_flow_0"
+                    },
+                    {
+                        "Pidx": "r_ret_0"
+                    }
+                ],
+                "NodePx": "7758",
+                "NodePy": "4888",
+                "NodeSubType": "EnumWidget_Img_Capture",
+                "NodeTag": "2314353040452",
+                "NodeTitle": "截图"
+            }
+        },
+        {
+            "NodePanelData": {
+                "InputProperty": [
+                    {
+                        "condition": "1"
+                    }
+                ],
+                "PubProperty": {
+                    "NodeRemark": "",
+                    "mouse_x_pos": "0",
+                    "mouse_y_pos": "0",
+                    "selcomment": "0",
+                    "seltype": "",
+                    "snapshot_preview": ""
+                }
+            },
+            "NodeProperty": {
+            },
+            "NodeUI": {
+                "FNodePx": "1556.48",
+                "FNodePy": "222.253",
+                "NodeIsBreak": "0",
+                "NodePort": [
+                    {
+                        "Pidx": "l_flow_0"
+                    },
+                    {
+                        "Pidx": "l_par_0"
+                    },
+                    {
+                        "Pidx": "r_flow_0"
+                    },
+                    {
+                        "Pidx": "r_occ_0"
+                    },
+                    {
+                        "Pidx": "r_sub_0"
+                    }
+                ],
+                "NodePx": "7458",
+                "NodePy": "4828",
+                "NodeSubType": "EnumWidget_Syntax_while",
+                "NodeTag": "2314350501348",
+                "NodeTitle": "While循环"
+            }
+        },
+        {
+            "NodePanelData": {
+                "InputProperty": [
                     {
                         "text": "'916383'"
                     }
@@ -285,8 +735,8 @@
                 }
             },
             "NodeUI": {
-                "FNodePx": "2063.83",
-                "FNodePy": "189.445",
+                "FNodePx": "1556.48",
+                "FNodePy": "289.734",
                 "NodeIsBreak": "0",
                 "NodePort": [
                     {
@@ -305,8 +755,8 @@
                         "Pidx": "r_occ_0"
                     }
                 ],
-                "NodePx": "7438",
-                "NodePy": "4868",
+                "NodePx": "7458",
+                "NodePy": "4988",
                 "NodeSubType": "EnumWidget_Key_Keyboard",
                 "NodeTag": "2314284845942",
                 "NodeTitle": "模拟按键"
@@ -317,7 +767,7 @@
                 "InputProperty": [
                 ],
                 "PubProperty": {
-                    "NodeRemark": "",
+                    "NodeRemark": "判断输入内容",
                     "mouse_x_pos": "0",
                     "mouse_y_pos": "0",
                     "selcomment": "0",
@@ -350,8 +800,8 @@
                 }
             },
             "NodeUI": {
-                "FNodePx": "1628.7",
-                "FNodePy": "242.189",
+                "FNodePx": "1269.68",
+                "FNodePy": "272.864",
                 "NodeIsBreak": "0",
                 "NodePort": [
                     {
@@ -379,7 +829,7 @@
                     }
                 ],
                 "PubProperty": {
-                    "NodeRemark": "",
+                    "NodeRemark": "判断",
                     "mouse_x_pos": "0",
                     "mouse_y_pos": "0",
                     "selcomment": "0",
@@ -390,8 +840,8 @@
             "NodeProperty": {
             },
             "NodeUI": {
-                "FNodePx": "1852.86",
-                "FNodePy": "255.375",
+                "FNodePx": "1396.21",
+                "FNodePy": "272.864",
                 "NodeIsBreak": "0",
                 "NodePort": [
                     {
@@ -410,8 +860,8 @@
                         "Pidx": "r_sub_1"
                     }
                 ],
-                "NodePx": "7118",
-                "NodePy": "4968",
+                "NodePx": "7078",
+                "NodePy": "4948",
                 "NodeSubType": "EnumWidget_Syntax_elif",
                 "NodeTag": "2314270666737",
                 "NodeTitle": "IF分支"
@@ -453,8 +903,8 @@
                 }
             },
             "NodeUI": {
-                "FNodePx": "2077.02",
-                "FNodePy": "400.42",
+                "FNodePx": "1548.04",
+                "FNodePy": "390.956",
                 "NodeIsBreak": "0",
                 "NodePort": [
                     {
@@ -473,8 +923,8 @@
                         "Pidx": "r_occ_0"
                     }
                 ],
-                "NodePx": "7458",
-                "NodePy": "5188",
+                "NodePx": "7438",
+                "NodePy": "5228",
                 "NodeSubType": "EnumWidget_Key_Keyboard",
                 "NodeTag": "2314221967436",
                 "NodeTitle": "模拟按键"
@@ -516,8 +966,8 @@
                 }
             },
             "NodeUI": {
-                "FNodePx": "1470.47",
-                "FNodePy": "242.189",
+                "FNodePx": "1168.46",
+                "FNodePy": "272.864",
                 "NodeIsBreak": "0",
                 "NodePort": [
                     {
@@ -579,8 +1029,8 @@
                 }
             },
             "NodeUI": {
-                "FNodePx": "1312.24",
-                "FNodePy": "242.189",
+                "FNodePx": "1067.24",
+                "FNodePy": "272.864",
                 "NodeIsBreak": "0",
                 "NodePort": [
                     {
@@ -642,8 +1092,8 @@
                 }
             },
             "NodeUI": {
-                "FNodePx": "1140.82",
-                "FNodePy": "242.189",
+                "FNodePx": "957.581",
+                "FNodePy": "272.864",
                 "NodeIsBreak": "0",
                 "NodePort": [
                     {
@@ -705,8 +1155,8 @@
                 }
             },
             "NodeUI": {
-                "FNodePx": "982.589",
-                "FNodePy": "242.189",
+                "FNodePx": "856.359",
+                "FNodePy": "272.864",
                 "NodeIsBreak": "0",
                 "NodePort": [
                     {
@@ -768,8 +1218,8 @@
                 }
             },
             "NodeUI": {
-                "FNodePx": "811.173",
-                "FNodePy": "242.189",
+                "FNodePx": "746.702",
+                "FNodePy": "272.864",
                 "NodeIsBreak": "0",
                 "NodePort": [
                     {
@@ -831,8 +1281,8 @@
                 }
             },
             "NodeUI": {
-                "FNodePx": "639.756",
-                "FNodePy": "242.189",
+                "FNodePx": "637.044",
+                "FNodePy": "272.864",
                 "NodeIsBreak": "0",
                 "NodePort": [
                     {
@@ -904,8 +1354,8 @@
                 }
             },
             "NodeUI": {
-                "FNodePx": "468.34",
-                "FNodePy": "242.189",
+                "FNodePx": "527.387",
+                "FNodePy": "272.864",
                 "NodeIsBreak": "0",
                 "NodePort": [
                     {
@@ -953,8 +1403,8 @@
                 }
             },
             "NodeUI": {
-                "FNodePx": "310.109",
-                "FNodePy": "242.189",
+                "FNodePx": "426.165",
+                "FNodePy": "272.864",
                 "NodeIsBreak": "0",
                 "NodePort": [
                     {
@@ -1008,8 +1458,8 @@
                 }
             },
             "NodeUI": {
-                "FNodePx": "257.365",
-                "FNodePy": "374.048",
+                "FNodePx": "341.813",
+                "FNodePy": "365.651",
                 "NodeIsBreak": "0",
                 "NodePort": [
                     {
@@ -1028,8 +1478,8 @@
                         "Pidx": "r_ret_0"
                     }
                 ],
-                "NodePx": "4698",
-                "NodePy": "5148",
+                "NodePx": "4578",
+                "NodePy": "5168",
                 "NodeSubKeyNo": "ocr05",
                 "NodeSubType": "EnumWidget_Config_Begin",
                 "NodeTag": "2314131980112",
@@ -1059,8 +1509,8 @@
                 }
             },
             "NodeUI": {
-                "FNodePx": "151.878",
-                "FNodePy": "242.189",
+                "FNodePx": "324.943",
+                "FNodePy": "272.864",
                 "NodeIsBreak": "0",
                 "NodePort": [
                     {
@@ -1077,7 +1527,7 @@
     ],
     "OpType": "0",
     "SeqTag": "flow1_bp",
-    "ViewCenterPx": "5358.76",
-    "ViewCenterPy": "5163.1",
-    "ViewScaling": "0.659294"
+    "ViewCenterPx": "5410.67",
+    "ViewCenterPy": "5211.51",
+    "ViewScaling": "0.421759"
 }

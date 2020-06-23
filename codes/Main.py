@@ -1,5 +1,5 @@
 # coding=utf-8
-# 编译日期：2020-06-23 14:30:47
+# 编译日期：2020-06-23 14:45:19
 # 版权所有：www.i-search.com.cn
 import time
 import pdb
@@ -32,6 +32,8 @@ class lanhe_fapiao:
             self.input_arg = self.input_arg.replace("\\","/")
       
     def flow1(self):
+        image_code=None
+        image1=None
         #网站
         self.__logger.debug('Flow:flow1,StepNodeTag:2314134287815,Note:')
         iie.open_url(url='https://inv-veri.chinatax.gov.cn/index.html')
@@ -64,10 +66,10 @@ class lanhe_fapiao:
         time.sleep(0.5)
         ikeyboard.key_send_cs(text='{TAB}',waitfor=10)
         # 图像检测
-        self.__logger.debug('Flow:flow1,StepNodeTag:2314280051638,Note:')
+        self.__logger.debug('Flow:flow1,StepNodeTag:2314280051638,Note:判断输入内容')
         tvar2314280051638 = iimg.img_exists(win_title=r'国家税务总局全国增值税发票查验平台 - Internet Explorer',img_res_path=self.path,image=r'snapshot_20200623142820581.png',fuzzy=True,confidence=0.85,waitfor=30)
         # IF-N分支
-        self.__logger.debug('Flow:flow1,StepNodeTag:2314270666737,Note:')
+        self.__logger.debug('Flow:flow1,StepNodeTag:2314270666737,Note:判断')
         if tvar2314280051638:
             # 键盘输入
             self.__logger.debug('Flow:flow1,StepNodeTag:2314284845942,Note:输入校验码')
@@ -78,6 +80,18 @@ class lanhe_fapiao:
             self.__logger.debug('Flow:flow1,StepNodeTag:2314221967436,Note:输入开具金额')
             time.sleep(0.5)
             ikeyboard.key_send_cs(text='937.34',waitfor=10)
+        # While循环
+        self.__logger.debug('Flow:flow1,StepNodeTag:2314350501348,Note:')
+        while 1:
+            # 截图
+            self.__logger.debug('Flow:flow1,StepNodeTag:2314353040452,Note:')
+            image1 = iimg.capture_image(win_title=r'国家税务总局全国增值税发票查验平台 - Internet Explorer',win_text=r'',in_img_path=r'C:\Users\jky\Desktop\蓝禾\测试文件夹\img',left_indent=1253,top_indent=572,width=210,height=36,waitfor=30)
+            # 截图
+            self.__logger.debug('Flow:flow1,StepNodeTag:2314360485954,Note:')
+            image_code = iimg.capture_image(win_title=r'国家税务总局全国增值税发票查验平台 - Internet Explorer',win_text=r'',in_img_path=r'C:\Users\jky\Desktop\蓝禾\测试文件夹\img',left_indent=992,top_indent=620,width=139,height=64,waitfor=30)
+        # 鼠标点击
+        self.__logger.debug('Flow:flow1,StepNodeTag:2314421185369,Note:')
+        iie.do_click_pos(win_title=r'国家税务总局全国增值税发票查验平台 - Internet Explorer',url=r'https://inv-veri.chinatax.gov.cn/index.html',selector=r'#checkfp',button=r'left',curson=r'center',times=1,run_mode=r'unctrl',continue_on_error=r'break',waitfor=10)
       
     def Main(self):
         pass

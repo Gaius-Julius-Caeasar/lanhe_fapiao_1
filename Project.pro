@@ -1,11 +1,12 @@
 {
-    "GlobalVar": null,
+    "GlobalVar": [
+    ],
     "MainSeq": {
         "seq": "Main"
     },
     "OpenFlow": "[\n    {\n        \"seq\": \"Main\"\n    },\n    {\n        \"seq\": \"flow1\"\n    }\n]\n",
     "ProInfo": {
-        "ProChange": "2020/06/23 14:30:46",
+        "ProChange": "2020/06/23 14:45:19",
         "ProCreate": "2020/06/23 14:04:25",
         "ProDesc": "",
         "ProImports": "",
@@ -33,6 +34,22 @@
             "sdc": "",
             "seq": "flow1",
             "sop": "Close",
+            "spv": [
+                {
+                    "vardef": "",
+                    "vardesc": "",
+                    "varname": "image_code",
+                    "varpasstype": "1",
+                    "vartype": "1"
+                },
+                {
+                    "vardef": "",
+                    "vardesc": "",
+                    "varname": "image1",
+                    "varpasstype": "1",
+                    "vartype": "1"
+                }
+            ],
             "spy": "Main"
         }
     ]
