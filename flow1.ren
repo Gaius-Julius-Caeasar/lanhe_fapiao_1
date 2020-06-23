@@ -706,7 +706,7 @@
                 }
             },
             "NodePw": "258",
-            "NodePx": "4660",
+            "NodePx": "4640",
             "NodePy": "420",
             "NodeSubType": "EnumWidget_Config_Begin",
             "NodeTag": "验证码"
