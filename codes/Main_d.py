@@ -1,5 +1,5 @@
 # coding=utf-8
-# 编译日期：2020-06-23 15:33:42
+# 编译日期：2020-06-23 15:48:44
 # 版权所有：www.i-search.com.cn
 import time
 import pdb
@@ -10,6 +10,7 @@ from sys import argv
 import sys
 from ubpa.itools import rpa_import
 GlobalFun = rpa_import.import_global_fun(__file__)
+import ubpa.iexcel as iexcel
 import ubpa.iie as iie
 import ubpa.iimg as iimg
 import ubpa.ikeyboard as ikeyboard
@@ -102,6 +103,22 @@ class lanhe_fapiao:
                 # Break中断
                 self.__logger.debug('Flow:flow1,StepNodeTag:23152722614139,Note:')
                 break
+        # 图像检测
+        self.__logger.debug('Flow:flow1,StepNodeTag:23153820544153,Note:')
+        tvar23153820544153 = iimg.img_exists(win_title=r'国家税务总局全国增值税发票查验平台 - Internet Explorer',img_res_path=self.path,image=r'snapshot_20200623153842415.png',fuzzy=True,confidence=0.85,waitfor=30)
+        # IF-N分支
+        self.__logger.debug('Flow:flow1,StepNodeTag:23153800136152,Note:')
+        if tvar23153820544153:
+            #单元格写入
+            self.__logger.debug('Flow:flow1,StepNodeTag:23154036169161,Note:')
+            iexcel.write_cell(path='C:\Users\jky\Desktop\蓝禾\测试文件夹',cell='N2',text='否',file_type='excel')
+        else:
+            #单元格写入
+            self.__logger.debug('Flow:flow1,StepNodeTag:23154300025164,Note:')
+            iexcel.write_cell(path='C:\Users\jky\Desktop\蓝禾\测试文件夹',cell='N2',text='是',file_type='excel')
+        # 鼠标点击
+        self.__logger.debug('Flow:flow1,StepNodeTag:23154506960166,Note:')
+        iie.do_click_pos(win_title=r'国家税务总局全国增值税发票查验平台 - Internet Explorer',url=r'https://inv-veri.chinatax.gov.cn/index.html',selector=r'#closebt',button=r'left',curson=r'center',times=1,run_mode=r'unctrl',continue_on_error=r'break',waitfor=10)
       
     def Main(self):
         pass
