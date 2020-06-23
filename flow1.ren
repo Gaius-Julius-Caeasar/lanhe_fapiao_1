@@ -1,6 +1,148 @@
 {
     "NodeList": [
         {
+            "NodePh": "103",
+            "NodePro": {
+            },
+            "NodePw": "214",
+            "NodePx": "6480",
+            "NodePy": "560",
+            "NodeSubType": "EnumWidget_Syntax_break",
+            "NodeTag": "Break中断"
+        },
+        {
+            "NodePh": "103",
+            "NodePro": {
+            },
+            "NodePw": "214",
+            "NodePx": "6480",
+            "NodePy": "440",
+            "NodeSubType": "EnumWidget_Syntax_continue",
+            "NodeTag": "Continue继续"
+        },
+        {
+            "NodePh": "163",
+            "NodePro": {
+            },
+            "NodePw": "230",
+            "NodePx": "6200",
+            "NodePy": "420",
+            "NodeSubType": "EnumWidget_Syntax_elif",
+            "NodeTag": "IF分支"
+        },
+        {
+            "NodePh": "156",
+            "NodePro": {
+                "EP_CONTROL": {
+                    "EP_CONTROL_FIND_PATH": "'#checkfp'",
+                    "EP_CONTROL_TAG_NAME": "'BUTTON'",
+                    "EP_CONTROL_TITLE": "",
+                    "EP_CONTROL_URL": "'https://inv-veri.chinatax.gov.cn/index.html'",
+                    "EP_CONTROL_WINDOW_TITLE": "'国家税务总局全国增值税发票查验平台 - Internet Explorer'",
+                    "EP_CONTROL_WINDOW_TITLE_Check": "true"
+                },
+                "EP_EnumWidget_NAME": "EnumWidget_IE_MouseClick",
+                "EP_EnumWidget_VALUE": "301",
+                "EP_Gen": {
+                    "EP_Gen_AFTERDELAY": "1000",
+                    "EP_Gen_BEFOREDELAY": "",
+                    "EP_Gen_NOTE": "",
+                    "EP_Gen_RUN_MODE": "false",
+                    "EP_Gen_WAITFOR": "10000"
+                },
+                "EP_INPUT": {
+                    "EP_INPUT_COMBOX_CONTINUEONERROR": "'break'",
+                    "EP_INPUT_MOUSE_CLICK": "'left'",
+                    "EP_INPUT_MOUSE_CLICK_TIMES": "1",
+                    "EP_INPUT_POSITION": "'center'",
+                    "EP_INPUT_X_OFFSET": "",
+                    "EP_INPUT_Y_OFFSET": ""
+                },
+                "EP_SNAP_SHOT": {
+                    "EP_SNAP_SHOT_PREVIEW": "/screenshots/snapshot_20200623152619900.jpeg",
+                    "mouse_x_pos": "57",
+                    "mouse_y_pos": "21"
+                }
+            },
+            "NodePw": "214",
+            "NodePx": "5600",
+            "NodePy": "420",
+            "NodeSubType": "EnumWidget_IE_MouseClick",
+            "NodeTag": "鼠标点击"
+        },
+        {
+            "NodePh": "186",
+            "NodePro": {
+                "EP_CONTROL": {
+                    "EP_CONTROL_IMAGE": "'snapshot_20200623152556855.png'",
+                    "EP_CONTROL_IMAGE_CLOSE_FUZZY": "true",
+                    "EP_CONTROL_IMAGE_FUZZY_SIMILARITY": "0.85",
+                    "EP_CONTROL_IMAGE_PATH": "'/screenshots/snapshot_20200623152556855.png'",
+                    "EP_CONTROL_IMAGE_SIZE": "'295X176'",
+                    "EP_CONTROL_IMAGE_WINDOW_TITLE": "'国家税务总局全国增值税发票查验平台 - Internet Explorer'",
+                    "EP_CONTROL_IMAGE_WINDOW_TITLE_Check": "true"
+                },
+                "EP_EnumWidget_NAME": "EnumWidget_Img_Exists",
+                "EP_EnumWidget_VALUE": "804",
+                "EP_Gen": {
+                    "EP_Gen_AFTERDELAY": "",
+                    "EP_Gen_BEFOREDELAY": "",
+                    "EP_Gen_NOTE": "",
+                    "EP_Gen_WAITFOR": "5000"
+                },
+                "EP_SNAP_SHOT": {
+                    "EP_SNAP_SHOT_PREVIEW": "/screenshots/snapshot_20200623152556855.png",
+                    "mouse_x_pos": "0",
+                    "mouse_y_pos": "0"
+                }
+            },
+            "NodePw": "214",
+            "NodePx": "5900",
+            "NodePy": "420",
+            "NodeSubType": "EnumWidget_Img_Exists",
+            "NodeTag": "图片检测"
+        },
+        {
+            "NodePh": "156",
+            "NodePro": {
+                "EP_CONTROL": {
+                    "EP_CONTROL_FIND_PATH": "'#yzm'",
+                    "EP_CONTROL_TAG_NAME": "'INPUT'",
+                    "EP_CONTROL_TITLE": "",
+                    "EP_CONTROL_URL": "'https://inv-veri.chinatax.gov.cn/index.html'",
+                    "EP_CONTROL_WINDOW_TITLE": "'国家税务总局全国增值税发票查验平台 - Internet Explorer'",
+                    "EP_CONTROL_WINDOW_TITLE_Check": "true"
+                },
+                "EP_EnumWidget_NAME": "EnumWidget_IE_MouseClick",
+                "EP_EnumWidget_VALUE": "301",
+                "EP_Gen": {
+                    "EP_Gen_AFTERDELAY": "",
+                    "EP_Gen_BEFOREDELAY": "",
+                    "EP_Gen_NOTE": "",
+                    "EP_Gen_RUN_MODE": "false",
+                    "EP_Gen_WAITFOR": "10000"
+                },
+                "EP_INPUT": {
+                    "EP_INPUT_COMBOX_CONTINUEONERROR": "'break'",
+                    "EP_INPUT_MOUSE_CLICK": "'left'",
+                    "EP_INPUT_MOUSE_CLICK_TIMES": "1",
+                    "EP_INPUT_POSITION": "'center'",
+                    "EP_INPUT_X_OFFSET": "",
+                    "EP_INPUT_Y_OFFSET": ""
+                },
+                "EP_SNAP_SHOT": {
+                    "EP_SNAP_SHOT_PREVIEW": "/screenshots/snapshot_20200623152452636.jpeg",
+                    "mouse_x_pos": "92",
+                    "mouse_y_pos": "17"
+                }
+            },
+            "NodePw": "214",
+            "NodePx": "4960",
+            "NodePy": "420",
+            "NodeSubType": "EnumWidget_IE_MouseClick",
+            "NodeTag": "鼠标点击"
+        },
+        {
             "NodePh": "156",
             "NodePro": {
                 "EP_CONTROL": {
@@ -122,33 +264,6 @@
             },
             "NodePw": "214",
             "NodePx": "5300",
-            "NodePy": "420",
-            "NodeSubType": "EnumWidget_Key_Keyboard",
-            "NodeTag": "模拟按键"
-        },
-        {
-            "NodePh": "226",
-            "NodePro": {
-                "EP_EnumWidget_NAME": "EnumWidget_Key_Keyboard",
-                "EP_EnumWidget_VALUE": "801",
-                "EP_Gen": {
-                    "EP_Gen_AFTERDELAY": "",
-                    "EP_Gen_BEFOREDELAY": "500",
-                    "EP_Gen_NOTE": "",
-                    "EP_Gen_WAITFOR": "10000"
-                },
-                "EP_SNAP_SHOT": {
-                    "EP_SNAP_SHOT_PREVIEW": "",
-                    "mouse_x_pos": "0",
-                    "mouse_y_pos": "0"
-                },
-                "EP_WINDOW": {
-                    "EP_WINDOW_TITLE": "",
-                    "EP_WINDOW_TITLE_Check": "false"
-                }
-            },
-            "NodePw": "214",
-            "NodePx": "5000",
             "NodePy": "420",
             "NodeSubType": "EnumWidget_Key_Keyboard",
             "NodeTag": "模拟按键"

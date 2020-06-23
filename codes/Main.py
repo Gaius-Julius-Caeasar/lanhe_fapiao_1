@@ -1,5 +1,5 @@
 # coding=utf-8
-# 编译日期：2020-06-23 15:24:07
+# 编译日期：2020-06-23 15:27:45
 # 版权所有：www.i-search.com.cn
 import time
 import pdb
@@ -66,14 +66,30 @@ class lanhe_fapiao:
             self.__logger.debug('Flow:flow1,StepNodeTag:2314593469491,Note:')
             code = iocr.vcode_recognize(image_path=tvar2314544729489,code_type=8001,apiKey='8159a500cc9d4a69a71e6ac14263f029',secretKey='2d078aa8c13741239b3d00ced85832e3')
             time.sleep(1)
-            # 键盘输入
-            self.__logger.debug('Flow:flow1,StepNodeTag:23150732813107,Note:')
-            time.sleep(0.5)
-            ikeyboard.key_send_cs(text='{TAB}',waitfor=10)
+            # 鼠标点击
+            self.__logger.debug('Flow:flow1,StepNodeTag:23152443697126,Note:')
+            iie.do_click_pos(win_title=r'国家税务总局全国增值税发票查验平台 - Internet Explorer',url=r'https://inv-veri.chinatax.gov.cn/index.html',selector=r'#yzm',button=r'left',curson=r'center',times=1,run_mode=r'unctrl',continue_on_error=r'break',waitfor=10)
             # 键盘输入
             self.__logger.debug('Flow:flow1,StepNodeTag:23150746702109,Note:')
             time.sleep(0.5)
             ikeyboard.key_send_cs(text=code,waitfor=10)
+            # 鼠标点击
+            self.__logger.debug('Flow:flow1,StepNodeTag:23152606550130,Note:')
+            iie.do_click_pos(win_title=r'国家税务总局全国增值税发票查验平台 - Internet Explorer',url=r'https://inv-veri.chinatax.gov.cn/index.html',selector=r'#checkfp',button=r'left',curson=r'center',times=1,run_mode=r'unctrl',continue_on_error=r'break',waitfor=10)
+            time.sleep(1)
+            # 图像检测
+            self.__logger.debug('Flow:flow1,StepNodeTag:23152545559128,Note:')
+            tvar23152545559128 = iimg.img_exists(win_title=r'国家税务总局全国增值税发票查验平台 - Internet Explorer',img_res_path=self.path,image=r'snapshot_20200623152556855.png',fuzzy=True,confidence=0.85,waitfor=5)
+            # IF-N分支
+            self.__logger.debug('Flow:flow1,StepNodeTag:23152627191132,Note:')
+            if tvar23152545559128:
+                # Continue继续
+                self.__logger.debug('Flow:flow1,StepNodeTag:23152712119137,Note:')
+                continue
+            else:
+                # Break中断
+                self.__logger.debug('Flow:flow1,StepNodeTag:23152722614139,Note:')
+                break
       
     def Main(self):
         pass
