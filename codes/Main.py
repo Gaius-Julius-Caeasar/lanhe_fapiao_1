@@ -1,5 +1,5 @@
 # coding=utf-8
-# 编译日期：2020-06-23 17:18:10
+# 编译日期：2020-06-23 17:19:18
 # 版权所有：www.i-search.com.cn
 import time
 import pdb
@@ -40,11 +40,6 @@ class lanhe_fapiao:
     def flow1(self):
         t=['电子普通发票','深圳增值税电子普通发票','91440300MA5EGKDJ92', '2020年06月11日','044031900111','23838102', '17960524178417916383','875.29','62.05','937.34',"[{'row': '1', 'word': '(详见销货清单'}]"]
         lv_6=[dict_info['InvoiceType'],dict_info['InvoiceTypeOrg'],dict_info['PurchaserRegisterNum'],dict_info[ 'InvoiceDate'],dict_info['InvoiceCode'],dict_info['InvoiceNum'],dict_info['CheckCode'],dict_info['TotalAmount'],dict_info['TotalTax'],dict_info['AmountInFiguers'],dict_info['CommodityName']
-        # 代码块
-        self.__logger.debug('Flow:flow1,StepNodeTag:23171228270244,Note:')
-        code = ''
-        yzm_pic = ''
-        tishi = ''
         #网站
         self.__logger.debug('Flow:flow1,StepNodeTag:2314134287815,Note:')
         iie.open_url(url='https://inv-veri.chinatax.gov.cn/index.html')
@@ -213,4 +208,4 @@ if __name__ == '__main__':
         elif opt in ("-i", "--input"):
             input_arg = arg
     pro = lanhe_fapiao(robot_no=robot_no,proc_no=proc_no,job_no=job_no,input_arg=input_arg)
-    pro.Main()
+    pro.flow1()
