@@ -1,5 +1,5 @@
 # coding=utf-8
-# 编译日期：2020-06-23 15:11:57
+# 编译日期：2020-06-23 15:13:53
 # 版权所有：www.i-search.com.cn
 import time
 import pdb
@@ -87,10 +87,12 @@ class lanhe_fapiao:
             ikeyboard.key_send_cs(text='937.34',waitfor=10)
         # While循环
         self.__logger.debug('Flow:flow1,StepNodeTag:2314350501348,Note:')
-        while -1:
+        while 1:
             # 鼠标点击
             self.__logger.debug('Flow:flow1,StepNodeTag:23151109681113,Note:')
+            time.sleep(0.5)
             iie.do_click_pos(win_title=r'国家税务总局全国增值税发票查验平台 - Internet Explorer',url=r'https://inv-veri.chinatax.gov.cn/index.html',selector=r'#yzm_img',button=r'left',curson=r'center',times=1,run_mode=r'unctrl',continue_on_error=r'break',waitfor=10)
+            time.sleep(5)
             # 截图
             self.__logger.debug('Flow:flow1,StepNodeTag:2314353040452,Note:')
             a = iimg.capture_image(win_title=r'国家税务总局全国增值税发票查验平台 - Internet Explorer',win_text=r'',left_indent=1253,top_indent=572,width=210,height=36,waitfor=30)
