@@ -1,5 +1,5 @@
 # coding=utf-8
-# 编译日期：2020-06-23 16:55:35
+# 编译日期：2020-06-23 16:57:07
 # 版权所有：www.i-search.com.cn
 import time
 import pdb
@@ -43,6 +43,7 @@ class lanhe_fapiao:
         code=None
         yzm_pic=None
         tishi=None
+        #RPACodeMarked.....231405246083
         #网站
         self.__logger.debug('Flow:flow1,StepNodeTag:2314134287815,Note:')
         iie.open_url(url='https://inv-veri.chinatax.gov.cn/index.html')
