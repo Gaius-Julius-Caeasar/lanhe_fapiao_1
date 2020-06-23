@@ -1,5 +1,5 @@
 # coding=utf-8
-# 编译日期：2020-06-23 17:39:21
+# 编译日期：2020-06-23 17:41:08
 # 版权所有：www.i-search.com.cn
 import time
 import pdb
@@ -54,7 +54,7 @@ class lanhe_fapiao:
         # 键盘输入
         self.__logger.debug('Flow:flow2,StepNodeTag:2317224431621,Note:输入发票代码')
         time.sleep(0.5)
-        ikeyboard.key_send_cs(text='044031900112',waitfor=10)
+        ikeyboard.key_send_cs(text='044031900111',waitfor=10)
         time.sleep(0.6)
         # 键盘输入
         self.__logger.debug('Flow:flow2,StepNodeTag:2317224431620,Note:')
