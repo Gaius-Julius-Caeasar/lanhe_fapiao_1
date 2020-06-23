@@ -20,7 +20,7 @@
     },
     "OpenFlow": "[\n    {\n        \"seq\": \"Main\"\n    },\n    {\n        \"seq\": \"flow1\"\n    },\n    {\n        \"spy\": \"GlobalFun\"\n    }\n]\n",
     "ProInfo": {
-        "ProChange": "2020/06/23 17:11:10",
+        "ProChange": "2020/06/23 17:12:36",
         "ProCreate": "2020/06/23 14:04:25",
         "ProDesc": "",
         "ProImports": "",
@@ -73,20 +73,6 @@
                     "vardef": "[dict_info['InvoiceType'],dict_info['InvoiceTypeOrg'],dict_info['PurchaserRegisterNum'],dict_info[ 'InvoiceDate'],dict_info['InvoiceCode'],dict_info['InvoiceNum'],dict_info['CheckCode'],dict_info['TotalAmount'],dict_info['TotalTax'],dict_info['AmountInFiguers'],dict_info['CommodityName']",
                     "vardesc": "",
                     "varname": "lv_6",
-                    "varpasstype": "1",
-                    "varrobot": "",
-                    "vartype": "1"
-                },
-                {
-                    "inpar_Order": "",
-                    "inpar_filetype": "",
-                    "inpar_helpdesc": "",
-                    "inpar_init": "",
-                    "inpar_required": "0",
-                    "inputpar": "",
-                    "vardef": "",
-                    "vardesc": "",
-                    "varname": "c_ode",
                     "varpasstype": "1",
                     "varrobot": "",
                     "vartype": "1"
