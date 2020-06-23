@@ -1,5 +1,5 @@
 # coding=utf-8
-# 编译日期：2020-06-23 17:21:10
+# 编译日期：2020-06-23 17:22:26
 # 版权所有：www.i-search.com.cn
 import time
 import pdb
@@ -207,6 +207,6 @@ if __name__ == '__main__':
         elif opt in ("-i", "--input"):
             input_arg = arg
     pro = lanhe_fapiao(robot_no=robot_no,proc_no=proc_no,job_no=job_no,input_arg=input_arg)
-    pro.Main()
+    pro.flow1()
     ___logger = ILog(__file__)
     ___logger.debug('Class:Main,ProTag:Quit,Note:Exit')
