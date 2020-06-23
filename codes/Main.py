@@ -1,5 +1,5 @@
 # coding=utf-8
-# 编译日期：2020-06-23 15:51:28
+# 编译日期：2020-06-23 15:58:09
 # 版权所有：www.i-search.com.cn
 import time
 import pdb
@@ -8,13 +8,8 @@ from ubpa.base_img import *
 import getopt
 from sys import argv
 import sys
-from ubpa.itools import rpa_import
-GlobalFun = rpa_import.import_global_fun(__file__)
-import ubpa.iexcel as iexcel
-import ubpa.iie as iie
-import ubpa.iimg as iimg
-import ubpa.ikeyboard as ikeyboard
 import ubpa.iocr as iocr
+import ubpa.itools.rpa_str as rpa_str
 
 class lanhe_fapiao:
      
@@ -39,86 +34,13 @@ class lanhe_fapiao:
         code=None
         yzm_pic=None
         tishi=None
-        #RPACodeMarked.....2314350501348
-        # While循环
-        self.__logger.debug('Flow:flow1,StepNodeTag:2314350501348,Note:')
-        while 1:
-            # 鼠标点击
-            self.__logger.debug('Flow:flow1,StepNodeTag:23151109681113,Note:')
-            time.sleep(0.5)
-            iie.do_click_pos(win_title=r'国家税务总局全国增值税发票查验平台 - Internet Explorer',url=r'https://inv-veri.chinatax.gov.cn/index.html',selector=r'#yzm_img',button=r'left',curson=r'center',times=1,run_mode=r'unctrl',continue_on_error=r'break',waitfor=10)
-            time.sleep(0.5)
-            # 鼠标移动
-            self.__logger.debug('Flow:flow1,StepNodeTag:23151501542118,Note:')
-            iie.do_moveto_pos(win_title=r'国家税务总局全国增值税发票查验平台 - Internet Explorer',url=r'https://inv-veri.chinatax.gov.cn/index.html',selector=r'#content2 > TABLE:nth-of-type(1) > TBODY:nth-of-type(1) > TR:nth-of-type(6) > TD:nth-of-type(1)',curson=r'center',waitfor=10)
-            time.sleep(5)
-            # 截图
-            self.__logger.debug('Flow:flow1,StepNodeTag:2314353040452,Note:')
-            tishi = iimg.capture_image(win_title=r'国家税务总局全国增值税发票查验平台 - Internet Explorer',win_text=r'',left_indent=1253,top_indent=572,width=210,height=36,waitfor=30)
-            time.sleep(0.8)
-            # 截图
-            self.__logger.debug('Flow:flow1,StepNodeTag:2314360485954,Note:')
-            yzm_pic = iimg.capture_image(win_title=r'国家税务总局全国增值税发票查验平台 - Internet Explorer',win_text=r'',left_indent=992,top_indent=620,width=139,height=64,waitfor=30)
-            time.sleep(0.8)
-            # 自定义函数
-            self.__logger.debug('Flow:flow1,StepNodeTag:2314544729489,Note:')
-            tvar2314544729489 = GlobalFun.code_color(tishi,yzm_pic)
-            #验证码
-            self.__logger.debug('Flow:flow1,StepNodeTag:2314593469491,Note:')
-            code = iocr.vcode_recognize(image_path=tvar2314544729489,code_type=8001,apiKey='8159a500cc9d4a69a71e6ac14263f029',secretKey='2d078aa8c13741239b3d00ced85832e3')
-            time.sleep(1)
-            # 鼠标点击
-            self.__logger.debug('Flow:flow1,StepNodeTag:23152443697126,Note:')
-            iie.do_click_pos(win_title=r'国家税务总局全国增值税发票查验平台 - Internet Explorer',url=r'https://inv-veri.chinatax.gov.cn/index.html',selector=r'#yzm',button=r'left',curson=r'center',times=1,run_mode=r'unctrl',continue_on_error=r'break',waitfor=10)
-            # 键盘输入
-            self.__logger.debug('Flow:flow1,StepNodeTag:23150746702109,Note:')
-            time.sleep(0.5)
-            ikeyboard.key_send_cs(text=code,waitfor=10)
-            # 鼠标点击
-            self.__logger.debug('Flow:flow1,StepNodeTag:23152606550130,Note:')
-            iie.do_click_pos(win_title=r'国家税务总局全国增值税发票查验平台 - Internet Explorer',url=r'https://inv-veri.chinatax.gov.cn/index.html',selector=r'#checkfp',button=r'left',curson=r'center',times=1,run_mode=r'unctrl',continue_on_error=r'break',waitfor=10)
-            time.sleep(1)
-            # 图像检测
-            self.__logger.debug('Flow:flow1,StepNodeTag:23152545559128,Note:')
-            tvar23152545559128 = iimg.img_exists(win_title=r'国家税务总局全国增值税发票查验平台 - Internet Explorer',img_res_path=self.path,image=r'snapshot_20200623152556855.png',fuzzy=True,confidence=0.85,waitfor=5)
-            # IF-N分支
-            self.__logger.debug('Flow:flow1,StepNodeTag:23152627191132,Note:')
-            if tvar23152545559128:
-                # 鼠标点击
-                self.__logger.debug('Flow:flow1,StepNodeTag:23152954518141,Note:')
-                iie.do_click_pos(win_title=r'国家税务总局全国增值税发票查验平台 - Internet Explorer',url=r'https://inv-veri.chinatax.gov.cn/index.html',selector=r'#popup_ok',button=r'left',curson=r'center',times=1,run_mode=r'unctrl',continue_on_error=r'break',waitfor=10)
-                time.sleep(0.8)
-                # 鼠标点击
-                self.__logger.debug('Flow:flow1,StepNodeTag:23153228624145,Note:')
-                iie.do_click_pos(win_title=r'国家税务总局全国增值税发票查验平台 - Internet Explorer',url=r'https://inv-veri.chinatax.gov.cn/index.html',selector=r'#yzm',button=r'left',curson=r'center',times=1,run_mode=r'unctrl',continue_on_error=r'break',waitfor=10)
-                time.sleep(0.8)
-                # 热键输入
-                self.__logger.debug('Flow:flow1,StepNodeTag:23153239707147,Note:')
-                ikeyboard.key_send_cs(text='^a',waitfor=10)
-                # 键盘输入
-                self.__logger.debug('Flow:flow1,StepNodeTag:23153300159149,Note:')
-                time.sleep(0.5)
-                ikeyboard.key_send_cs(text='{BACKSPACE}',waitfor=10)
-            else:
-                # Break中断
-                self.__logger.debug('Flow:flow1,StepNodeTag:23152722614139,Note:')
-                break
-        # 图像检测
-        self.__logger.debug('Flow:flow1,StepNodeTag:23153820544153,Note:')
-        tvar23153820544153 = iimg.img_exists(win_title=r'国家税务总局全国增值税发票查验平台 - Internet Explorer',img_res_path=self.path,image=r'snapshot_20200623153842415.png',fuzzy=True,confidence=0.85,waitfor=30)
-        # IF-N分支
-        self.__logger.debug('Flow:flow1,StepNodeTag:23153800136152,Note:')
-        if tvar23153820544153:
-            #单元格写入
-            self.__logger.debug('Flow:flow1,StepNodeTag:23154036169161,Note:')
-            iexcel.write_cell(path='C:/Users/jky/Desktop/fapiao_info.xlsx',cell='N2',text='否',file_type='excel')
-        else:
-            #单元格写入
-            self.__logger.debug('Flow:flow1,StepNodeTag:23154300025164,Note:')
-            iexcel.write_cell(path='C:/Users/jky/Desktop/fapiao_info.xlsx',cell='N2',text='是',file_type='excel')
-        # 鼠标点击
-        self.__logger.debug('Flow:flow1,StepNodeTag:23154506960166,Note:')
-        iie.do_click_pos(win_title=r'国家税务总局全国增值税发票查验平台 - Internet Explorer',url=r'https://inv-veri.chinatax.gov.cn/index.html',selector=r'#closebt',button=r'left',curson=r'center',times=1,run_mode=r'unctrl',continue_on_error=r'break',waitfor=10)
+        #RPACodeMarked.....2314131980112
+        #增值税发票OCR
+        self.__logger.debug('Flow:flow1,StepNodeTag:2314131980112,Note:')
+        tvar2314131980112 = iocr.vat_recognize(image_path='C:/Users/jky/Desktop/微信图片_20200623100526.png')
+        # 输出
+        self.__logger.debug('Flow:flow1,StepNodeTag:23155752736173,Note:')
+        rpa_str.iprints(tvar2314131980112)
       
     def Main(self):
         pass
