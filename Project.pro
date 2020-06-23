@@ -20,7 +20,7 @@
     },
     "OpenFlow": "[\n    {\n        \"seq\": \"Main\"\n    },\n    {\n        \"seq\": \"flow1\"\n    },\n    {\n        \"spy\": \"GlobalFun\"\n    }\n]\n",
     "ProInfo": {
-        "ProChange": "2020/06/23 17:13:40",
+        "ProChange": "2020/06/23 17:15:21",
         "ProCreate": "2020/06/23 14:04:25",
         "ProDesc": "",
         "ProImports": "",
@@ -75,20 +75,6 @@
                     "varname": "lv_6",
                     "varpasstype": "1",
                     "varrobot": "",
-                    "vartype": "1"
-                },
-                {
-                    "vardef": "",
-                    "vardesc": "",
-                    "varname": "yzm_pic",
-                    "varpasstype": "1",
-                    "vartype": "1"
-                },
-                {
-                    "vardef": "",
-                    "vardesc": "",
-                    "varname": "tishi",
-                    "varpasstype": "1",
                     "vartype": "1"
                 }
             ],
