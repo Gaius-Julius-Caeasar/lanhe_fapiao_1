@@ -1,5 +1,5 @@
 # coding=utf-8
-# 编译日期：2020-06-23 17:07:34
+# 编译日期：2020-06-23 17:08:38
 # 版权所有：www.i-search.com.cn
 import time
 import pdb
@@ -40,7 +40,6 @@ class lanhe_fapiao:
     def flow1(self):
         t=['电子普通发票','深圳增值税电子普通发票','91440300MA5EGKDJ92', '2020年06月11日','044031900111','23838102', '17960524178417916383','875.29','62.05','937.34',"[{'row': '1', 'word': '(详见销货清单'}]"]
         lv_6=[dict_info['InvoiceType'],dict_info['InvoiceTypeOrg'],dict_info['PurchaserRegisterNum'],dict_info[ 'InvoiceDate'],dict_info['InvoiceCode'],dict_info['InvoiceNum'],dict_info['CheckCode'],dict_info['TotalAmount'],dict_info['TotalTax'],dict_info['AmountInFiguers'],dict_info['CommodityName']
-        dc={'AmountInWords':'佰叁拾圆叁角肆分','NoteDrawer':'谢登梅','SellerAddress':'深州市龙华区庆湾街道庆津大道乌庆旺路文汇处民治商务中心1栋115栋、2、3栋、4幢009栋7553323188', 'CommodityPrice':'[]','CommodityNum':'[]','SellerRegisterNum': '91440300689404127F','SellerBank':'农业银行龙华支行41028900040099987','Remarks':'订单号1047426466044621910支付日期2020-06-07','CommodityTaxRate':'[]','TotalTax':'62.05', 'CheckCode':'17960524178417916383','InvoiceCode': '044031900111','InvoiceDate':'2020年06月11日', 'PurchaserRegisterNum':'91440300MA5EGKDJ92','InvoiceTypeOrg': '深圳增值税电子普通发票','Password':'','PurchaserBank':'', 'AmountInFiguers':'937.34','Checker':'郑晓碧','TotalAmount': '875.29','CommodityAmount':"[{'row':'1','word':'875.29'}]", 'PurchaserName':'深圳市蓝禾技术有限公司','CommodityType': '[]','InvoiceType':'电子普通发票','PurchaserAddress':'', 'CommodityTax':"[{'row':'1','word':'62.05'}]", 'CommodityUnit':'[]','Payee':'刘笑额','SellerName':'深圳康润华商贸有限公司','CommodityName':"[{'row':'1','word':'(详见销货清单'}]",'InvoiceNum':'23838102'}
         code=None
         yzm_pic=None
         tishi=None
@@ -210,6 +209,6 @@ if __name__ == '__main__':
         elif opt in ("-i", "--input"):
             input_arg = arg
     pro = lanhe_fapiao(robot_no=robot_no,proc_no=proc_no,job_no=job_no,input_arg=input_arg)
-    pro.flow1()
+    pro.Main()
     ___logger = ILog(__file__)
     ___logger.debug('Class:Main,ProTag:Quit,Note:Exit')
