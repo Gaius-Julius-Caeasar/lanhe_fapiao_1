@@ -6,7 +6,7 @@
     },
     "OpenFlow": "[\n    {\n        \"seq\": \"Main\"\n    },\n    {\n        \"seq\": \"flow1\"\n    },\n    {\n        \"spy\": \"GlobalFun\"\n    }\n]\n",
     "ProInfo": {
-        "ProChange": "2020/06/23 16:33:12",
+        "ProChange": "2020/06/23 16:34:44",
         "ProCreate": "2020/06/23 14:04:25",
         "ProDesc": "",
         "ProImports": "",
@@ -35,6 +35,13 @@
             "seq": "flow1",
             "sop": "Close",
             "spv": [
+                {
+                    "vardef": "",
+                    "vardesc": "",
+                    "varname": "lv_6",
+                    "varpasstype": "1",
+                    "vartype": "1"
+                },
                 {
                     "inpar_Order": "",
                     "inpar_filetype": "",

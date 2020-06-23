@@ -9,7 +9,29 @@
                 "inpar_init": "",
                 "inpar_required": "0",
                 "inputpar": "",
-                "vardef": "[dict['InvoiceType'],dict['InvoiceTypeOrg'],dict['PurchaserRegisterNum'],dict[ 'InvoiceDate'],dict[ 'InvoiceCode'],dict['InvoiceNum'],dict['CheckCode'],dict['TotalAmount'],dict['TotalTax'],dict[ 'AmountInFiguers'],dict[ 'CommodityName']]",
+                "vardef": "",
+                "vardesc": "",
+                "varname": "lv_6",
+                "varpasstype": "1",
+                "varrobot": "",
+                "vartype": "1"
+            },
+            "NodePw": "198",
+            "NodePx": "629",
+            "NodePy": "444",
+            "NodeSubType": "EnumWidget_VarBVSet",
+            "NodeTag": "lv_6"
+        },
+        {
+            "NodePh": "66",
+            "NodePro": {
+                "inpar_Order": "",
+                "inpar_filetype": "",
+                "inpar_helpdesc": "",
+                "inpar_init": "",
+                "inpar_required": "0",
+                "inputpar": "",
+                "vardef": "[dict_info['InvoiceType'],dict_info['InvoiceTypeOrg'],dict_info['PurchaserRegisterNum'],dict_info[ 'InvoiceDate'],dict_info[ 'InvoiceCode'],dict_info['InvoiceNum'],dict_info['CheckCode'],dict_info['TotalAmount'],dict_info['TotalTax'],dict_info[ 'AmountInFiguers'],dict_info[ 'CommodityName']]",
                 "vardesc": "",
                 "varname": "lv_5",
                 "varpasstype": "1",
@@ -17,10 +39,20 @@
                 "vartype": "1"
             },
             "NodePw": "198",
-            "NodePx": "179",
-            "NodePy": "340",
+            "NodePx": "176",
+            "NodePy": "444",
             "NodeSubType": "EnumWidget_VarBVGet",
             "NodeTag": "lv_5"
+        },
+        {
+            "NodePh": "173",
+            "NodePro": {
+            },
+            "NodePw": "214",
+            "NodePx": "358",
+            "NodePy": "278",
+            "NodeSubType": "EnumWidget_SetVal",
+            "NodeTag": "设置变量"
         },
         {
             "NodePh": "66",
@@ -39,8 +71,8 @@
                 "vartype": "1"
             },
             "NodePw": "198",
-            "NodePx": "739",
-            "NodePy": "800",
+            "NodePx": "738",
+            "NodePy": "798",
             "NodeSubType": "EnumWidget_VarBVSet",
             "NodeTag": "dict_info"
         },
@@ -56,8 +88,8 @@
                 }
             },
             "NodePw": "218",
-            "NodePx": "659",
-            "NodePy": "280",
+            "NodePx": "718",
+            "NodePy": "258",
             "NodeSubType": "EnumWidget_Win_IPrint",
             "NodeTag": "输出"
         },
@@ -78,8 +110,8 @@
                 }
             },
             "NodePw": "214",
-            "NodePx": "1039",
-            "NodePy": "840",
+            "NodePx": "1038",
+            "NodePy": "838",
             "NodeSubType": "EnumWidget_Config_Begin",
             "NodeTag": "单元格写入"
         },
@@ -99,8 +131,8 @@
                 }
             },
             "NodePw": "254",
-            "NodePx": "4639",
-            "NodePy": "340",
+            "NodePx": "4638",
+            "NodePy": "338",
             "NodeSubType": "EnumWidget_Win_MsgBox",
             "NodeTag": "消息框"
         },
@@ -139,8 +171,8 @@
                 }
             },
             "NodePw": "214",
-            "NodePx": "4639",
-            "NodePy": "180",
+            "NodePx": "4638",
+            "NodePy": "178",
             "NodeSubType": "EnumWidget_IE_MouseClick",
             "NodeTag": "鼠标点击"
         },
@@ -161,8 +193,8 @@
                 }
             },
             "NodePw": "214",
-            "NodePx": "4339",
-            "NodePy": "340",
+            "NodePx": "4338",
+            "NodePy": "338",
             "NodeSubType": "EnumWidget_Config_Begin",
             "NodeTag": "单元格写入"
         },
@@ -183,8 +215,8 @@
                 }
             },
             "NodePw": "214",
-            "NodePx": "4339",
-            "NodePy": "180",
+            "NodePx": "4338",
+            "NodePy": "178",
             "NodeSubType": "EnumWidget_Config_Begin",
             "NodeTag": "单元格写入"
         },
@@ -215,8 +247,8 @@
                 }
             },
             "NodePw": "214",
-            "NodePx": "3699",
-            "NodePy": "240",
+            "NodePx": "3698",
+            "NodePy": "238",
             "NodeSubType": "EnumWidget_Img_Exists",
             "NodeTag": "图片检测"
         },
@@ -225,8 +257,8 @@
             "NodePro": {
             },
             "NodePw": "230",
-            "NodePx": "3999",
-            "NodePy": "240",
+            "NodePx": "3998",
+            "NodePy": "238",
             "NodeSubType": "EnumWidget_Syntax_elif",
             "NodeTag": "IF分支"
         },
@@ -252,8 +284,8 @@
                 }
             },
             "NodePw": "214",
-            "NodePx": "7659",
-            "NodePy": "480",
+            "NodePx": "7658",
+            "NodePy": "478",
             "NodeSubType": "EnumWidget_Key_Keyboard",
             "NodeTag": "模拟按键"
         },
@@ -279,8 +311,8 @@
                 }
             },
             "NodePw": "214",
-            "NodePx": "7399",
-            "NodePy": "480",
+            "NodePx": "7398",
+            "NodePy": "478",
             "NodeSubType": "EnumWidget_Key_HotKey",
             "NodeTag": "热键输入"
         },
@@ -319,8 +351,8 @@
                 }
             },
             "NodePw": "214",
-            "NodePx": "7139",
-            "NodePy": "480",
+            "NodePx": "7138",
+            "NodePy": "478",
             "NodeSubType": "EnumWidget_IE_MouseClick",
             "NodeTag": "鼠标点击"
         },
@@ -359,8 +391,8 @@
                 }
             },
             "NodePw": "214",
-            "NodePx": "6879",
-            "NodePy": "480",
+            "NodePx": "6878",
+            "NodePy": "478",
             "NodeSubType": "EnumWidget_IE_MouseClick",
             "NodeTag": "鼠标点击"
         },
@@ -369,8 +401,8 @@
             "NodePro": {
             },
             "NodePw": "214",
-            "NodePx": "6879",
-            "NodePy": "640",
+            "NodePx": "6878",
+            "NodePy": "638",
             "NodeSubType": "EnumWidget_Syntax_break",
             "NodeTag": "Break中断"
         },
@@ -379,8 +411,8 @@
             "NodePro": {
             },
             "NodePw": "230",
-            "NodePx": "6599",
-            "NodePy": "500",
+            "NodePx": "6598",
+            "NodePy": "498",
             "NodeSubType": "EnumWidget_Syntax_elif",
             "NodeTag": "IF分支"
         },
@@ -419,8 +451,8 @@
                 }
             },
             "NodePw": "214",
-            "NodePx": "5999",
-            "NodePy": "500",
+            "NodePx": "5998",
+            "NodePy": "498",
             "NodeSubType": "EnumWidget_IE_MouseClick",
             "NodeTag": "鼠标点击"
         },
@@ -451,8 +483,8 @@
                 }
             },
             "NodePw": "214",
-            "NodePx": "6299",
-            "NodePy": "500",
+            "NodePx": "6298",
+            "NodePy": "498",
             "NodeSubType": "EnumWidget_Img_Exists",
             "NodeTag": "图片检测"
         },
@@ -491,8 +523,8 @@
                 }
             },
             "NodePw": "214",
-            "NodePx": "5359",
-            "NodePy": "500",
+            "NodePx": "5358",
+            "NodePy": "498",
             "NodeSubType": "EnumWidget_IE_MouseClick",
             "NodeTag": "鼠标点击"
         },
@@ -528,8 +560,8 @@
                 }
             },
             "NodePw": "214",
-            "NodePx": "3939",
-            "NodePy": "500",
+            "NodePx": "3938",
+            "NodePy": "498",
             "NodeSubType": "EnumWidget_IE_MouseMove",
             "NodeTag": "鼠标移动"
         },
@@ -568,8 +600,8 @@
                 }
             },
             "NodePw": "214",
-            "NodePx": "3699",
-            "NodePy": "500",
+            "NodePx": "3698",
+            "NodePy": "498",
             "NodeSubType": "EnumWidget_IE_MouseClick",
             "NodeTag": "鼠标点击"
         },
@@ -590,8 +622,8 @@
                 "vartype": "1"
             },
             "NodePw": "198",
-            "NodePx": "5379",
-            "NodePy": "800",
+            "NodePx": "5378",
+            "NodePy": "798",
             "NodeSubType": "EnumWidget_VarBVGet",
             "NodeTag": "code"
         },
@@ -617,8 +649,8 @@
                 }
             },
             "NodePw": "214",
-            "NodePx": "5699",
-            "NodePy": "500",
+            "NodePx": "5698",
+            "NodePy": "498",
             "NodeSubType": "EnumWidget_Key_Keyboard",
             "NodeTag": "模拟按键"
         },
@@ -638,8 +670,8 @@
                 }
             },
             "NodePw": "214",
-            "NodePx": "4779",
-            "NodePy": "500",
+            "NodePx": "4778",
+            "NodePy": "498",
             "NodeSubType": "EnumWidget_Funs_Custom",
             "NodeTag": "全局函数"
         },
@@ -655,8 +687,8 @@
                 }
             },
             "NodePw": "214",
-            "NodePx": "159",
-            "NodePy": "540",
+            "NodePx": "158",
+            "NodePy": "538",
             "NodeSubType": "EnumWidget_Begin",
             "NodeTag": "开始"
         },
@@ -676,8 +708,8 @@
                 }
             },
             "NodePw": "258",
-            "NodePx": "399",
-            "NodePy": "540",
+            "NodePx": "398",
+            "NodePy": "538",
             "NodeSubType": "EnumWidget_Config_Begin",
             "NodeTag": "增值税发票OCR"
         },
@@ -695,8 +727,8 @@
                 }
             },
             "NodePw": "214",
-            "NodePx": "739",
-            "NodePy": "560",
+            "NodePx": "738",
+            "NodePy": "558",
             "NodeSubType": "EnumWidget_Config_Begin",
             "NodeTag": "网站"
         },
@@ -735,8 +767,8 @@
                 }
             },
             "NodePw": "214",
-            "NodePx": "979",
-            "NodePy": "560",
+            "NodePx": "978",
+            "NodePy": "558",
             "NodeSubType": "EnumWidget_IE_MouseClick",
             "NodeTag": "鼠标点击"
         },
@@ -762,8 +794,8 @@
                 }
             },
             "NodePw": "214",
-            "NodePx": "1239",
-            "NodePy": "560",
+            "NodePx": "1238",
+            "NodePy": "558",
             "NodeSubType": "EnumWidget_Key_Keyboard",
             "NodeTag": "模拟按键"
         },
@@ -789,8 +821,8 @@
                 }
             },
             "NodePw": "214",
-            "NodePx": "1499",
-            "NodePy": "559",
+            "NodePx": "1498",
+            "NodePy": "557",
             "NodeSubType": "EnumWidget_Key_Keyboard",
             "NodeTag": "模拟按键"
         },
@@ -816,8 +848,8 @@
                 }
             },
             "NodePw": "214",
-            "NodePx": "1759",
-            "NodePy": "560",
+            "NodePx": "1758",
+            "NodePy": "558",
             "NodeSubType": "EnumWidget_Key_Keyboard",
             "NodeTag": "模拟按键"
         },
@@ -843,8 +875,8 @@
                 }
             },
             "NodePw": "214",
-            "NodePx": "1999",
-            "NodePy": "560",
+            "NodePx": "1998",
+            "NodePy": "558",
             "NodeSubType": "EnumWidget_Key_Keyboard",
             "NodeTag": "模拟按键"
         },
@@ -870,8 +902,8 @@
                 }
             },
             "NodePw": "214",
-            "NodePx": "2259",
-            "NodePy": "560",
+            "NodePx": "2258",
+            "NodePy": "558",
             "NodeSubType": "EnumWidget_Key_Keyboard",
             "NodeTag": "模拟按键"
         },
@@ -897,8 +929,8 @@
                 }
             },
             "NodePw": "214",
-            "NodePx": "2499",
-            "NodePy": "560",
+            "NodePx": "2498",
+            "NodePy": "558",
             "NodeSubType": "EnumWidget_Key_Keyboard",
             "NodeTag": "模拟按键"
         },
@@ -924,8 +956,8 @@
                 }
             },
             "NodePw": "214",
-            "NodePx": "3399",
-            "NodePy": "840",
+            "NodePx": "3398",
+            "NodePy": "838",
             "NodeSubType": "EnumWidget_Key_Keyboard",
             "NodeTag": "模拟按键"
         },
@@ -934,8 +966,8 @@
             "NodePro": {
             },
             "NodePw": "230",
-            "NodePx": "3039",
-            "NodePy": "560",
+            "NodePx": "3038",
+            "NodePy": "558",
             "NodeSubType": "EnumWidget_Syntax_elif",
             "NodeTag": "IF分支"
         },
@@ -966,8 +998,8 @@
                 }
             },
             "NodePw": "214",
-            "NodePx": "2739",
-            "NodePy": "560",
+            "NodePx": "2738",
+            "NodePy": "558",
             "NodeSubType": "EnumWidget_Img_Exists",
             "NodeTag": "图片检测"
         },
@@ -993,8 +1025,8 @@
                 }
             },
             "NodePw": "214",
-            "NodePx": "3419",
-            "NodePy": "600",
+            "NodePx": "3418",
+            "NodePy": "598",
             "NodeSubType": "EnumWidget_Key_Keyboard",
             "NodeTag": "模拟按键"
         },
@@ -1003,8 +1035,8 @@
             "NodePro": {
             },
             "NodePw": "242",
-            "NodePx": "3419",
-            "NodePy": "440",
+            "NodePx": "3418",
+            "NodePy": "438",
             "NodeSubType": "EnumWidget_Syntax_while",
             "NodeTag": "While循环"
         },
@@ -1036,8 +1068,8 @@
                 }
             },
             "NodePw": "214",
-            "NodePx": "4239",
-            "NodePy": "499",
+            "NodePx": "4238",
+            "NodePy": "497",
             "NodeSubType": "EnumWidget_Img_Capture",
             "NodeTag": "截图"
         },
@@ -1069,8 +1101,8 @@
                 }
             },
             "NodePw": "214",
-            "NodePx": "4499",
-            "NodePy": "500",
+            "NodePx": "4498",
+            "NodePy": "498",
             "NodeSubType": "EnumWidget_Img_Capture",
             "NodeTag": "截图"
         },
@@ -1091,8 +1123,8 @@
                 "vartype": "1"
             },
             "NodePw": "198",
-            "NodePx": "4499",
-            "NodePy": "700",
+            "NodePx": "4498",
+            "NodePy": "698",
             "NodeSubType": "EnumWidget_VarBVSet",
             "NodeTag": "输入变量"
         },
@@ -1113,8 +1145,8 @@
                 "vartype": "1"
             },
             "NodePw": "198",
-            "NodePx": "4759",
-            "NodePy": "700",
+            "NodePx": "4758",
+            "NodePy": "698",
             "NodeSubType": "EnumWidget_VarBVSet",
             "NodeTag": "输入变量"
         },
@@ -1135,8 +1167,8 @@
                 }
             },
             "NodePw": "258",
-            "NodePx": "5039",
-            "NodePy": "500",
+            "NodePx": "5038",
+            "NodePy": "498",
             "NodeSubType": "EnumWidget_Config_Begin",
             "NodeTag": "验证码"
         },
@@ -1157,8 +1189,8 @@
                 "vartype": "1"
             },
             "NodePw": "198",
-            "NodePx": "5399",
-            "NodePy": "720",
+            "NodePx": "5398",
+            "NodePy": "718",
             "NodeSubType": "EnumWidget_VarBVSet",
             "NodeTag": "输入变量"
         }
