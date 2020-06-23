@@ -3,63 +3,6 @@
         {
             "LineColor": "255, 170, 170",
             "LineEnd": {
-                "Pidx": "23162615073185_r_var_0",
-                "Px": "4276",
-                "Py": "4796"
-            },
-            "LineSplit": {
-                "Px": "",
-                "Py": ""
-            },
-            "LineStart": {
-                "Pidx": "23162608634182_l_par_0",
-                "Px": "4379",
-                "Py": "4794"
-            },
-            "LineTag": "23162615065183",
-            "LineType": "2"
-        },
-        {
-            "LineColor": "255, 170, 170",
-            "LineEnd": {
-                "Pidx": "23155752736173_l_flow_0",
-                "Px": "4705",
-                "Py": "4724"
-            },
-            "LineSplit": {
-                "Px": "",
-                "Py": ""
-            },
-            "LineStart": {
-                "Pidx": "23162608634182_r_flow_0",
-                "Px": "4550",
-                "Py": "4764"
-            },
-            "LineTag": "23162630569190",
-            "LineType": "2"
-        },
-        {
-            "LineColor": "255, 170, 170",
-            "LineEnd": {
-                "Pidx": "23155752736173_l_par_0",
-                "Px": "4705",
-                "Py": "4754"
-            },
-            "LineSplit": {
-                "Px": "",
-                "Py": ""
-            },
-            "LineStart": {
-                "Pidx": "23162608634182_r_ret_0",
-                "Px": "4550",
-                "Py": "4794"
-            },
-            "LineTag": "23162624657189",
-            "LineType": "2"
-        },
-        {
-            "LineColor": "255, 170, 170",
-            "LineEnd": {
                 "Pidx": "23155404690169_l_flow_0",
                 "Px": "8685",
                 "Py": "4804"
@@ -921,62 +864,19 @@
                 "vartype": "1"
             },
             "NodeUI": {
-                "FNodePx": "114.314",
-                "FNodePy": "205.079",
+                "FNodePx": "65.9232",
+                "FNodePy": "199.463",
                 "NodeIsBreak": "0",
                 "NodePort": [
                     {
                         "Pidx": "r_var_0"
                     }
                 ],
-                "NodePx": "4118",
-                "NodePy": "4768",
+                "NodePx": "4218",
+                "NodePy": "4728",
                 "NodeSubType": "EnumWidget_VarBVGet",
                 "NodeTag": "23162615073185",
                 "NodeTitle": "lv_5"
-            }
-        },
-        {
-            "NodePanelData": {
-                "InputProperty": [
-                    {
-                        "": ""
-                    }
-                ],
-                "PubProperty": {
-                    "NodeRemark": "",
-                    "mouse_x_pos": "0",
-                    "mouse_y_pos": "0",
-                    "selcomment": "0",
-                    "seltype": "",
-                    "snapshot_preview": ""
-                }
-            },
-            "NodeProperty": {
-            },
-            "NodeUI": {
-                "FNodePx": "317.673",
-                "FNodePy": "137.293",
-                "NodeIsBreak": "0",
-                "NodePort": [
-                    {
-                        "Pidx": "l_flow_0"
-                    },
-                    {
-                        "Pidx": "l_par_0"
-                    },
-                    {
-                        "Pidx": "r_flow_0"
-                    },
-                    {
-                        "Pidx": "r_ret_0"
-                    }
-                ],
-                "NodePx": "4358",
-                "NodePy": "4688",
-                "NodeSubType": "EnumWidget_SetVal",
-                "NodeTag": "23162608634182",
-                "NodeTitle": "设置变量"
             }
         },
         {
@@ -1003,7 +903,7 @@
                     "inputpar": "",
                     "vardef": "'{'AmountInWords': '佰叁拾圆叁角肆分', 'NoteDrawer': '谢登梅', 'SellerAddress': '深州市龙华区庆湾街道庆津大道乌庆旺路文汇处民治商务中心1栋115栋、2、3栋、4幢009栋7553323188', 'CommodityPrice': '[]', 'CommodityNum': '[]', 'SellerRegisterNum': '91440300689404127F', 'SellerBank': '农业银行龙华支行41028900040099987', 'Remarks': '订单号1047426466044621910支付日期2020-06-07', 'CommodityTaxRate': '[]', 'TotalTax': '62.05', 'CheckCode': '17960524178417916383', 'InvoiceCode': '044031900111', 'InvoiceDate': '2020年06月11日', 'PurchaserRegisterNum': '91440300MA5EGKDJ92', 'InvoiceTypeOrg': '深圳增值税电子普通发票', 'Password': '', 'PurchaserBank': '', 'AmountInFiguers': '937.34', 'Checker': '郑晓碧', 'TotalAmount': '875.29', 'CommodityAmount': \"[{'row': '1', 'word': '875.29'}]\", 'PurchaserName': '深圳市蓝禾技术有限公司', 'CommodityType': '[]', 'InvoiceType': '电子普通发票', 'PurchaserAddress': '', 'CommodityTax': \"[{'row': '1', 'word': '62.05'}]\", 'CommodityUnit': '[]', 'Payee': '刘笑额', 'SellerName': '深圳康润华商贸有限公司', 'CommodityName': \"[{'row': '1', 'word': '(详见销货清单'}]\", 'InvoiceNum': '23838102'}\n'",
                     "vardesc": "",
-                    "varname": "dict",
+                    "varname": "dict_info",
                     "varpasstype": "1",
                     "varrobot": "",
                     "vartype": "1"
@@ -1018,14 +918,14 @@
                 "inputpar": "",
                 "vardef": "'{'AmountInWords': '佰叁拾圆叁角肆分', 'NoteDrawer': '谢登梅', 'SellerAddress': '深州市龙华区庆湾街道庆津大道乌庆旺路文汇处民治商务中心1栋115栋、2、3栋、4幢009栋7553323188', 'CommodityPrice': '[]', 'CommodityNum': '[]', 'SellerRegisterNum': '91440300689404127F', 'SellerBank': '农业银行龙华支行41028900040099987', 'Remarks': '订单号1047426466044621910支付日期2020-06-07', 'CommodityTaxRate': '[]', 'TotalTax': '62.05', 'CheckCode': '17960524178417916383', 'InvoiceCode': '044031900111', 'InvoiceDate': '2020年06月11日', 'PurchaserRegisterNum': '91440300MA5EGKDJ92', 'InvoiceTypeOrg': '深圳增值税电子普通发票', 'Password': '', 'PurchaserBank': '', 'AmountInFiguers': '937.34', 'Checker': '郑晓碧', 'TotalAmount': '875.29', 'CommodityAmount': \"[{'row': '1', 'word': '875.29'}]\", 'PurchaserName': '深圳市蓝禾技术有限公司', 'CommodityType': '[]', 'InvoiceType': '电子普通发票', 'PurchaserAddress': '', 'CommodityTax': \"[{'row': '1', 'word': '62.05'}]\", 'CommodityUnit': '[]', 'Payee': '刘笑额', 'SellerName': '深圳康润华商贸有限公司', 'CommodityName': \"[{'row': '1', 'word': '(详见销货清单'}]\", 'InvoiceNum': '23838102'}\n'",
                 "vardesc": "",
-                "varname": "dict",
+                "varname": "dict_info",
                 "varpasstype": "1",
                 "varrobot": "",
                 "vartype": "1"
             },
             "NodeUI": {
-                "FNodePx": "673.553",
-                "FNodePy": "560.959",
+                "FNodePx": "530.986",
+                "FNodePy": "581.479",
                 "NodeIsBreak": "0",
                 "NodePort": [
                     {
@@ -1036,14 +936,14 @@
                 "NodePy": "5188",
                 "NodeSubType": "EnumWidget_VarBVSet",
                 "NodeTag": "23161440635178",
-                "NodeTitle": "dict"
+                "NodeTitle": "dict_info"
             }
         },
         {
             "NodePanelData": {
                 "InputProperty": [
                     {
-                        "0": ""
+                        "0": "dict['InvoiceType']"
                     }
                 ],
                 "PubProperty": {
@@ -1065,8 +965,8 @@
                 }
             },
             "NodeUI": {
-                "FNodePx": "605.766",
-                "FNodePy": "103.4",
+                "FNodePx": "464.549",
+                "FNodePy": "149.635",
                 "NodeIsBreak": "0",
                 "NodePort": [
                     {
@@ -1080,7 +980,7 @@
                     }
                 ],
                 "NodePx": "4698",
-                "NodePy": "4648",
+                "NodePy": "4668",
                 "NodeSubType": "EnumWidget_Win_IPrint",
                 "NodeTag": "23155752736173",
                 "NodeTitle": "输出"
@@ -1120,8 +1020,8 @@
                 }
             },
             "NodeUI": {
-                "FNodePx": "927.752",
-                "FNodePy": "594.852",
+                "FNodePx": "780.128",
+                "FNodePy": "614.698",
                 "NodeIsBreak": "0",
                 "NodePort": [
                     {
@@ -1175,8 +1075,8 @@
                 }
             },
             "NodeUI": {
-                "FNodePx": "3978.15",
-                "FNodePy": "171.186",
+                "FNodePx": "3769.82",
+                "FNodePy": "199.463",
                 "NodeIsBreak": "0",
                 "NodePort": [
                     {
@@ -1248,8 +1148,8 @@
                 }
             },
             "NodeUI": {
-                "FNodePx": "3978.15",
-                "FNodePy": "35.613",
+                "FNodePx": "3769.82",
+                "FNodePy": "66.5877",
                 "NodeIsBreak": "0",
                 "NodePort": [
                     {
@@ -1300,8 +1200,8 @@
                 }
             },
             "NodeUI": {
-                "FNodePx": "3723.95",
-                "FNodePy": "171.186",
+                "FNodePx": "3520.68",
+                "FNodePy": "199.463",
                 "NodeIsBreak": "0",
                 "NodePort": [
                     {
@@ -1359,8 +1259,8 @@
                 }
             },
             "NodeUI": {
-                "FNodePx": "3723.95",
-                "FNodePy": "35.613",
+                "FNodePx": "3520.68",
+                "FNodePy": "66.5877",
                 "NodeIsBreak": "0",
                 "NodePort": [
                     {
@@ -1422,8 +1322,8 @@
                 }
             },
             "NodeUI": {
-                "FNodePx": "3181.66",
-                "FNodePy": "86.4529",
+                "FNodePx": "2989.18",
+                "FNodePy": "116.416",
                 "NodeIsBreak": "0",
                 "NodePort": [
                     {
@@ -1462,8 +1362,8 @@
             "NodeProperty": {
             },
             "NodeUI": {
-                "FNodePx": "3435.86",
-                "FNodePy": "86.4529",
+                "FNodePx": "3238.32",
+                "FNodePy": "116.416",
                 "NodeIsBreak": "0",
                 "NodePort": [
                     {
@@ -1525,8 +1425,8 @@
                 }
             },
             "NodeUI": {
-                "FNodePx": "6537.09",
-                "FNodePy": "289.813",
+                "FNodePx": "6277.84",
+                "FNodePy": "315.729",
                 "NodeIsBreak": "0",
                 "NodePort": [
                     {
@@ -1591,8 +1491,8 @@
                 }
             },
             "NodeUI": {
-                "FNodePx": "6316.78",
-                "FNodePy": "289.813",
+                "FNodePx": "6061.92",
+                "FNodePy": "315.729",
                 "NodeIsBreak": "0",
                 "NodePort": [
                     {
@@ -1661,8 +1561,8 @@
                 }
             },
             "NodeUI": {
-                "FNodePx": "6096.48",
-                "FNodePy": "289.813",
+                "FNodePx": "5846",
+                "FNodePy": "315.729",
                 "NodeIsBreak": "0",
                 "NodePort": [
                     {
@@ -1725,8 +1625,8 @@
                 }
             },
             "NodeUI": {
-                "FNodePx": "5876.17",
-                "FNodePy": "289.813",
+                "FNodePx": "5630.07",
+                "FNodePy": "315.729",
                 "NodeIsBreak": "0",
                 "NodePort": [
                     {
@@ -1759,8 +1659,8 @@
             "NodeProperty": {
             },
             "NodeUI": {
-                "FNodePx": "5876.17",
-                "FNodePy": "425.386",
+                "FNodePx": "5630.07",
+                "FNodePy": "448.604",
                 "NodeIsBreak": "0",
                 "NodePort": [
                     {
@@ -1793,8 +1693,8 @@
             "NodeProperty": {
             },
             "NodeUI": {
-                "FNodePx": "5638.92",
-                "FNodePy": "306.759",
+                "FNodePx": "5397.54",
+                "FNodePy": "332.338",
                 "NodeIsBreak": "0",
                 "NodePort": [
                     {
@@ -1866,8 +1766,8 @@
                 }
             },
             "NodeUI": {
-                "FNodePx": "5130.52",
-                "FNodePy": "306.759",
+                "FNodePx": "4899.26",
+                "FNodePy": "332.338",
                 "NodeIsBreak": "0",
                 "NodePort": [
                     {
@@ -1922,8 +1822,8 @@
                 }
             },
             "NodeUI": {
-                "FNodePx": "5384.72",
-                "FNodePy": "306.759",
+                "FNodePx": "5148.4",
+                "FNodePy": "332.338",
                 "NodeIsBreak": "0",
                 "NodePort": [
                     {
@@ -1989,8 +1889,8 @@
                 }
             },
             "NodeUI": {
-                "FNodePx": "4588.23",
-                "FNodePy": "306.759",
+                "FNodePx": "4367.76",
+                "FNodePy": "332.338",
                 "NodeIsBreak": "0",
                 "NodePort": [
                     {
@@ -2050,8 +1950,8 @@
                 }
             },
             "NodeUI": {
-                "FNodePx": "3385.02",
-                "FNodePy": "306.759",
+                "FNodePx": "3188.49",
+                "FNodePy": "332.338",
                 "NodeIsBreak": "0",
                 "NodePort": [
                     {
@@ -2114,8 +2014,8 @@
                 }
             },
             "NodeUI": {
-                "FNodePx": "3181.66",
-                "FNodePy": "306.759",
+                "FNodePx": "2989.18",
+                "FNodePy": "332.338",
                 "NodeIsBreak": "0",
                 "NodePort": [
                     {
@@ -2170,8 +2070,8 @@
                 "vartype": "1"
             },
             "NodeUI": {
-                "FNodePx": "4605.17",
-                "FNodePy": "560.959",
+                "FNodePx": "4384.37",
+                "FNodePy": "581.479",
                 "NodeIsBreak": "0",
                 "NodePort": [
                     {
@@ -2221,8 +2121,8 @@
                 }
             },
             "NodeUI": {
-                "FNodePx": "4876.32",
-                "FNodePy": "306.759",
+                "FNodePx": "4650.12",
+                "FNodePy": "332.338",
                 "NodeIsBreak": "0",
                 "NodePort": [
                     {
@@ -2275,8 +2175,8 @@
                 }
             },
             "NodeUI": {
-                "FNodePx": "4096.77",
-                "FNodePy": "306.759",
+                "FNodePx": "3886.09",
+                "FNodePy": "332.338",
                 "NodeIsBreak": "0",
                 "NodePort": [
                     {
@@ -2319,8 +2219,8 @@
                 }
             },
             "NodeUI": {
-                "FNodePx": "182.1",
-                "FNodePy": "340.653",
+                "FNodePx": "49.3138",
+                "FNodePy": "365.557",
                 "NodeIsBreak": "0",
                 "NodePort": [
                     {
@@ -2364,8 +2264,8 @@
                 }
             },
             "NodeUI": {
-                "FNodePx": "385.46",
-                "FNodePy": "340.653",
+                "FNodePx": "248.627",
+                "FNodePy": "365.557",
                 "NodeIsBreak": "0",
                 "NodePort": [
                     {
@@ -2423,8 +2323,8 @@
                 }
             },
             "NodeUI": {
-                "FNodePx": "673.553",
-                "FNodePy": "357.599",
+                "FNodePx": "530.986",
+                "FNodePy": "382.166",
                 "NodeIsBreak": "0",
                 "NodePort": [
                     {
@@ -2494,8 +2394,8 @@
                 }
             },
             "NodeUI": {
-                "FNodePx": "876.912",
-                "FNodePy": "357.599",
+                "FNodePx": "730.299",
+                "FNodePy": "382.166",
                 "NodeIsBreak": "0",
                 "NodePort": [
                     {
@@ -2548,8 +2448,8 @@
                 }
             },
             "NodeUI": {
-                "FNodePx": "1097.22",
-                "FNodePy": "357.599",
+                "FNodePx": "946.222",
+                "FNodePy": "382.166",
                 "NodeIsBreak": "0",
                 "NodePort": [
                     {
@@ -2611,8 +2511,8 @@
                 }
             },
             "NodeUI": {
-                "FNodePx": "1317.53",
-                "FNodePy": "356.752",
+                "FNodePx": "1162.14",
+                "FNodePy": "381.336",
                 "NodeIsBreak": "0",
                 "NodePort": [
                     {
@@ -2674,8 +2574,8 @@
                 }
             },
             "NodeUI": {
-                "FNodePx": "1537.83",
-                "FNodePy": "357.599",
+                "FNodePx": "1378.07",
+                "FNodePy": "382.166",
                 "NodeIsBreak": "0",
                 "NodePort": [
                     {
@@ -2737,8 +2637,8 @@
                 }
             },
             "NodeUI": {
-                "FNodePx": "1741.19",
-                "FNodePy": "357.599",
+                "FNodePx": "1577.38",
+                "FNodePy": "382.166",
                 "NodeIsBreak": "0",
                 "NodePort": [
                     {
@@ -2800,8 +2700,8 @@
                 }
             },
             "NodeUI": {
-                "FNodePx": "1961.5",
-                "FNodePy": "357.599",
+                "FNodePx": "1793.3",
+                "FNodePy": "382.166",
                 "NodeIsBreak": "0",
                 "NodePort": [
                     {
@@ -2863,8 +2763,8 @@
                 }
             },
             "NodeUI": {
-                "FNodePx": "2164.86",
-                "FNodePy": "357.599",
+                "FNodePx": "1992.61",
+                "FNodePy": "382.166",
                 "NodeIsBreak": "0",
                 "NodePort": [
                     {
@@ -2926,8 +2826,8 @@
                 }
             },
             "NodeUI": {
-                "FNodePx": "2927.46",
-                "FNodePy": "594.852",
+                "FNodePx": "2740.04",
+                "FNodePy": "614.698",
                 "NodeIsBreak": "0",
                 "NodePort": [
                     {
@@ -2972,8 +2872,8 @@
             "NodeProperty": {
             },
             "NodeUI": {
-                "FNodePx": "2622.42",
-                "FNodePy": "357.599",
+                "FNodePx": "2441.07",
+                "FNodePy": "382.166",
                 "NodeIsBreak": "0",
                 "NodePort": [
                     {
@@ -3037,8 +2937,8 @@
                 }
             },
             "NodeUI": {
-                "FNodePx": "2368.22",
-                "FNodePy": "357.599",
+                "FNodePx": "2191.93",
+                "FNodePy": "382.166",
                 "NodeIsBreak": "0",
                 "NodePort": [
                     {
@@ -3094,8 +2994,8 @@
                 }
             },
             "NodeUI": {
-                "FNodePx": "2944.4",
-                "FNodePy": "391.492",
+                "FNodePx": "2756.65",
+                "FNodePy": "415.385",
                 "NodeIsBreak": "0",
                 "NodePort": [
                     {
@@ -3140,8 +3040,8 @@
             "NodeProperty": {
             },
             "NodeUI": {
-                "FNodePx": "2944.4",
-                "FNodePy": "255.919",
+                "FNodePx": "2756.65",
+                "FNodePy": "282.51",
                 "NodeIsBreak": "0",
                 "NodePort": [
                     {
@@ -3206,8 +3106,8 @@
                 }
             },
             "NodeUI": {
-                "FNodePx": "3639.22",
-                "FNodePy": "305.912",
+                "FNodePx": "3437.63",
+                "FNodePy": "331.508",
                 "NodeIsBreak": "0",
                 "NodePort": [
                     {
@@ -3266,8 +3166,8 @@
                 }
             },
             "NodeUI": {
-                "FNodePx": "3859.52",
-                "FNodePy": "306.759",
+                "FNodePx": "3653.55",
+                "FNodePy": "332.338",
                 "NodeIsBreak": "0",
                 "NodePort": [
                     {
@@ -3325,8 +3225,8 @@
                 "vartype": "1"
             },
             "NodeUI": {
-                "FNodePx": "3859.52",
-                "FNodePy": "476.226",
+                "FNodePx": "3653.55",
+                "FNodePy": "498.432",
                 "NodeIsBreak": "0",
                 "NodePort": [
                     {
@@ -3378,8 +3278,8 @@
                 "vartype": "1"
             },
             "NodeUI": {
-                "FNodePx": "4079.83",
-                "FNodePy": "476.226",
+                "FNodePx": "3869.48",
+                "FNodePy": "498.432",
                 "NodeIsBreak": "0",
                 "NodePort": [
                     {
@@ -3424,8 +3324,8 @@
                 }
             },
             "NodeUI": {
-                "FNodePx": "4317.08",
-                "FNodePy": "306.759",
+                "FNodePx": "4102.01",
+                "FNodePy": "332.338",
                 "NodeIsBreak": "0",
                 "NodePort": [
                     {
@@ -3490,8 +3390,8 @@
                 "vartype": "1"
             },
             "NodeUI": {
-                "FNodePx": "4622.12",
-                "FNodePy": "493.172",
+                "FNodePx": "4400.98",
+                "FNodePy": "515.042",
                 "NodeIsBreak": "0",
                 "NodePort": [
                     {
@@ -3508,7 +3408,7 @@
     ],
     "OpType": "0",
     "SeqTag": "flow1_bp",
-    "ViewCenterPx": "4719.52",
-    "ViewCenterPy": "4901.27",
-    "ViewScaling": "0.847332"
+    "ViewCenterPx": "4890",
+    "ViewCenterPy": "4870.73",
+    "ViewScaling": "0.83047"
 }
