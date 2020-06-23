@@ -1,5 +1,5 @@
 # coding=utf-8
-# 编译日期：2020-06-23 16:34:45
+# 编译日期：2020-06-23 16:37:21
 # 版权所有：www.i-search.com.cn
 import time
 import pdb
@@ -36,7 +36,7 @@ class lanhe_fapiao:
         code=None
         yzm_pic=None
         tishi=None
-        #RPACodeMarked.....23163411211191
+        #RPACodeMarked.....231405246083
         # 设置值
         self.__logger.debug('Flow:flow1,StepNodeTag:23163411211191,Note:')
         lv_6=lv_5
