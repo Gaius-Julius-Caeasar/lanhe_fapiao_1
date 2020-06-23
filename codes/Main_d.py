@@ -1,5 +1,5 @@
 # coding=utf-8
-# 编译日期：2020-06-23 15:08:59
+# 编译日期：2020-06-23 15:11:57
 # 版权所有：www.i-search.com.cn
 import time
 import pdb
@@ -88,6 +88,9 @@ class lanhe_fapiao:
         # While循环
         self.__logger.debug('Flow:flow1,StepNodeTag:2314350501348,Note:')
         while -1:
+            # 鼠标点击
+            self.__logger.debug('Flow:flow1,StepNodeTag:23151109681113,Note:')
+            iie.do_click_pos(win_title=r'国家税务总局全国增值税发票查验平台 - Internet Explorer',url=r'https://inv-veri.chinatax.gov.cn/index.html',selector=r'#yzm_img',button=r'left',curson=r'center',times=1,run_mode=r'unctrl',continue_on_error=r'break',waitfor=10)
             # 截图
             self.__logger.debug('Flow:flow1,StepNodeTag:2314353040452,Note:')
             a = iimg.capture_image(win_title=r'国家税务总局全国增值税发票查验平台 - Internet Explorer',win_text=r'',left_indent=1253,top_indent=572,width=210,height=36,waitfor=30)
@@ -96,7 +99,7 @@ class lanhe_fapiao:
             b = iimg.capture_image(win_title=r'国家税务总局全国增值税发票查验平台 - Internet Explorer',win_text=r'',left_indent=992,top_indent=620,width=139,height=64,waitfor=30)
             # 自定义函数
             self.__logger.debug('Flow:flow1,StepNodeTag:2314544729489,Note:')
-            tvar2314544729489 = GlobalFun.()
+            tvar2314544729489 = GlobalFun.code_color(a,b)
             #验证码
             self.__logger.debug('Flow:flow1,StepNodeTag:2314593469491,Note:')
             code = iocr.vcode_recognize(image_path=tvar2314544729489,code_type=8001,apiKey='8159a500cc9d4a69a71e6ac14263f029',secretKey='2d078aa8c13741239b3d00ced85832e3')
