@@ -1,5 +1,5 @@
 # coding=utf-8
-# 编译日期：2020-06-23 17:12:08
+# 编译日期：2020-06-23 17:12:53
 # 版权所有：www.i-search.com.cn
 import time
 import pdb
@@ -40,9 +40,11 @@ class lanhe_fapiao:
     def flow1(self):
         t=['电子普通发票','深圳增值税电子普通发票','91440300MA5EGKDJ92', '2020年06月11日','044031900111','23838102', '17960524178417916383','875.29','62.05','937.34',"[{'row': '1', 'word': '(详见销货清单'}]"]
         lv_6=[dict_info['InvoiceType'],dict_info['InvoiceTypeOrg'],dict_info['PurchaserRegisterNum'],dict_info[ 'InvoiceDate'],dict_info['InvoiceCode'],dict_info['InvoiceNum'],dict_info['CheckCode'],dict_info['TotalAmount'],dict_info['TotalTax'],dict_info['AmountInFiguers'],dict_info['CommodityName']
-        code=''
         yzm_pic=None
         tishi=None
+        # 代码块
+        self.__logger.debug('Flow:flow1,StepNodeTag:23171228270244,Note:')
+        code = None
         #网站
         self.__logger.debug('Flow:flow1,StepNodeTag:2314134287815,Note:')
         iie.open_url(url='https://inv-veri.chinatax.gov.cn/index.html')
@@ -117,7 +119,7 @@ class lanhe_fapiao:
             tvar2314544729489 = GlobalFun.code_color(tishi,yzm_pic)
             #验证码
             self.__logger.debug('Flow:flow1,StepNodeTag:2314593469491,Note:')
-            code = iocr.vcode_recognize(image_path=tvar2314544729489,code_type=8001,apiKey='8159a500cc9d4a69a71e6ac14263f029',secretKey='2d078aa8c13741239b3d00ced85832e3')
+            iocr.vcode_recognize(image_path=tvar2314544729489,code_type=8001,apiKey='8159a500cc9d4a69a71e6ac14263f029',secretKey='2d078aa8c13741239b3d00ced85832e3')
             time.sleep(1)
             # 鼠标点击
             self.__logger.debug('Flow:flow1,StepNodeTag:23152443697126,Note:')
@@ -125,7 +127,7 @@ class lanhe_fapiao:
             # 键盘输入
             self.__logger.debug('Flow:flow1,StepNodeTag:23150746702109,Note:')
             time.sleep(0.5)
-            ikeyboard.key_send_cs(text=code,waitfor=10)
+            ikeyboard.key_send_cs(waitfor=10)
             # 鼠标点击
             self.__logger.debug('Flow:flow1,StepNodeTag:23152606550130,Note:')
             iie.do_click_pos(win_title=r'国家税务总局全国增值税发票查验平台 - Internet Explorer',url=r'https://inv-veri.chinatax.gov.cn/index.html',selector=r'#checkfp',button=r'left',curson=r'center',times=1,run_mode=r'unctrl',continue_on_error=r'break',waitfor=10)

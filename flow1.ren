@@ -4,7 +4,7 @@
             "NodePh": "103",
             "NodePro": {
                 "EP_CONTROL": {
-                    "EP_CONTROL_CODE": "code = None",
+                    "EP_CONTROL_CODE": "code = None\nyzm_pic = None\ntishi = None",
                     "EP_CONTROL_IMPORT": ""
                 },
                 "EP_EnumWidget_NAME": "EnumWidget_Code_Custom",
@@ -16,8 +16,8 @@
                 }
             },
             "NodePw": "214",
-            "NodePx": "340",
-            "NodePy": "660",
+            "NodePx": "320",
+            "NodePy": "540",
             "NodeSubType": "EnumWidget_Code_Custom",
             "NodeTag": "代码块"
         },
