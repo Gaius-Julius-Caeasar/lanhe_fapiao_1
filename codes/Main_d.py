@@ -1,5 +1,5 @@
 # coding=utf-8
-# 编译日期：2020-06-23 17:37:26
+# 编译日期：2020-06-23 17:39:21
 # 版权所有：www.i-search.com.cn
 import time
 import pdb
@@ -99,7 +99,7 @@ class lanhe_fapiao:
             self.__logger.debug('Flow:flow2,StepNodeTag:2317224431627,Note:')
             time.sleep(0.5)
             iie.do_click_pos(win_title=r'国家税务总局全国增值税发票查验平台 - Internet Explorer',url=r'https://inv-veri.chinatax.gov.cn/index.html',selector=r'#yzm_img',button=r'left',curson=r'center',times=1,run_mode=r'unctrl',continue_on_error=r'break',waitfor=10)
-            time.sleep(0.5)
+            time.sleep(5)
             # 鼠标移动
             self.__logger.debug('Flow:flow2,StepNodeTag:2317224431628,Note:')
             iie.do_moveto_pos(win_title=r'国家税务总局全国增值税发票查验平台 - Internet Explorer',url=r'https://inv-veri.chinatax.gov.cn/index.html',selector=r'#content2 > TABLE:nth-of-type(1) > TBODY:nth-of-type(1) > TR:nth-of-type(6) > TD:nth-of-type(1)',curson=r'center',waitfor=10)
