@@ -1,5 +1,5 @@
 # coding=utf-8
-# 编译日期：2020-06-23 15:58:09
+# 编译日期：2020-06-23 15:59:20
 # 版权所有：www.i-search.com.cn
 import time
 import pdb
@@ -37,7 +37,7 @@ class lanhe_fapiao:
         #RPACodeMarked.....2314131980112
         #增值税发票OCR
         self.__logger.debug('Flow:flow1,StepNodeTag:2314131980112,Note:')
-        tvar2314131980112 = iocr.vat_recognize(image_path='C:/Users/jky/Desktop/微信图片_20200623100526.png')
+        tvar2314131980112 = iocr.vat_recognize(image_path='C:/Users/jky/Desktop/微信图片_20200623100526.png',apiKey='	8159a500cc9d4a69a71e6ac14263f029',secretKey='2d078aa8c13741239b3d00ced85832e3')
         # 输出
         self.__logger.debug('Flow:flow1,StepNodeTag:23155752736173,Note:')
         rpa_str.iprints(tvar2314131980112)
