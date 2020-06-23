@@ -18,9 +18,9 @@
     "MainSeq": {
         "seq": "Main"
     },
-    "OpenFlow": "[\n    {\n        \"seq\": \"Main\"\n    },\n    {\n        \"seq\": \"flow2\"\n    }\n]\n",
+    "OpenFlow": "[\n    {\n        \"seq\": \"Main\"\n    },\n    {\n        \"seq\": \"flow2\"\n    },\n    {\n        \"spy\": \"GlobalFun\"\n    }\n]\n",
     "ProInfo": {
-        "ProChange": "2020/06/23 17:27:39",
+        "ProChange": "2020/06/23 17:29:47",
         "ProCreate": "2020/06/23 14:04:25",
         "ProDesc": "",
         "ProImports": "",
@@ -49,6 +49,20 @@
             "seq": "flow2",
             "sop": "Close",
             "spv": [
+                {
+                    "vardef": "",
+                    "vardesc": "",
+                    "varname": "yzm_pic",
+                    "varpasstype": "1",
+                    "vartype": "1"
+                },
+                {
+                    "vardef": "",
+                    "vardesc": "",
+                    "varname": "tishi",
+                    "varpasstype": "1",
+                    "vartype": "1"
+                },
                 {
                     "inpar_Order": "",
                     "inpar_filetype": "",
