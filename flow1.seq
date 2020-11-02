@@ -1,0 +1,168 @@
+{
+    "LineList": [
+        {
+            "LineColor": "255, 255, 255",
+            "LineEnd": {
+                "Pidx": "20201030113643160121/EPin_Flow_In",
+                "Px": "2410",
+                "Py": "2345"
+            },
+            "LineSplit": {
+                "Px": "",
+                "Py": ""
+            },
+            "LineStart": {
+                "Pidx": "20201030113515690100/EPin_Flow_Out",
+                "Px": "2320",
+                "Py": "2345"
+            },
+            "LineTag": "20201030113612238120",
+            "LineType": 0
+        },
+        {
+            "LineColor": "255, 255, 255",
+            "LineEnd": {
+                "Pidx": "20201030113715259124/EPin_Flow_In",
+                "Px": "2621",
+                "Py": "2363"
+            },
+            "LineSplit": {
+                "Px": "",
+                "Py": ""
+            },
+            "LineStart": {
+                "Pidx": "20201030113643160121/EPin_Flow_Out",
+                "Px": "2554",
+                "Py": "2345"
+            },
+            "LineTag": "20201030113711813123",
+            "LineType": 0
+        },
+        {
+            "LineColor": "255, 255, 255",
+            "LineEnd": {
+                "Pidx": "20201030113715259124/EPin_Par|1",
+                "Px": "2621",
+                "Py": "2387"
+            },
+            "LineSplit": {
+                "Px": "",
+                "Py": ""
+            },
+            "LineStart": {
+                "Pidx": "20201030113643160121/EPin_Ret1",
+                "Px": "2554",
+                "Py": "2369"
+            },
+            "LineTag": "20201030113716381125",
+            "LineType": 0
+        }
+    ],
+    "NodeList": [
+        {
+            "NodePanelData": {
+                "ExpandedGroups": [
+                ],
+                "InputProperty": {
+                    "mouse_x": 0,
+                    "mouse_y": 0
+                },
+                "PubProperty": "",
+                "RetPins": [
+                ]
+            },
+            "NodeProperty": "",
+            "NodeUI": {
+                "NodeModel": "2",
+                "NodePx": "2166",
+                "NodePy": "2330",
+                "NodeSubType": "EnumWidget_Begin",
+                "NodeTag": "20201030113515690100",
+                "NodeTitle": "开始"
+            }
+        },
+        {
+            "NodePanelData": {
+                "ExpandedGroups": [
+                ],
+                "InputProperty": {
+                    "mouse_x": 0,
+                    "mouse_y": 0
+                },
+                "PubProperty": "",
+                "RetPins": [
+                    {
+                        "Pin_EnumID": "EPin_Ret1",
+                        "Pin_TVarName": "tvar_20201030113643161122"
+                    }
+                ]
+            },
+            "NodeProperty": {
+                "EP_CONTROL": {
+                    "EPC_apiKey": "{\n    \"val\": \"Jyc=\"\n}\n",
+                    "EPC_image_path": "{\n    \"val\": \"J0U6L2ZhcGlhby/kuI3lubLog7blj5HnpagwNjA4LnBkZic=\"\n}\n",
+                    "EPC_secretKey": "{\n    \"val\": \"Jyc=\"\n}\n"
+                },
+                "EP_Gen": {
+                    "EP_Gen_AFTERDELAY": "{\n    \"val\": \"MA==\"\n}\n",
+                    "EP_Gen_BEFOREDELAY": "{\n    \"val\": \"MA==\"\n}\n",
+                    "EP_Gen_NOTE": "{\n    \"val\": \"\"\n}\n"
+                }
+            },
+            "NodeUI": {
+                "NodeModel": "2",
+                "NodePx": "2400",
+                "NodePy": "2330",
+                "NodeSubType": "Custom_ocr05",
+                "NodeTag": "20201030113643160121",
+                "NodeTitle": "增值税发票OCR"
+            }
+        },
+        {
+            "NodePanelData": {
+                "ExpandedGroups": [
+                ],
+                "InputProperty": {
+                    "mouse_x": 0,
+                    "mouse_y": 0
+                },
+                "PubProperty": "",
+                "RetPins": [
+                ]
+            },
+            "NodeProperty": {
+                "EP_Gen": {
+                    "EP_Gen_AFTERDELAY": "{\n    \"val\": \"MA==\"\n}\n",
+                    "EP_Gen_BEFOREDELAY": "{\n    \"val\": \"MA==\"\n}\n",
+                    "EP_Gen_NOTE": "{\n    \"val\": \"\"\n}\n"
+                },
+                "EP_INPUT": {
+                    "EP_NOUTPUTINFO": "[\n    {\n        \"EPin_Par|1\": \"{\\n    \\\"val\\\": \\\"\\\"\\n}\\n\"\n    }\n]\n"
+                }
+            },
+            "NodeUI": {
+                "NodeModel": "2",
+                "NodePins": [
+                    {
+                        "Pin_EnumID": "EPin_Par|1",
+                        "Pin_EnumPID": "EP_NOUTPUTINFO",
+                        "Pin_GroupID": "-1",
+                        "Pin_ItemName": "输出",
+                        "Pin_Side": "L",
+                        "Pin_Type": "EPin_Par"
+                    }
+                ],
+                "NodePinsDynamicCount": "0",
+                "NodePx": "2611",
+                "NodePy": "2348",
+                "NodeSubType": "EnumWidget_Win_IPrint",
+                "NodeTag": "20201030113715259124",
+                "NodeTitle": "输出"
+            }
+        }
+    ],
+    "SeqTag": "flow1",
+    "ViewCenterPx": "2507",
+    "ViewCenterPy": "2507",
+    "ViewScaling": "1"
+}

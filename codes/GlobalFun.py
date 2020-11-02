@@ -5,7 +5,8 @@ from PIL import Image
 
 def code_color(a,b):
     
-    blank_img=Image.open(r'C:\Users\jky\Desktop\123.png')
+    #blank_img=Image.open(r'C:\Users\jky\Desktop\123.png')
+    blank_img=Image.open(r'C:\Users\Administrator.DESKTOP-GMO2NHC\Desktop\123.png')
     base_img = Image.open(a)  #第一张图片，提示文字
     tmp_img = Image.open(b)  #第二张图片，验证码截图
     blank_img.paste(base_img,(0,0))  #以第一张图的左上角为坐标原点（0，0）为基础拼接图片
@@ -13,6 +14,7 @@ def code_color(a,b):
     #blank_img.show()  #显示拼接后的图片,如果想查看拼接后的图片，可以将此行前面的注释符号#删除
     #base_img.paste(tmp_img,(0,0))  #以第一张图的左上角为坐标原点（0，0）为基础拼接图片
     #base_img.show()  #显示拼接后的图片,如果想查看拼接后的图片，可以将此行前面的注释符号#删除
-    c=r'C:\Users\jky\Desktop\456.png'  #拼接后的图片保存路径
+    #c=r'C:\Users\jky\Desktop\456.png'  #拼接后的图片保存路径
+    c=r'C:\Users\Administrator.DESKTOP-GMO2NHC\Desktop\456.png'
     blank_img.save(c)  #保存拼接后的图片
     return c  #返回拼接后的图片路径

@@ -1,49 +1,83 @@
 {
     "LineList": [
+        {
+            "LineColor": "255, 255, 255",
+            "LineEnd": {
+                "Pidx": "20201027172332623803/EPin_Flow_In",
+                "Px": "4557",
+                "Py": "4388"
+            },
+            "LineSplit": {
+                "Px": "",
+                "Py": ""
+            },
+            "LineStart": {
+                "Pidx": "231404258631/EPin_Flow_Out",
+                "Px": "4262",
+                "Py": "4373"
+            },
+            "LineTag": "20201027172329890802",
+            "LineType": 0
+        }
     ],
     "NodeList": [
         {
             "NodePanelData": {
-                "InputProperty": [
+                "ExpandedGroups": [
                 ],
-                "PubProperty": {
-                    "NodeRemark": "",
-                    "mouse_x_pos": "0",
-                    "mouse_y_pos": "0",
-                    "selcomment": "0",
-                    "seltype": "",
-                    "snapshot_preview": ""
-                }
+                "InputProperty": {
+                    "mouse_x": 0,
+                    "mouse_y": 0
+                },
+                "PubProperty": "",
+                "RetPins": [
+                ]
             },
             "NodeProperty": {
-                "EP_EnumWidget_NAME": "EnumWidget_Begin",
-                "EP_EnumWidget_VALUE": "10",
+                "EP_FUN_PARAM": {
+                    "EP_FLOW": "[\n]\n"
+                },
                 "EP_Gen": {
-                    "EP_Gen_AFTERDELAY": "",
-                    "EP_Gen_BEFOREDELAY": "",
-                    "EP_Gen_NOTE": ""
+                    "EP_Gen_AFTERDELAY": "{\n    \"val\": \"MA==\"\n}\n",
+                    "EP_Gen_BEFOREDELAY": "{\n    \"val\": \"MA==\"\n}\n",
+                    "EP_Gen_NOTE": "{\n    \"val\": \"\"\n}\n"
                 }
             },
             "NodeUI": {
-                "FNodePx": "161.224",
-                "FNodePy": "126.662",
-                "NodeIsBreak": "0",
-                "NodePort": [
-                    {
-                        "Pidx": "r_flow_0"
-                    }
+                "NodeModel": "2",
+                "NodePTag": "202010271711259354",
+                "NodePx": "4547",
+                "NodePy": "4373",
+                "NodeSubType": "EnumWidget_Program_subflow",
+                "NodeTag": "20201027172332623803",
+                "NodeTitle": "子流程"
+            }
+        },
+        {
+            "NodePanelData": {
+                "ExpandedGroups": [
                 ],
-                "NodePx": "4078",
-                "NodePy": "4328",
+                "InputProperty": {
+                    "mouse_x": 0,
+                    "mouse_y": 0
+                },
+                "PubProperty": "",
+                "RetPins": [
+                ]
+            },
+            "NodeProperty": "",
+            "NodeUI": {
+                "NodeModel": "2",
+                "NodePx": "4108",
+                "NodePy": "4358",
                 "NodeSubType": "EnumWidget_Begin",
                 "NodeTag": "231404258631",
                 "NodeTitle": "开始"
             }
         }
     ],
-    "OpType": "0",
-    "SeqTag": "Main_bp",
-    "ViewCenterPx": "4487.77",
-    "ViewCenterPy": "4526.3",
-    "ViewScaling": "1.29775"
+    "SeqTag": "Main",
+    "ViewCenterPx": "4511",
+    "ViewCenterPy": "4419",
+    "ViewScaling": "1"
 }
